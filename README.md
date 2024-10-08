@@ -1,11 +1,11 @@
-## Artifact for "WDD: Weighted Delta Debugging"
+# Artifact for "WDD: Weighted Delta Debugging"
 
 We appreciate the constructive feedback, which our revision will incorporate,
 as well as the clarifications in this response. 
 
 **Apology and explanation for missing artifacts**: We apologize for the oversight regarding the "Open Science Policy" section prior to our submission. This led to a delay in releasing the artifacts associated with our paper. We have now made these artifacts publicly available at: https://github.com/weightdd/WeightDD.
 
-# Review #1304A:
+## Review #1304A:
 
 ### Q1: Why is there nothing in the artifact repository?
 
@@ -13,7 +13,7 @@ as well as the clarifications in this response.
 
 Yes, we can maintain the removal probability more creatively with the weight of the elements. A possible method is to introduce the weight as a new factor of the probability model of ProbDD, and the probability of elements with different weights shuld be initialized and updated differently. For example, a larger element should have a smaller initial probability than a smaller element.
 
-# Review #1304B:
+## Review #1304B:
 
 ### Minor issues:
 
@@ -35,7 +35,7 @@ Yes, we can maintain the removal probability more creatively with the weight of 
 
 The main limitation of our approach is that it WDD mainly applies to tree-structured inputs and is effective when the sizes of elements (tree nodes) vary significantly. When the tree representation of the test input is not available or highly "balanced", WDD may have trivial improvement to ddmin. However, given the wide application of tree-based minimization techniques and the highly unbalanced characteristics of the trees of real-world inputs, WDD is still critical to improve the performance of test input minimization in real-world scenarios.
 
-# Review #1304C:
+## Review #1304C:
 
 ### Q1: What makes token count a good representation of the likelihood of an element being related to a bug? In many real-world scenarios, other factors such as I/O operations, memory usage, or computational cost might be more relevant.
 
