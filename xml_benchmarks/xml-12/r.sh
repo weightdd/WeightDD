@@ -8,7 +8,7 @@ echo $QUERY > query.xq
 
 # run saxon
 target_saxon="saxon"
-java -cp '/home/coq/cdd/benchmarks/xmlprocessorbugs/lib/saxon-he-12.4.jar:/home/coq/cdd/benchmarks/xmlprocessorbugs/lib/xmlresolver-5.2.0/lib/*' net.sf.saxon.Query -s:./input.xml -q:./query.xq > ${target_saxon}_raw_result.xml 2>&1
+java -cp '/tmp/WeightDD/xml_benchmarks/lib/saxon-he-12.4.jar:/tmp/WeightDD/xml_benchmarks/lib/xmlresolver-5.2.0/lib/*' net.sf.saxon.Query -s:./input.xml -q:./query.xq > ${target_saxon}_raw_result.xml 2>&1
 ret=$?
 
 if [ $ret != 0 ]; then
@@ -17,7 +17,7 @@ fi
 
 # run basex_bad
 target_basex_bad="basex_bad"
-java -cp "/home/coq/cdd/benchmarks/xmlprocessorbugs/lib/basex-${BAD_VERSION}.jar" org.basex.BaseX -i input.xml query.xq > ${target_basex_bad}_raw_result.xml 2>&1
+java -cp "/tmp/WeightDD/xml_benchmarks/lib/basex-${BAD_VERSION}.jar" org.basex.BaseX -i input.xml query.xq > ${target_basex_bad}_raw_result.xml 2>&1
 ret=$?
 
 if [ $ret != 0 ]; then
@@ -26,7 +26,7 @@ fi
 
 # run basex_good
 target_basex_good="basex_good"
-java -cp "/home/coq/cdd/benchmarks/xmlprocessorbugs/lib/basex-${GOOD_VERSION}.jar" org.basex.BaseX -i input.xml query.xq > ${target_basex_good}_raw_result.xml 2>&1
+java -cp "/tmp/WeightDD/xml_benchmarks/lib/basex-${GOOD_VERSION}.jar" org.basex.BaseX -i input.xml query.xq > ${target_basex_good}_raw_result.xml 2>&1
 ret=$?
 
 if [ $ret != 0 ]; then

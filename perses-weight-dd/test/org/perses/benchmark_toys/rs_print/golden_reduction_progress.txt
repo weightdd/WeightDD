@@ -1,0 +1,922 @@
+=====================Reduction starts.======================
+
+The initial program size is 24
+------------------------------------------------------------
+
+
+=Fixpoint iteration 1. Reducer: perses_node_priority_with_dfs_delta
+
+The spar-tree is the following.
+crate {id=1}
+|___(*) {id=3,slot_type=[mod_body,kleene_star__mod_body_2]}
+    |___fn_decl {id=8,slot_type=[item,altnt_block__item_7,aux_rule__item_8,pub_item,fn_decl]}
+        |___fn_head {id=9,slot_type=fn_head}
+        |   |___Token:fn {id=77,slot_type=Token}
+        |   |___Token:main {id=79,slot_type=[ident,Ident]}
+        |___Token:( {id=10,slot_type=Token}
+        |___Token:) {id=11,slot_type=Token}
+        |___block_with_inner_attrs {id=13,slot_type=[altnt_block__fn_decl_4,block_with_inner_attrs]}
+            |___Token:{ {id=14,slot_type=Token}
+            |___(*) {id=15,slot_type=kleene_star__block_with_inner_attrs_2}
+            |   |___macro_invocation_semi {id=60,slot_type=[stmt,item,altnt_block__item_7,macro_invocation_semi]}
+            |   |   |___Token:println {id=76,slot_type=[simple_path,simple_path_segment,ident,Ident]}
+            |   |   |___Token:! {id=62,slot_type=Token}
+            |   |   |___aux_rule__macro_invocation_semi_7 {id=64,slot_type=[altnt_block__macro_invocation_semi_4,aux_rule__macro_invocation_semi_7]}
+            |   |       |___aux_rule__macro_invocation_semi_8 {id=67,slot_type=[altnt_block__macro_invocation_semi_5,aux_rule__macro_invocation_semi_8]}
+            |   |       |   |___Token:( {id=68,slot_type=Token}
+            |   |       |   |___(*) {id=69,slot_type=kleene_star__inner_attr_1}
+            |   |       |   |   |___Token:"ingress" {id=73,slot_type=[tt,aux_rule__tt_1,StringLit]}
+            |   |       |   |___Token:) {id=70,slot_type=Token}
+            |   |       |___Token:; {id=66,slot_type=Token}
+            |   |___macro_invocation_semi {id=41,slot_type=[stmt,item,altnt_block__item_7,macro_invocation_semi]}
+            |   |   |___Token:println {id=57,slot_type=[simple_path,simple_path_segment,ident,Ident]}
+            |   |   |___Token:! {id=43,slot_type=Token}
+            |   |   |___aux_rule__macro_invocation_semi_7 {id=45,slot_type=[altnt_block__macro_invocation_semi_4,aux_rule__macro_invocation_semi_7]}
+            |   |       |___aux_rule__macro_invocation_semi_8 {id=48,slot_type=[altnt_block__macro_invocation_semi_5,aux_rule__macro_invocation_semi_8]}
+            |   |       |   |___Token:( {id=49,slot_type=Token}
+            |   |       |   |___(*) {id=50,slot_type=kleene_star__inner_attr_1}
+            |   |       |   |   |___Token:"hello_world" {id=54,slot_type=[tt,aux_rule__tt_1,StringLit]}
+            |   |       |   |___Token:) {id=51,slot_type=Token}
+            |   |       |___Token:; {id=47,slot_type=Token}
+            |   |___macro_invocation_semi {id=22,slot_type=[stmt,item,altnt_block__item_7,macro_invocation_semi]}
+            |       |___Token:println {id=38,slot_type=[simple_path,simple_path_segment,ident,Ident]}
+            |       |___Token:! {id=24,slot_type=Token}
+            |       |___aux_rule__macro_invocation_semi_7 {id=26,slot_type=[altnt_block__macro_invocation_semi_4,aux_rule__macro_invocation_semi_7]}
+            |           |___aux_rule__macro_invocation_semi_8 {id=29,slot_type=[altnt_block__macro_invocation_semi_5,aux_rule__macro_invocation_semi_8]}
+            |           |   |___Token:( {id=30,slot_type=Token}
+            |           |   |___(*) {id=31,slot_type=kleene_star__inner_attr_1}
+            |           |   |   |___Token:"egress" {id=35,slot_type=[tt,aux_rule__tt_1,StringLit]}
+            |           |   |___Token:) {id=32,slot_type=Token}
+            |           |___Token:; {id=28,slot_type=Token}
+            |___Token:} {id=16,slot_type=Token}
+------------------------------------------------------------
+
+
+==================Reducing node 3, size=24==================
+
+The current best program is the following
+
+    fn main() {
+                                  println!("ingress");
+    println!("hello_world");
+             println!("egress");
+    }
+------------------------------------------------------------
+
+
+============Testing the following program: fail=============
+
+// edit action set type: [kleene_star:kleene_star__mod_body_2]dd@1
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 3
+------------------------------------------------------------
+
+
+==================Reducing node 8, size=24==================
+
+The current best program is the following
+
+    fn main() {
+                                  println!("ingress");
+    println!("hello_world");
+             println!("egress");
+    }
+------------------------------------------------------------
+
+
+==============Node edit action set cache hit.===============
+
+    NodeDeletionAction{target_node=8}
+------------------------------------------------------------
+
+
+============Testing the following program: fail=============
+
+// edit action set type: [regular node]compatible replacement
+    println!("ingress");
+------------------------------------------------------------
+
+
+============Testing the following program: fail=============
+
+// edit action set type: [regular node]compatible replacement
+    println!("hello_world");
+------------------------------------------------------------
+
+
+============Testing the following program: fail=============
+
+// edit action set type: [regular node]compatible replacement
+    println!("egress");
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 8
+------------------------------------------------------------
+
+
+=================Reducing node 13, size=24==================
+
+The current best program is the following
+
+    fn main() {
+                                  println!("ingress");
+    println!("hello_world");
+             println!("egress");
+    }
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 13
+------------------------------------------------------------
+
+
+=================Reducing node 15, size=24==================
+
+The current best program is the following
+
+    fn main() {
+                                  println!("ingress");
+    println!("hello_world");
+             println!("egress");
+    }
+------------------------------------------------------------
+
+
+============Testing the following program: fail=============
+
+// edit action set type: [kleene_star:kleene_star__block_with_inner_attrs_2]dd@3
+    fn main() {
+    }
+------------------------------------------------------------
+
+
+============Testing the following program: pass=============
+
+// edit action set type: [kleene_star:kleene_star__block_with_inner_attrs_2]dd@1
+    fn main() {
+                                  println!("ingress");
+    println!("hello_world");
+    }
+------------------------------------------------------------
+
+
+===========TestScriptExecutionCacheEntryEviction============
+
+1 entries are removed: 5 --> 4.
+------------------------------------------------------------
+
+
+===========Node edit action set cache is cleared.===========
+
+    size before clearance = 6
+------------------------------------------------------------
+
+
+=========Cache hit for the following program: fail==========
+
+    fn main() {
+    }
+------------------------------------------------------------
+
+
+============Testing the following program: fail=============
+
+// edit action set type: [kleene_star:kleene_star__block_with_inner_attrs_2]dd@1
+    fn main() {
+                                  println!("ingress");
+    }
+------------------------------------------------------------
+
+
+============Testing the following program: pass=============
+
+// edit action set type: [kleene_star:kleene_star__block_with_inner_attrs_2]dd@1
+    fn main() {
+    println!("hello_world");
+    }
+------------------------------------------------------------
+
+
+===========TestScriptExecutionCacheEntryEviction============
+
+2 entries are removed: 5 --> 3.
+------------------------------------------------------------
+
+
+===========Node edit action set cache is cleared.===========
+
+    size before clearance = 3
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Succeeded to reduce node 15 from 24 to 12
+------------------------------------------------------------
+
+
+=================Reducing node 41, size=12==================
+
+The current best program is the following
+
+    fn main() {
+    println!("hello_world");
+    }
+------------------------------------------------------------
+
+
+=========Cache hit for the following program: fail==========
+
+    fn main() {
+    }
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 41
+------------------------------------------------------------
+
+
+=================Reducing node 45, size=12==================
+
+The current best program is the following
+
+    fn main() {
+    println!("hello_world");
+    }
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 45
+------------------------------------------------------------
+
+
+=================Reducing node 48, size=12==================
+
+The current best program is the following
+
+    fn main() {
+    println!("hello_world");
+    }
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 48
+------------------------------------------------------------
+
+
+==================Reducing node 9, size=12==================
+
+The current best program is the following
+
+    fn main() {
+    println!("hello_world");
+    }
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 9
+------------------------------------------------------------
+
+
+=================Reducing node 79, size=12==================
+
+The current best program is the following
+
+    fn main() {
+    println!("hello_world");
+    }
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 79
+------------------------------------------------------------
+
+
+=================Reducing node 77, size=12==================
+
+The current best program is the following
+
+    fn main() {
+    println!("hello_world");
+    }
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 77
+------------------------------------------------------------
+
+
+=================Reducing node 57, size=12==================
+
+The current best program is the following
+
+    fn main() {
+    println!("hello_world");
+    }
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 57
+------------------------------------------------------------
+
+
+=================Reducing node 51, size=12==================
+
+The current best program is the following
+
+    fn main() {
+    println!("hello_world");
+    }
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 51
+------------------------------------------------------------
+
+
+=================Reducing node 50, size=12==================
+
+The current best program is the following
+
+    fn main() {
+    println!("hello_world");
+    }
+------------------------------------------------------------
+
+
+============Testing the following program: fail=============
+
+// edit action set type: [kleene_star:kleene_star__inner_attr_1]dd@1
+    fn main() {
+    println!(             );
+    }
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 50
+------------------------------------------------------------
+
+
+=================Reducing node 54, size=12==================
+
+The current best program is the following
+
+    fn main() {
+    println!("hello_world");
+    }
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 54
+------------------------------------------------------------
+
+
+=================Reducing node 49, size=12==================
+
+The current best program is the following
+
+    fn main() {
+    println!("hello_world");
+    }
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 49
+------------------------------------------------------------
+
+
+=================Reducing node 47, size=12==================
+
+The current best program is the following
+
+    fn main() {
+    println!("hello_world");
+    }
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 47
+------------------------------------------------------------
+
+
+=================Reducing node 43, size=12==================
+
+The current best program is the following
+
+    fn main() {
+    println!("hello_world");
+    }
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 43
+------------------------------------------------------------
+
+
+=================Reducing node 16, size=12==================
+
+The current best program is the following
+
+    fn main() {
+    println!("hello_world");
+    }
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 16
+------------------------------------------------------------
+
+
+=================Reducing node 14, size=12==================
+
+The current best program is the following
+
+    fn main() {
+    println!("hello_world");
+    }
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 14
+------------------------------------------------------------
+
+
+=================Reducing node 11, size=12==================
+
+The current best program is the following
+
+    fn main() {
+    println!("hello_world");
+    }
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 11
+------------------------------------------------------------
+
+
+=================Reducing node 10, size=12==================
+
+The current best program is the following
+
+    fn main() {
+    println!("hello_world");
+    }
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 10
+------------------------------------------------------------
+
+
+=Fixpoint iteration 2. Reducer: perses_node_priority_with_dfs_delta
+
+The spar-tree is the following.
+crate {id=80}
+|___(*) {id=82,slot_type=[mod_body,kleene_star__mod_body_2]}
+    |___fn_decl {id=87,slot_type=[item,altnt_block__item_7,aux_rule__item_8,pub_item,fn_decl]}
+        |___fn_head {id=88,slot_type=fn_head}
+        |   |___Token:fn {id=116,slot_type=Token}
+        |   |___Token:main {id=118,slot_type=[ident,Ident]}
+        |___Token:( {id=89,slot_type=Token}
+        |___Token:) {id=90,slot_type=Token}
+        |___block_with_inner_attrs {id=92,slot_type=[altnt_block__fn_decl_4,block_with_inner_attrs]}
+            |___Token:{ {id=93,slot_type=Token}
+            |___(*) {id=94,slot_type=kleene_star__block_with_inner_attrs_2}
+            |   |___macro_invocation_semi {id=99,slot_type=[stmt,item,altnt_block__item_7,macro_invocation_semi]}
+            |       |___Token:println {id=115,slot_type=[simple_path,simple_path_segment,ident,Ident]}
+            |       |___Token:! {id=101,slot_type=Token}
+            |       |___aux_rule__macro_invocation_semi_7 {id=103,slot_type=[altnt_block__macro_invocation_semi_4,aux_rule__macro_invocation_semi_7]}
+            |           |___aux_rule__macro_invocation_semi_8 {id=106,slot_type=[altnt_block__macro_invocation_semi_5,aux_rule__macro_invocation_semi_8]}
+            |           |   |___Token:( {id=107,slot_type=Token}
+            |           |   |___(*) {id=108,slot_type=kleene_star__inner_attr_1}
+            |           |   |   |___Token:"hello_world" {id=112,slot_type=[tt,aux_rule__tt_1,StringLit]}
+            |           |   |___Token:) {id=109,slot_type=Token}
+            |           |___Token:; {id=105,slot_type=Token}
+            |___Token:} {id=95,slot_type=Token}
+------------------------------------------------------------
+
+
+=================Reducing node 82, size=12==================
+
+The current best program is the following
+
+    fn main() {
+    println!("hello_world");
+    }
+------------------------------------------------------------
+
+
+=========Cache hit for the following program: fail==========
+
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 82
+------------------------------------------------------------
+
+
+=================Reducing node 87, size=12==================
+
+The current best program is the following
+
+    fn main() {
+    println!("hello_world");
+    }
+------------------------------------------------------------
+
+
+==============Node edit action set cache hit.===============
+
+    NodeDeletionAction{target_node=87}
+------------------------------------------------------------
+
+
+=========Cache hit for the following program: fail==========
+
+    println!("hello_world");
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 87
+------------------------------------------------------------
+
+
+=================Reducing node 92, size=12==================
+
+The current best program is the following
+
+    fn main() {
+    println!("hello_world");
+    }
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 92
+------------------------------------------------------------
+
+
+=================Reducing node 94, size=12==================
+
+The current best program is the following
+
+    fn main() {
+    println!("hello_world");
+    }
+------------------------------------------------------------
+
+
+=========Cache hit for the following program: fail==========
+
+    fn main() {
+    }
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 94
+------------------------------------------------------------
+
+
+=================Reducing node 99, size=12==================
+
+The current best program is the following
+
+    fn main() {
+    println!("hello_world");
+    }
+------------------------------------------------------------
+
+
+==============Node edit action set cache hit.===============
+
+    NodeDeletionAction{target_node=99}
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 99
+------------------------------------------------------------
+
+
+=================Reducing node 103, size=12=================
+
+The current best program is the following
+
+    fn main() {
+    println!("hello_world");
+    }
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 103
+------------------------------------------------------------
+
+
+=================Reducing node 106, size=12=================
+
+The current best program is the following
+
+    fn main() {
+    println!("hello_world");
+    }
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 106
+------------------------------------------------------------
+
+
+=================Reducing node 88, size=12==================
+
+The current best program is the following
+
+    fn main() {
+    println!("hello_world");
+    }
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 88
+------------------------------------------------------------
+
+
+=================Reducing node 118, size=12=================
+
+The current best program is the following
+
+    fn main() {
+    println!("hello_world");
+    }
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 118
+------------------------------------------------------------
+
+
+=================Reducing node 116, size=12=================
+
+The current best program is the following
+
+    fn main() {
+    println!("hello_world");
+    }
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 116
+------------------------------------------------------------
+
+
+=================Reducing node 115, size=12=================
+
+The current best program is the following
+
+    fn main() {
+    println!("hello_world");
+    }
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 115
+------------------------------------------------------------
+
+
+=================Reducing node 109, size=12=================
+
+The current best program is the following
+
+    fn main() {
+    println!("hello_world");
+    }
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 109
+------------------------------------------------------------
+
+
+=================Reducing node 108, size=12=================
+
+The current best program is the following
+
+    fn main() {
+    println!("hello_world");
+    }
+------------------------------------------------------------
+
+
+=========Cache hit for the following program: fail==========
+
+    fn main() {
+    println!(             );
+    }
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 108
+------------------------------------------------------------
+
+
+=================Reducing node 112, size=12=================
+
+The current best program is the following
+
+    fn main() {
+    println!("hello_world");
+    }
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 112
+------------------------------------------------------------
+
+
+=================Reducing node 107, size=12=================
+
+The current best program is the following
+
+    fn main() {
+    println!("hello_world");
+    }
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 107
+------------------------------------------------------------
+
+
+=================Reducing node 105, size=12=================
+
+The current best program is the following
+
+    fn main() {
+    println!("hello_world");
+    }
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 105
+------------------------------------------------------------
+
+
+=================Reducing node 101, size=12=================
+
+The current best program is the following
+
+    fn main() {
+    println!("hello_world");
+    }
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 101
+------------------------------------------------------------
+
+
+=================Reducing node 95, size=12==================
+
+The current best program is the following
+
+    fn main() {
+    println!("hello_world");
+    }
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 95
+------------------------------------------------------------
+
+
+=================Reducing node 93, size=12==================
+
+The current best program is the following
+
+    fn main() {
+    println!("hello_world");
+    }
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 93
+------------------------------------------------------------
+
+
+=================Reducing node 90, size=12==================
+
+The current best program is the following
+
+    fn main() {
+    println!("hello_world");
+    }
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 90
+------------------------------------------------------------
+
+
+=================Reducing node 89, size=12==================
+
+The current best program is the following
+
+    fn main() {
+    println!("hello_world");
+    }
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 89
+------------------------------------------------------------
+
+
+#test success = 2
+#test failure = 7
+#test result cache hits = 6
+#test execution cancelled = 0
+#node edit action set cache hits = 3
+#external test execution cache hits = 0

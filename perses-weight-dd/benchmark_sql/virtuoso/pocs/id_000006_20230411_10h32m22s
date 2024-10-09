@@ -1,0 +1,15 @@
+DELETE FROM ucview WHERE CURRENT OF c1;
+/*
+[force_exit_all] #0 0x7d8904 (sqlc_make_policy_trig+0x54)
+[force_exit_all] #1 0x7ddf99 (sqlc_delete_pos+0x2e9)
+[force_exit_all] #2 0x6b6e53 (sql_stmt_comp+0x453)
+[force_exit_all] #3 0x6ba122 (sql_compile_1+0x1a62)
+[force_exit_all] #4 0x7c8cd0 (stmt_set_query+0x340)
+[force_exit_all] #5 0x7cabc2 (sf_sql_execute+0x922)
+[force_exit_all] #6 0x7cbf4e (sf_sql_execute_w+0x17e)
+[force_exit_all] #7 0x7d4c0d (sf_sql_execute_wrapper+0x3d)
+[force_exit_all] #8 0xe1f01c (future_wrapper+0x3fc)
+[force_exit_all] #9 0xe2691e (_thread_boot+0x11e)
+[force_exit_all] #10 0x7ffff7c3a609 (start_thread+0xd9)
+[force_exit_all] #11 0x7ffff7a0a133 (clone+0x43)
+*/

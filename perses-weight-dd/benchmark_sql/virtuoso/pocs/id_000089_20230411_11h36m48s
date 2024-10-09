@@ -1,0 +1,34 @@
+
+CREATE TABLE mvtest_pdt1 AS (SELECT 1 AS col1) WITH DATA;
+
+
+/*
+[force_exit_all] #0 0x70d571 (sqlo_query_spec+0x41)
+[force_exit_all] #1 0x7da2d4 (sqlc_insert+0x13b4)
+[force_exit_all] #2 0x6b7387 (sql_stmt_comp+0x987)
+[force_exit_all] #3 0x6ba122 (sql_compile_1+0x1a62)
+[force_exit_all] #4 0x68276d (bif_exec+0x67d)
+[force_exit_all] #5 0x74b044 (ins_call_bif+0xc4)
+[force_exit_all] #6 0x758f09 (code_vec_run_1+0xdf9)
+[force_exit_all] #7 0x7ac431 (qn_input+0x3c1)
+[force_exit_all] #8 0x7c04fa (qr_subq_exec+0x94a)
+[force_exit_all] #9 0x74c001 (ins_call+0xc91)
+[force_exit_all] #10 0x74d9f0 (ins_call_vec+0x320)
+[force_exit_all] #11 0x751205 (code_vec_run_v+0xa25)
+[force_exit_all] #12 0x7ac3ff (qn_input+0x38f)
+[force_exit_all] #13 0x7bdc6e (qr_exec+0x11ee)
+[force_exit_all] #14 0x7c36fe (qr_rec_exec+0x34e)
+[force_exit_all] #15 0x4e4076 (sql_ddl_node_input_1+0xc96)
+[force_exit_all] #16 0x4e444e (sql_ddl_node_input+0x10e)
+[force_exit_all] #17 0x7b9f1b (ddl_node_input_1+0x19b)
+[force_exit_all] #18 0x7ba5f7 (qn_without_ac_at+0xc7)
+[force_exit_all] #19 0x7ac43e (qn_input+0x3ce)
+[force_exit_all] #20 0x7bee59 (qr_dml_array_exec+0x839)
+[force_exit_all] #21 0x7cb872 (sf_sql_execute+0x15d2)
+[force_exit_all] #22 0x7cbf4e (sf_sql_execute_w+0x17e)
+[force_exit_all] #23 0x7d4c0d (sf_sql_execute_wrapper+0x3d)
+[force_exit_all] #24 0xe1f01c (future_wrapper+0x3fc)
+[force_exit_all] #25 0xe2691e (_thread_boot+0x11e)
+[force_exit_all] #26 0x7ffff7c3a609 (start_thread+0xd9)
+[force_exit_all] #27 0x7ffff7a0a133 (clone+0x43)
+*/
