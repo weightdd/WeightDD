@@ -14,6 +14,7 @@ To evaluate this artifact, a Linux machine with [docker](https://docs.docker.com
 ## Notes
 
 - All the experiments take very long time to finish, so it is recommended to use tools like screen and tmux to manage sessions if the experiments are run on remote server.
+- The experiments involving ProbDD in this paper were repeated 5 times to mitigate the randomness of ProbDD algorithms.
 
 ## Docker Environment Setup
 
@@ -36,7 +37,7 @@ To evaluate this artifact, a Linux machine with [docker](https://docs.docker.com
 
 Under the root directory of the project, the benchmarks are located in:
 
-- `./c_benchmarks`: benchmark-C which consists of 30 C programs;
+- `./c_benchmarks`: benchmark-C which consists of 32 C programs;
 - `./xml_benchmarks`: benchmark-XML which consists of 30 XML files.
 
 ## Implementation
@@ -61,7 +62,21 @@ in `./perses-weight-dd`. Specifically:
   ./perses-weight-dd/src/org/perses/reduction/reducer/hdd/ # HDD
   ```
 
-To run the evaluation, we need perses (including Perses, HDD, and all related algorithms in this paper). For convenience , we have pre-built the tools and put them under `/tmp/binaries/` in the docker image. Three JAR files are required fo evaluation:
+- The reducers (i.e. the combinations of HDD and Perses, with ddmin, $W_{ddmin}$, ProbDD, and $W_{ProbDD}$) are implemented in:
+
+  ```shell
+  ./perses-weight-dd/src/org/perses/reduction/reducer/hdd/PristineHDDReducer.kt # HDD-ddmin
+  ./perses-weight-dd/src/org/perses/reduction/reducer/hdd/WeightedPristineHDDReducer.kt # HDD-Wddmin
+  ./perses-weight-dd/src/org/perses/reduction/reducer/hdd/ProbHDDReducer.kt # HDD-ProbDD
+  ./perses-weight-dd/src/org/perses/reduction/reducer/hdd/WeightedProbHDDReducer.kt #HDD-WProbDD
+  
+  ./perses-weight-dd/src/org/perses/reduction/reducer/PersesNodeDDminReducer.kt # Perses-ddmin
+  ./perses-weight-dd/src/org/perses/reduction/reducer/PersesNodeWDDReducer.kt # Perses-Wddmin
+  ./perses-weight-dd/src/org/perses/reduction/reducer/PersesNodeProbDDReducer.kt # Perses-ProbDD
+  ./perses-weight-dd/src/org/perses/reduction/reducer/PersesNodeWeightedProbDDReducer.kt # Perses-WProbD
+  ```
+
+To run the evaluation, we need perses (including Perses, HDD, and all related algorithms in this paper). For convenience , we have pre-built the tools and put them under `/tmp/binaries/` in the docker image (also put in the `tools` directory of this repo. Three JAR files are required fo evaluation:
 
 ```
 > tree /tmp/binaries/
@@ -120,6 +135,8 @@ cd /tmp/WeightDD
 ```
 
 
+
+#### Evaluation Results
 
 
 
