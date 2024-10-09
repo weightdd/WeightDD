@@ -1,0 +1,47 @@
+Running with arguments: /tmp/benchmark/binaries/run_perses_ddmin.sh /home/coq/cdd/benchmarks/xmlprocessorbugs/xml-4c99b96-19/r.sh /home/coq/cdd/benchmarks/xmlprocessorbugs/xml-4c99b96-19/input.xml /tmp/benchmark/stat/xml/perses_ddmin_0/xml-4c99b96-19 /tmp/tmpg9ahn51y
+/tmp/tmp.8XVCkKTYqd /tmp/benchmark
+weight_list(before reduction): [5772, 453, 429, 60, 111, 27, 18, ]
+
+weight_list(after reduction): [5772, ]
+
+[Length of the list before reduction: 7]
+[Length of the list after reduction: 1]
+Sum of weight before reduction: 6870
+Sum of weight after reduction: 5772
+Token reduced: 1098
+Average weight before reduction: 981.4285714285714
+Average weight after reduction: 5772.0
+Number of tests: 3
+Time: 19556 ms
+***********************************************************************************************************************************************
+weight_list(before reduction): [3, 3, 3, 3, ]
+
+weight_list(after reduction): [3, 3, ]
+
+[Length of the list before reduction: 4]
+[Length of the list after reduction: 2]
+Sum of weight before reduction: 12
+Sum of weight after reduction: 6
+Token reduced: 6
+Average weight before reduction: 3.0
+Average weight after reduction: 3.0
+Number of tests: 9
+Time: 36454 ms
+***********************************************************************************************************************************************
+weight_list(before reduction): [3, 3, ]
+
+weight_list(after reduction): [3, 3, ]
+
+No node is deleted.
+Number of tests: 2
+Time: 7858 ms
+***********************************************************************************************************************************************
+weight_list(before reduction): [3, 3, ]
+
+weight_list(after reduction): [3, 3, ]
+
+No node is deleted.
+Number of tests: 2
+Time: 7379 ms
+***********************************************************************************************************************************************
+/tmp/benchmark

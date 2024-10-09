@@ -1,0 +1,55 @@
+Running with arguments: /tmp/benchmark/binaries/run_perses_ddmin.sh /home/coq/cdd/benchmarks/xmlprocessorbugs/xml-3398ac2-3/r.sh /home/coq/cdd/benchmarks/xmlprocessorbugs/xml-3398ac2-3/input.xml /tmp/benchmark/stat/xml/perses_ddmin_0/xml-3398ac2-3 /tmp/tmpnoxgu652
+/tmp/tmp.ab1cHVDcid /tmp/benchmark
+weight_list(before reduction): [3759, 5568, 2682, 1284, 3549, 153, 48, 162, ]
+
+weight_list(after reduction): [5568, ]
+
+[Length of the list before reduction: 8]
+[Length of the list after reduction: 1]
+Sum of weight before reduction: 17205
+Sum of weight after reduction: 5568
+Token reduced: 11637
+Average weight before reduction: 2150.625
+Average weight after reduction: 5568.0
+Number of tests: 4
+Time: 17697 ms
+***********************************************************************************************************************************************
+weight_list(before reduction): [39, ]
+
+weight_list(after reduction): [39, ]
+
+No node is deleted.
+Number of tests: 0
+Time: 0 ms
+***********************************************************************************************************************************************
+weight_list(before reduction): [3, 3, 3, ]
+
+weight_list(after reduction): [3, 3, ]
+
+[Length of the list before reduction: 3]
+[Length of the list after reduction: 2]
+Sum of weight before reduction: 9
+Sum of weight after reduction: 6
+Token reduced: 3
+Average weight before reduction: 3.0
+Average weight after reduction: 3.0
+Number of tests: 3
+Time: 11760 ms
+***********************************************************************************************************************************************
+weight_list(before reduction): [3, 3, ]
+
+weight_list(after reduction): [3, 3, ]
+
+No node is deleted.
+Number of tests: 2
+Time: 7696 ms
+***********************************************************************************************************************************************
+weight_list(before reduction): [3, 3, ]
+
+weight_list(after reduction): [3, 3, ]
+
+No node is deleted.
+Number of tests: 2
+Time: 8581 ms
+***********************************************************************************************************************************************
+/tmp/benchmark

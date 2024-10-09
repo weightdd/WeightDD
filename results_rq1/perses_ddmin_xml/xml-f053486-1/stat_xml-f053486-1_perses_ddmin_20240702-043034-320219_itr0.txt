@@ -1,0 +1,25 @@
+Running with arguments: /tmp/benchmark/binaries/run_perses_ddmin.sh /home/coq/cdd/benchmarks/xmlprocessorbugs/xml-f053486-1/r.sh /home/coq/cdd/benchmarks/xmlprocessorbugs/xml-f053486-1/input.xml /tmp/benchmark/stat/xml/perses_ddmin_0/xml-f053486-1 /tmp/tmp9vu32vz0
+/tmp/tmp.K6dPHcihSQ /tmp/benchmark
+weight_list(before reduction): [3, 3, 3, ]
+
+weight_list(after reduction): [3, 3, ]
+
+[Length of the list before reduction: 3]
+[Length of the list after reduction: 2]
+Sum of weight before reduction: 9
+Sum of weight after reduction: 6
+Token reduced: 3
+Average weight before reduction: 3.0
+Average weight after reduction: 3.0
+Number of tests: 6
+Time: 24994 ms
+***********************************************************************************************************************************************
+weight_list(before reduction): [3, 3, ]
+
+weight_list(after reduction): [3, 3, ]
+
+No node is deleted.
+Number of tests: 2
+Time: 8126 ms
+***********************************************************************************************************************************************
+/tmp/benchmark
