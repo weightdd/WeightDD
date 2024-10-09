@@ -134,10 +134,34 @@ cd /tmp/WeightDD
 ./convert_result_to_csv.py -d result_wprobdd_xml/perses_wprobdd_0/* -o perses_wprobdd_xml.csv
 ```
 
-
-
 #### Evaluation Results
 
+**RQ1**: The raw data of the weights information during delta debugging are put in `results_rq1`, and the correlation values are exported to the csv files under `results_rq1_csv`. Using box diagram to visualize the result:
 
+<img src="./rq1_box.png" alt="image-20241009144053041" style="zoom:40%;" />
+
+From this figure, the probability of elements being deleted is negatively correlated with their weights in ddmin executions in both HDD and Perses, to varying degrees. This validation provides a solid foundation for the design of $W_{ddmin}$.
+
+**RQ2 &RQ3**:  The raw data of the evaluation results used in RQ2 & 3 are posted in `results_c` and `results_xml` directories, and the exported csv files using `convert_result_to_csv.py`  are put under `results_csv`. The following tables provides a brief illustration of the overall (average) results of each algorithm.
+
+RQ2: $W_{ddmin}$ v.s. ddmin
+
+| Benchmark      | HDD-ddmin |      | HDD-Wddmin             |                        | Perses-ddmin |      | Perses-Wddmin         |                       |
+| -------------- | --------- | ---- | ---------------------- | ---------------------- | ------------ | ---- | --------------------- | --------------------- |
+|                | Time (s)  | Size | Time (s)               | Size                   | Time (s)     | Size | Time (s)              | Size                  |
+| **C Programs** | 39,108    | 518  | 18,022                 | 477                    | 4,582        | 281  | 4,169                 | 278                   |
+|                |           |      | **53.92%$\downarrow$** | **7.81%$\downarrow$**  |              |      | **9.01%$\downarrow$** | **1.04%$\downarrow$** |
+| **XML Files**  | 3,152     | 98   | 2,621                  | 82                     | 1,295        | 37.6 | 1,273                 | 37.5                  |
+|                |           |      | **16.86%$\downarrow$** | **16.51%$\downarrow$** |              |      | **1.67%$\downarrow$** | **0.27%$\downarrow$** |
+
+RQ3: $W_{ProbDD}$ v.s. ProbDD
+
+| Benchmark      | HDD-ProbDD |      | HDD-WProbDD            |                        | Perses-ProbDD |      | Perses-WProbDD         |                       |
+| -------------- | ---------- | ---- | ---------------------- | ---------------------- | ------------- | ---- | ---------------------- | --------------------- |
+|                | Time (s)   | Size | Time (s)               | Size                   | Time (s)      | Size | Time (s)               | Size                  |
+| **C Programs** | 6,042      | 567  | 5,384                  | 488                    | 3,455         | 280  | 2,975                  | 273                   |
+|                |            |      | **10.89%$\downarrow$** | **13.91%$\downarrow$** |               |      | **13.89%$\downarrow$** | **2.43%$\downarrow$** |
+| **XML Files**  | 3,004      | 89   | 2,574                  | 80                     | 1,838         | 37.4 | 1,813                  | 37.5                  |
+|                |            |      | **14.31%$\downarrow$** | **9.74%$\downarrow$**  |               |      | **1.35%$\downarrow$**  | **0.42%$\uparrow$**   |
 
 
