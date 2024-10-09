@@ -13,8 +13,7 @@ To evaluate this artifact, a Linux machine with [docker](https://docs.docker.com
 
 ## Notes
 
-- All the experiments take long time to finish, so it is recommended to use tools like screen and tmux to manage sessions if the experiments are run on remote server.
-- 
+- All the experiments take very long time to finish, so it is recommended to use tools like screen and tmux to manage sessions if the experiments are run on remote server.
 
 ## Docker Environment Setup
 
@@ -40,29 +39,26 @@ Under the root directory of the project, the benchmarks are located in:
 - `./c_benchmarks`: benchmark-C which consists of 30 C programs;
 - `./xml_benchmarks`: benchmark-XML which consists of 30 XML files.
 
-## Build the Tools
+## Implementation
 
 We implemented all the related algorithms in this paper based on [Perses](https://github.com/uw-pluverse/perses). Our implemenations locate
 
 in `./perses-weight-dd`. Specifically:
 
-- $W_{ddmin}$ is implemented in:
+- $W_{ddmin}$ algorithm is implemented in:
 
-   `./perses-weight-dd/src/org/perses/delta/WeightSplitDeltaDebugger.kt`
+  `./perses-weight-dd/src/org/perses/delta/WeightSplitDeltaDebugger.kt`
 
-- $W_{ProbDD}$ is implemented in:
+- $W_{ProbDD}$ algorithm is implemented in:
 
   `./perses-weight-dd/src/org/perses/delta/WeightedPristineProbabilisticDeltaDebugger.kt`
 
-- The baseline algorithms ddmin and ProbDD, and HDD are located in:
+- The baseline algorithms ddmin and ProbDD, and HDD are implemented in:
 
-  ```
-  // ddmin
-  ./perses-weight-dd/src/org/perses/delta/PristineDeltaDebugger.kt
-  // ProbDD
-  ./perses-weight-dd/src/org/perses/delta/PristineProbabilisticDeltaDebugger.kt
-  // HDD
-  ./perses-weight-dd/src/org/perses/reduction/reducer/hdd/
+  ```shell
+  ./perses-weight-dd/src/org/perses/delta/PristineDeltaDebugger.kt # ddmin
+  ./perses-weight-dd/src/org/perses/delta/PristineProbabilisticDeltaDebugger.kt # ProbDD
+  ./perses-weight-dd/src/org/perses/reduction/reducer/hdd/ # HDD
   ```
 
 To run the evaluation, we need perses (including Perses, HDD, and all related algorithms in this paper). For convenience , we have pre-built the tools and put them under `/tmp/binaries/` in the docker image. Three JAR files are required fo evaluation:
@@ -75,26 +71,15 @@ To run the evaluation, we need perses (including Perses, HDD, and all related al
 `-- token_counter_deploy.jar
 ```
 
-Or we can build the tools from the source with the following commands, and put the generated JAR files under the `/tmp/binaries/` directory in docker.
-
-```shell
-cd ./perses-weight-dd
-bazel build //src/org/perses:perses_deploy.jar
-bazel build //src/org/perses:token_counter_deploy.jar
-# set value 'print_stat = true' in
-# ./src/org/perses/delta/AbstractDefaultDeltaDebugger.kt, this enable the output of
-# weights of elements during minimization 
-bazel build //src/org/perses:perses_stat_deploy.jar
-```
-
 #### RQ1: Element Weight v.s. Deletion Probability Correlation
 
 ```shell
-# current dir: /tmp/WeightDD
+cd /tmp/WeightDD
 # For XML benchmarks:
-./run_stat_parallel_xml.py -s xml_benchmarks/xml-* -r perses_ddmin_stat hdd_ddmin_stat -o stat_result_xml -j 10
+./run_stat_parallel_xml.py -s xml_benchmarks/xml-* -r perses_ddmin_stat hdd_ddmin_stat -o stat_result_xml -j 20
 # For C Benchmarks:
-./run_stat_parallel_c.py -s c_benchmarks/* -r perses_ddmin_stat hdd_ddmin_stat -o stat_result_c -j 10
+./run_stat_parallel_c.py -s c_benchmarks/* -r perses_ddmin_stat hdd_ddmin_stat -o stat_result_c -j 20
+# Export data to csv files:
 
 ```
 
