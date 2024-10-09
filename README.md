@@ -138,7 +138,7 @@ cd /tmp/WeightDD
 
 **RQ1**: The raw data of the weights information during delta debugging are put in `results_rq1`, and the correlation values are exported to the csv files under `results_rq1_csv`. Using box diagram to visualize the result:
 
-<img src="./rq1_box.png" alt="image-20241009144053041" style="zoom:40%;" />
+<img src="./rq1_box.png" alt="image-20241009144053041" style="zoom:25%;" />
 
 From this figure, the probability of elements being deleted is negatively correlated with their weights in ddmin executions in both HDD and Perses, to varying degrees. This validation provides a solid foundation for the design of $W_{ddmin}$.
 
