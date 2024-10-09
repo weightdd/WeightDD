@@ -86,7 +86,7 @@ To run the evaluation, we need perses (including Perses, HDD, and all related al
 `-- token_counter_deploy.jar
 ```
 
-#### RQ1: Element Weight v.s. Deletion Probability Correlation
+## RQ1: Element Weight v.s. Deletion Probability Correlation
 
 ```shell
 cd /tmp/WeightDD
@@ -98,7 +98,7 @@ cd /tmp/WeightDD
 
 ```
 
-#### RQ2: $W_{ddmin}$ v.s. $ddmin$
+## RQ2: $W_{ddmin}$ v.s. $ddmin$
 
 ```shell
 # For C Benchmarks:
@@ -116,7 +116,7 @@ cd /tmp/WeightDD
 ./convert_result_to_csv.py -d result_wdd_xml/perses_wdd_0/*  -o perses_wdd_xml.csv
 ```
 
-#### RQ3: $W_{ProbDD}$ v.s. $ProbDD$
+## RQ3: $W_{ProbDD}$ v.s. $ProbDD$
 
 ```shell
 # For C Benchmarks:
@@ -134,7 +134,7 @@ cd /tmp/WeightDD
 ./convert_result_to_csv.py -d result_wprobdd_xml/perses_wprobdd_0/* -o perses_wprobdd_xml.csv
 ```
 
-#### Evaluation Results
+## Evaluation Results
 
 **RQ1**: The raw data of the weights information during delta debugging are put in `results_rq1`, and the correlation values are exported to the csv files under `results_rq1_csv`. Using box diagram to visualize the result:
 
