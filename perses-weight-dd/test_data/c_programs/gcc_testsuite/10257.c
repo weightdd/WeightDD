@@ -1,5 +1,0 @@
-
-
-
-
-static inline int f() {}

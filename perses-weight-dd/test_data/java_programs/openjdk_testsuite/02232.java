@@ -1,5 +1,0 @@
-
-
-package q;
-
-class A { }

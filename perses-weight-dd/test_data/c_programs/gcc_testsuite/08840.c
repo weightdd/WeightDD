@@ -1,6 +1,0 @@
-
-
-
-
-
-long long foo;

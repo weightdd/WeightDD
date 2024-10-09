@@ -1,1 +1,0 @@
-select * from a where b == 0Xffffffffe7e53170;

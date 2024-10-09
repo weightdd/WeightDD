@@ -1,8 +1,0 @@
-
-
-
-
-
-
-
-const char *p = "abc";

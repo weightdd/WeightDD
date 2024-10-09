@@ -1,8 +1,0 @@
-
-
-class ClassWithAuxiliaryClass {
-}
-
-
-class AuxiliaryClass {
-}

@@ -1,8 +1,0 @@
-
-
-
-
-
-class LambdaNotSupported {
-    S s = ()->{};
-}

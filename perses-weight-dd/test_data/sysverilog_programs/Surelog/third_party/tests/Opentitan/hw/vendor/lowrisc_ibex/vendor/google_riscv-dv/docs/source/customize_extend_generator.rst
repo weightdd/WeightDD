@@ -1,2 +1,0 @@
-Customize and Extend Generator
-==============================

@@ -1,8 +1,0 @@
-
-
-
-
-class MissingReturnStatement {
-    int m() {
-    }
-}

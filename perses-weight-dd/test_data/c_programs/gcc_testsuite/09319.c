@@ -1,5 +1,0 @@
-
-
-
-
-char *foo = "string foobar";

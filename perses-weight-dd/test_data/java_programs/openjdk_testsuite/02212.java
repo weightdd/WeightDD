@@ -1,5 +1,0 @@
-
-
-
-
-class FalseCycle extends FalseCycleBase {}

@@ -1,5 +1,0 @@
-grammar terminal;
-
-start
-    : ID
-    ;

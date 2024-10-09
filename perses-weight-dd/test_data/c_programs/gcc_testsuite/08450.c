@@ -1,6 +1,0 @@
-
-
-
-
-
-int not_empty;

@@ -1,8 +1,0 @@
-
-
-
-
-
-class LambdaStat {
-    Runnable r = ()->{};
-}

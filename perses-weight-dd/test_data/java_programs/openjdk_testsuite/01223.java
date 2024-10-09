@@ -1,7 +1,0 @@
-
-
-
-
-interface IntfMethodCantHaveBody {
-    void m() { }
-}

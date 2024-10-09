@@ -1,5 +1,0 @@
-
-
-
-
-__thread int i;

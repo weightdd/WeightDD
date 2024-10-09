@@ -1,1 +1,0 @@
--parse -d uhdm -d coveruhdm -elabuhdm -ast dut.sv

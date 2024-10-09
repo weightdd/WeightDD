@@ -1,4 +1,0 @@
-
-
-@mypackage.Anno
-package mypackage;

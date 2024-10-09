@@ -1,7 +1,0 @@
-
-
-class SourcePathA {
-}
-
-class SourcePathB {
-}

@@ -1,7 +1,0 @@
-
-
-
-
-@interface X {
-    X value();
-}

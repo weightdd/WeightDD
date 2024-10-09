@@ -1,7 +1,0 @@
-
-
-
-
-class UnexpectedLambda {
-    { (Foo::bar)++; }
-}

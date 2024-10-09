@@ -1,8 +1,0 @@
-
-
-
-
-
-extern foo;
-
-bar (void) { }

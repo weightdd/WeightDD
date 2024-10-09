@@ -1,4 +1,0 @@
-
-int othervar;
-
-int variable;

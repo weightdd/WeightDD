@@ -1,6 +1,0 @@
-
-
-
-
-
-_Complex double foo;

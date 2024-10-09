@@ -1,5 +1,0 @@
-
-
-
-@Deprecated 
-public class Foo { }

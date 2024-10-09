@@ -1,4 +1,0 @@
-
-
-
-__thread struct foo;

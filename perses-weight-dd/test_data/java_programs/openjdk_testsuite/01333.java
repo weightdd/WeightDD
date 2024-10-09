@@ -1,7 +1,0 @@
-
-
-
-
-
-@FunctionalInterface
-class BadFunctionalIntfAnno { }

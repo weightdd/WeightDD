@@ -1,7 +1,0 @@
-
-
-
-
-static inline int t()
-{
-}

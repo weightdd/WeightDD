@@ -1,7 +1,0 @@
-
-
-
-@interface Test {
-    int value();
-}
-

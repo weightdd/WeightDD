@@ -1,1 +1,0 @@
-int outer = 42;

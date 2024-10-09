@@ -1,5 +1,0 @@
-
-
-@Marker
-class Marked {
-}

@@ -1,1 +1,0 @@
- -fileunit -parse  -d inst -d uhdm -sv dut.sv -nobuiltin -nocache

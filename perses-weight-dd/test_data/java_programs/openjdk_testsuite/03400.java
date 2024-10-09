@@ -1,6 +1,0 @@
-
-
-
-@interface IntersectionTypeInfo {
-    String[] value();
-}

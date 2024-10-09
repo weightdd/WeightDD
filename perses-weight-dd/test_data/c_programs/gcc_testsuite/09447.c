@@ -1,9 +1,0 @@
-
-
-
-
-
-
-void foo();
-
-void foo() { }

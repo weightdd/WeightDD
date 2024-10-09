@@ -1,6 +1,0 @@
-Reduction starts.
-Current diff:
-Reducer ListDiffSlicer ends.
-Current diff:
-Reduction ends.
-Current diff:

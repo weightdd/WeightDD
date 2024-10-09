@@ -1,9 +1,0 @@
-
-
-
-
-
-
-
-
-static void foo (void) {}

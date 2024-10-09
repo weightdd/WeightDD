@@ -1,7 +1,0 @@
-
-
-
-
-class MissingMethodBody {
-    void m();
-}

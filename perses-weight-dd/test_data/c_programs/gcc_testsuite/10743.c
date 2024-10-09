@@ -1,4 +1,0 @@
-
-
-double i;
-int j;

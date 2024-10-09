@@ -1,7 +1,0 @@
-
-
-
-struct S
-{
-  int i;
-};

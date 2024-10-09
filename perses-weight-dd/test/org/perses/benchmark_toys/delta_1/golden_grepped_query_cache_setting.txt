@@ -1,1 +1,0 @@
-Cache setting: query-caching=enabled, edit-caching=enabled, query-cache=compact_query_cache 

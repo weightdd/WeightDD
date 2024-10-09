@@ -1,7 +1,0 @@
-
-
-
-
-class DuplicateClass { }
-
-class DuplicateClass { }

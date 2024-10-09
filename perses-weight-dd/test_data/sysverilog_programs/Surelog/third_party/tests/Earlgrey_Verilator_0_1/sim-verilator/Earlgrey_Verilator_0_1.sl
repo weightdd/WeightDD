@@ -1,1 +1,0 @@
-+define+VERILATOR -f lowrisc_systems_top_earlgrey_verilator_0.1.vc -parse -d coveruhdm -verbose 

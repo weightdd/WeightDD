@@ -1,5 +1,0 @@
-
-
-
-
-import nonexistent.pack.cls;

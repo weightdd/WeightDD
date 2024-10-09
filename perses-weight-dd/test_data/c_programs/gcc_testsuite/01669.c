@@ -1,4 +1,0 @@
-
-
-
-char cdir(void){return '/';}

@@ -1,9 +1,0 @@
-
-
-
-
-
-class XPrintDocComments {
-    
-    int i;
-}

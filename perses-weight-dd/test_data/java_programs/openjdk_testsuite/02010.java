@@ -1,3 +1,0 @@
-
-
-@TestMe public class Super {}

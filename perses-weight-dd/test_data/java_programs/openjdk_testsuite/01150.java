@@ -1,8 +1,0 @@
-
-
-
-
-
-class ClassUsingAuxiliary {
-    AuxiliaryClass ahem;
-}

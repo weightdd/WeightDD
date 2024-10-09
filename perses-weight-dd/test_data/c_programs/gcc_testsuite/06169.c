@@ -1,6 +1,0 @@
-
-
-
-
-
-const struct foo;

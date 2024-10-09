@@ -1,1 +1,0 @@
--fileunit -writepp -parse -d ast -d uhdm  dut.sv -nobuiltin -nocache -PSRAMInitFile=/blah -top dut -o slpp_overr

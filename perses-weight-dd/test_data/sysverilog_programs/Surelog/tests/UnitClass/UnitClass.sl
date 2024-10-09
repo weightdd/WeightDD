@@ -1,1 +1,0 @@
-     -writepp -parse -verbose   -d inst  -mt max  top.v    -d incl  +incdir+../../../UVM/uvm-1.2/src/macros/ -d  ast

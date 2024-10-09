@@ -1,6 +1,0 @@
-
-
-
-
-
-class GenericsNotSupported<T> { }

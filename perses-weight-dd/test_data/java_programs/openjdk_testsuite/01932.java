@@ -1,6 +1,0 @@
-
-
-
-
-class Superless extends MissingClass {
-}

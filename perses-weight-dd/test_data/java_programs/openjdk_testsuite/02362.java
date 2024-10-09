@@ -1,6 +1,0 @@
-
-
-
-
-@Deprecated
-package foo.bar;
