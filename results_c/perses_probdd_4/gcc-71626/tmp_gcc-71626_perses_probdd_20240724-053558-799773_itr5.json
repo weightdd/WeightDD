@@ -1,0 +1,11 @@
+{
+    "Subject": "c_benchmarks/gcc-71626",
+    "Reducer": "perses_probdd",
+    "Environment": null,
+    "Origin token count": 6133,
+    "Iteration": 5,
+    "Query": 746,
+    "Time": 44,
+    "Token_remaining": 51,
+    "Ret_code": 0
+}
