@@ -1,0 +1,11 @@
+{
+    "Subject": "/home/coq/cdd/benchmarks/xmlprocessorbugs/xml-4c99b96-5",
+    "Reducer": "perses_ddmin",
+    "Environment": null,
+    "Origin token count": 20114,
+    "Iteration": 1,
+    "Query": 204,
+    "Time": 1159,
+    "Token_remaining": 13,
+    "Ret_code": 0
+}

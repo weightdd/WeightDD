@@ -1,0 +1,11 @@
+{
+    "Subject": "/home/coq/cdd/benchmarks/xmlprocessorbugs/xml-8ede045-8",
+    "Reducer": "hdd_wdd",
+    "Environment": null,
+    "Origin token count": 20177,
+    "Iteration": 2,
+    "Query": 1237,
+    "Time": 2651,
+    "Token_remaining": 102,
+    "Ret_code": 0
+}

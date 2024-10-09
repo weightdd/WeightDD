@@ -1,0 +1,11 @@
+{
+    "Subject": "c_benchmarks/gcc-66412",
+    "Reducer": "hdd_wdd",
+    "Environment": null,
+    "Origin token count": 72241,
+    "Iteration": 1,
+    "Query": 64366,
+    "Time": 13276,
+    "Token_remaining": 442,
+    "Ret_code": 0
+}
