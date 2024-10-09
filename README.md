@@ -2,18 +2,19 @@
 
 ## Introduction
 
-Thank you for evaluating this artifact!
+Thank you for evaluating this artifact.
 
-To evaluate this artifact, a Linux machine with [docker](https://docs.docker.com/get-docker/) installed is needed.
+To evaluate this artifact, a Linux machine with [docker](https://docs.docker.com/get-docker/) is needed.
 
 ## List of Claims Supported by the Artifact
 
 - WDD introduce the concept of weight to the classical delta debugging algorithms, supporting more rational partitioning strategy during delta debugging.
-- Wddmin and WProbDD, the implementations of WDD in ddmin and ProbDD, outperform ddmin and ProbDD in both efficiecny and effectiveness in tree-based test input minimization techniques HDD and Perses.
+- $W_{ddmin}$ and $W_{ProbDD}$, the implementations of WDD in ddmin and ProbDD, outperform ddmin and ProbDD, respectively, in both efficiecny and effectiveness in tree-based test input minimization techniques, HDD and Perses.
 
 ## Notes
 
 - All the experiments take long time to finish, so it is recommended to use tools like screen and tmux to manage sessions if the experiments are run on remote server.
+- 
 
 ## Docker Environment Setup
 
@@ -22,30 +23,26 @@ To evaluate this artifact, a Linux machine with [docker](https://docs.docker.com
 2. Install the docker image.
 
    ```shell
-   docker pull
+   docker pull [xxx]
    ```
 
 3. Start a container
 
    ```shell
    docker container run --cap-add SYS_PTRACE --interactive --tty [xxx] /bin/bash
-   
+   cd /tmp/WeightDD/
    ```
-
-
 
 ## Benchmark Suites
 
-Under the root directory of the porject, the benchmarks are located:
+Under the root directory of the project, the benchmarks are located in:
 
-- `./c_benchmarks`: benchmark-C consists of 30 C programs;
-- `./xml_benchmarks`: benchmark-XML consists of 30 XML files.
-
-
+- `./c_benchmarks`: benchmark-C which consists of 30 C programs;
+- `./xml_benchmarks`: benchmark-XML which consists of 30 XML files.
 
 ## Build the Tools
 
-We have implemented all the related algorithms in this paper based on [Perses](https://github.com/uw-pluverse/perses). Our implemenation locates
+We implemented all the related algorithms in this paper based on [Perses](https://github.com/uw-pluverse/perses). Our implemenations locate
 
 in `./perses-weight-dd`. Specifically:
 
@@ -68,26 +65,77 @@ in `./perses-weight-dd`. Specifically:
   ./perses-weight-dd/src/org/perses/reduction/reducer/hdd/
   ```
 
-To run the evaluation, we first need to build `perses-weight-dd` from the source according to the [document](https://github.com/uw-pluverse/perses?tab=readme-ov-file#obtain-and-run) of Perses, and put the JAR file under the `/tmp/binaries/` directory in docker.
+To run the evaluation, we need perses (including Perses, HDD, and all related algorithms in this paper). For convenience , we have pre-built the tools and put them under `/tmp/binaries/` in the docker image. Three JAR files are required fo evaluation:
 
-Note: for convince, we have pre-built the tools and put them under `/tmp/binaries/` in the docker image.
-
-```shell
-> ls /tmp/binaries/
-perses_deploy.jar  token_counter_deploy.jar
+```
+> tree /tmp/binaries/
+/tmp/binaries/
+|-- perses_deploy.jar
+|-- perses_stat_deploy.jar
+`-- token_counter_deploy.jar
 ```
 
-Both JAR files are **required** to run the evaluation.
+Or we can build the tools from the source with the following commands, and put the generated JAR files under the `/tmp/binaries/` directory in docker.
+
+```shell
+cd ./perses-weight-dd
+bazel build //src/org/perses:perses_deploy.jar
+bazel build //src/org/perses:token_counter_deploy.jar
+# set value 'print_stat = true' in
+# ./src/org/perses/delta/AbstractDefaultDeltaDebugger.kt, this enable the output of
+# weights of elements during minimization 
+bazel build //src/org/perses:perses_stat_deploy.jar
+```
+
+#### RQ1: Element Weight v.s. Deletion Probability Correlation
+
+```shell
+# current dir: /tmp/WeightDD
+# For XML benchmarks:
+./run_stat_parallel_xml.py -s xml_benchmarks/xml-* -r perses_ddmin_stat hdd_ddmin_stat -o stat_result_xml -j 10
+# For C Benchmarks:
+./run_stat_parallel_c.py -s c_benchmarks/* -r perses_ddmin_stat hdd_ddmin_stat -o stat_result_c -j 10
+
+```
+
+#### RQ2: $W_{ddmin}$ v.s. $ddmin$
+
+```shell
+# For C Benchmarks:
+./run_exp_parallel_c.py -s c_benchmarks/* -r perses_ddmin perses_wdd hdd_ddmin hdd_wdd -o result_wdd_c -j 20
+# For XML Benchmarks:
+./run_exp_parallel_xml.py -s xml_benchmarks/xml-* -r perses_ddmin perses_wdd hdd_ddmin hdd_wdd -o result_wdd_xml -j 20
+# Export the results in csv format:
+./convert_result_to_csv.py -d result_wdd_c/hdd_ddmin_0/*  -o hdd_ddmin_c.csv
+./convert_result_to_csv.py -d result_wdd_c/hdd_wdd_0/*  -o hdd_wdd_c.csv
+./convert_result_to_csv.py -d result_wdd_c/perses_ddmin_0/*  -o perses_ddmin_c.csv
+./convert_result_to_csv.py -d result_wdd_c/perses_wdd_0/*  -o perses_wdd_c.csv
+./convert_result_to_csv.py -d result_wdd_xml/hdd_ddmin_0/*  -o hdd_ddmin_xml.csv
+./convert_result_to_csv.py -d result_wdd_xml/hdd_wdd_0/*  -o hdd_wdd_xml.csv
+./convert_result_to_csv.py -d result_wdd_xml/perses_ddmin_0/*  -o perses_ddmin_xml.csv
+./convert_result_to_csv.py -d result_wdd_xml/perses_wdd_0/*  -o perses_wdd_xml.csv
+```
+
+#### RQ3: $W_{ProbDD}$ v.s. $ProbDD$
+
+```shell
+# For C Benchmarks:
+./run_exp_parallel_c.py -s c_benchmarks/* -r perses_probdd perses_wprobdd hdd_probdd hdd_wprobdd -o result_wprobdd_c -j 20
+# For XML Benchmarks:
+./run_exp_parallel_xml.py -s xml_benchmarks/xml-* -r perses_probdd perses_wprobdd hdd_probdd hdd_wprobdd -o result_wprobdd_xml -j 20
+# Export the results in csv format:
+./convert_result_to_csv.py -d result_wprobdd_c/hdd_probdd_0/*  -o hdd_probdd_c.csv
+./convert_result_to_csv.py -d result_wprobdd_c/hdd_wprobdd_0/*  -o hdd_wprobdd_c.csv
+./convert_result_to_csv.py -d result_wprobdd_c/perses_probdd_0/* -o perses_probdd_c.csv
+./convert_result_to_csv.py -d result_wprobdd_c/perses_wprobdd_0/* -o perses_wprobdd_c.csv
+./convert_result_to_csv.py -d result_wprobdd_xml/hdd_probdd_0/*  -o hdd_probdd_xml.csv
+./convert_result_to_csv.py -d result_wprobdd_xml/hdd_wprobdd_0/*  -o hdd_wprobdd_xml.csv
+./convert_result_to_csv.py -d result_wprobdd_xml/perses_probdd_0/* -o perses_probdd_xml.csv
+./convert_result_to_csv.py -d result_wprobdd_xml/perses_wprobdd_0/* -o perses_wprobdd_xml.csv
+```
 
 
 
-## Reproduce RQ1
 
 
-
-## Reproduce RQ2
-
-
-
-## Reproduce RQ3
 
