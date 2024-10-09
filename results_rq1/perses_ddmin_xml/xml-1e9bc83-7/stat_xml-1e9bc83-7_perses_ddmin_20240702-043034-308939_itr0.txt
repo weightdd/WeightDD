@@ -1,0 +1,237 @@
+Running with arguments: /tmp/benchmark/binaries/run_perses_ddmin.sh /home/coq/cdd/benchmarks/xmlprocessorbugs/xml-1e9bc83-7/r.sh /home/coq/cdd/benchmarks/xmlprocessorbugs/xml-1e9bc83-7/input.xml /tmp/benchmark/stat/xml/perses_ddmin_0/xml-1e9bc83-7 /tmp/tmpgr472gg8
+/tmp/tmp.eVeNtbc0hd /tmp/benchmark
+weight_list(before reduction): [456, 2346, 321, ]
+
+weight_list(after reduction): [2346, ]
+
+[Length of the list before reduction: 3]
+[Length of the list after reduction: 1]
+Sum of weight before reduction: 3123
+Sum of weight after reduction: 2346
+Token reduced: 777
+Average weight before reduction: 1041.0
+Average weight after reduction: 2346.0
+Number of tests: 3
+Time: 19881 ms
+***********************************************************************************************************************************************
+weight_list(before reduction): [612, 195, 564, 111, 15, 18, 21, ]
+
+weight_list(after reduction): [195, 564, ]
+
+[Length of the list before reduction: 7]
+[Length of the list after reduction: 2]
+Sum of weight before reduction: 1536
+Sum of weight after reduction: 759
+Token reduced: 777
+Average weight before reduction: 219.42857142857142
+Average weight after reduction: 379.5
+Number of tests: 10
+Time: 63297 ms
+***********************************************************************************************************************************************
+weight_list(before reduction): [87, 18, ]
+
+weight_list(after reduction): [87, 18, ]
+
+No node is deleted.
+Number of tests: 2
+Time: 13538 ms
+***********************************************************************************************************************************************
+weight_list(before reduction): [21, 15, 30, ]
+
+weight_list(after reduction): [15, 30, ]
+
+[Length of the list before reduction: 3]
+[Length of the list after reduction: 2]
+Sum of weight before reduction: 66
+Sum of weight after reduction: 45
+Token reduced: 21
+Average weight before reduction: 22.0
+Average weight after reduction: 22.5
+Number of tests: 5
+Time: 32103 ms
+***********************************************************************************************************************************************
+weight_list(before reduction): [3, 3, 3, 3, 3, 3, 3, ]
+
+weight_list(after reduction): [3, ]
+
+[Length of the list before reduction: 7]
+[Length of the list after reduction: 1]
+Sum of weight before reduction: 21
+Sum of weight after reduction: 3
+Token reduced: 18
+Average weight before reduction: 3.0
+Average weight after reduction: 3.0
+Number of tests: 3
+Time: 20172 ms
+***********************************************************************************************************************************************
+weight_list(before reduction): [3, 3, 3, ]
+
+weight_list(after reduction): [3, ]
+
+[Length of the list before reduction: 3]
+[Length of the list after reduction: 1]
+Sum of weight before reduction: 9
+Sum of weight after reduction: 3
+Token reduced: 6
+Average weight before reduction: 3.0
+Average weight after reduction: 3.0
+Number of tests: 2
+Time: 12104 ms
+***********************************************************************************************************************************************
+weight_list(before reduction): [3, 3, 3, ]
+
+weight_list(after reduction): [3, ]
+
+[Length of the list before reduction: 3]
+[Length of the list after reduction: 1]
+Sum of weight before reduction: 9
+Sum of weight after reduction: 3
+Token reduced: 6
+Average weight before reduction: 3.0
+Average weight after reduction: 3.0
+Number of tests: 3
+Time: 14497 ms
+***********************************************************************************************************************************************
+weight_list(before reduction): [3, 3, ]
+
+weight_list(after reduction): [3, ]
+
+[Length of the list before reduction: 2]
+[Length of the list after reduction: 1]
+Sum of weight before reduction: 6
+Sum of weight after reduction: 3
+Token reduced: 3
+Average weight before reduction: 3.0
+Average weight after reduction: 3.0
+Number of tests: 1
+Time: 7070 ms
+***********************************************************************************************************************************************
+weight_list(before reduction): [51, 18, ]
+
+weight_list(after reduction): [51, 18, ]
+
+No node is deleted.
+Number of tests: 2
+Time: 13831 ms
+***********************************************************************************************************************************************
+weight_list(before reduction): [30, 12, ]
+
+weight_list(after reduction): [30, 12, ]
+
+No node is deleted.
+Number of tests: 2
+Time: 13312 ms
+***********************************************************************************************************************************************
+weight_list(before reduction): [9, 12, ]
+
+weight_list(after reduction): [9, 12, ]
+
+No node is deleted.
+Number of tests: 2
+Time: 12351 ms
+***********************************************************************************************************************************************
+weight_list(before reduction): [3, ]
+
+weight_list(after reduction): [3, ]
+
+No node is deleted.
+Number of tests: 0
+Time: 0 ms
+***********************************************************************************************************************************************
+weight_list(before reduction): [3, ]
+
+weight_list(after reduction): [3, ]
+
+No node is deleted.
+Number of tests: 0
+Time: 0 ms
+***********************************************************************************************************************************************
+weight_list(before reduction): [3, ]
+
+weight_list(after reduction): [3, ]
+
+No node is deleted.
+Number of tests: 0
+Time: 0 ms
+***********************************************************************************************************************************************
+weight_list(before reduction): [51, 18, ]
+
+weight_list(after reduction): [51, 18, ]
+
+No node is deleted.
+Number of tests: 2
+Time: 11748 ms
+***********************************************************************************************************************************************
+weight_list(before reduction): [30, 12, ]
+
+weight_list(after reduction): [30, 12, ]
+
+No node is deleted.
+Number of tests: 2
+Time: 13872 ms
+***********************************************************************************************************************************************
+weight_list(before reduction): [9, 12, ]
+
+weight_list(after reduction): [9, 12, ]
+
+No node is deleted.
+Number of tests: 2
+Time: 14198 ms
+***********************************************************************************************************************************************
+weight_list(before reduction): [3, ]
+
+weight_list(after reduction): [3, ]
+
+No node is deleted.
+Number of tests: 0
+Time: 0 ms
+***********************************************************************************************************************************************
+weight_list(before reduction): [3, ]
+
+weight_list(after reduction): [3, ]
+
+No node is deleted.
+Number of tests: 0
+Time: 0 ms
+***********************************************************************************************************************************************
+weight_list(before reduction): [51, 18, ]
+
+weight_list(after reduction): [51, 18, ]
+
+No node is deleted.
+Number of tests: 2
+Time: 14626 ms
+***********************************************************************************************************************************************
+weight_list(before reduction): [30, 12, ]
+
+weight_list(after reduction): [30, 12, ]
+
+No node is deleted.
+Number of tests: 2
+Time: 15168 ms
+***********************************************************************************************************************************************
+weight_list(before reduction): [9, 12, ]
+
+weight_list(after reduction): [9, 12, ]
+
+No node is deleted.
+Number of tests: 2
+Time: 12535 ms
+***********************************************************************************************************************************************
+weight_list(before reduction): [3, ]
+
+weight_list(after reduction): [3, ]
+
+No node is deleted.
+Number of tests: 0
+Time: 0 ms
+***********************************************************************************************************************************************
+weight_list(before reduction): [3, ]
+
+weight_list(after reduction): [3, ]
+
+No node is deleted.
+Number of tests: 0
+Time: 0 ms
+***********************************************************************************************************************************************
+/tmp/benchmark

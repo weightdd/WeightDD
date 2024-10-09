@@ -1,0 +1,159 @@
+Running with arguments: /tmp/benchmark/binaries/run_perses_ddmin.sh /home/coq/cdd/benchmarks/xmlprocessorbugs/xml-1e9bc83-4/r.sh /home/coq/cdd/benchmarks/xmlprocessorbugs/xml-1e9bc83-4/input.xml /tmp/benchmark/stat/xml/perses_ddmin_0/xml-1e9bc83-4 /tmp/tmpvrwhyaei
+/tmp/tmp.6HZhRA4YNI /tmp/benchmark
+weight_list(before reduction): [17046, 2331, 345, 27, 12, 75, 117, ]
+
+weight_list(after reduction): [17046, 2331, ]
+
+[Length of the list before reduction: 7]
+[Length of the list after reduction: 2]
+Sum of weight before reduction: 19953
+Sum of weight after reduction: 19377
+Token reduced: 576
+Average weight before reduction: 2850.4285714285716
+Average weight after reduction: 9688.5
+Number of tests: 4
+Time: 29039 ms
+***********************************************************************************************************************************************
+weight_list(before reduction): [4989, 4626, 4095, 309, 1128, 798, 885, 165, 30, ]
+
+weight_list(after reduction): [4989, 4095, ]
+
+[Length of the list before reduction: 9]
+[Length of the list after reduction: 2]
+Sum of weight before reduction: 17025
+Sum of weight after reduction: 9084
+Token reduced: 7941
+Average weight before reduction: 1891.6666666666667
+Average weight after reduction: 4542.0
+Number of tests: 8
+Time: 57738 ms
+***********************************************************************************************************************************************
+weight_list(before reduction): [114, 39, 15, 885, 39, 21, 21, ]
+
+weight_list(after reduction): [885, 21, ]
+
+[Length of the list before reduction: 7]
+[Length of the list after reduction: 2]
+Sum of weight before reduction: 1134
+Sum of weight after reduction: 906
+Token reduced: 228
+Average weight before reduction: 162.0
+Average weight after reduction: 453.0
+Number of tests: 11
+Time: 71314 ms
+***********************************************************************************************************************************************
+weight_list(before reduction): [165, 69, 42, ]
+
+weight_list(after reduction): [165, ]
+
+[Length of the list before reduction: 3]
+[Length of the list after reduction: 1]
+Sum of weight before reduction: 276
+Sum of weight after reduction: 165
+Token reduced: 111
+Average weight before reduction: 92.0
+Average weight after reduction: 165.0
+Number of tests: 2
+Time: 13252 ms
+***********************************************************************************************************************************************
+weight_list(before reduction): [3, 3, 3, 3, 3, 3, ]
+
+weight_list(after reduction): [3, ]
+
+[Length of the list before reduction: 6]
+[Length of the list after reduction: 1]
+Sum of weight before reduction: 18
+Sum of weight after reduction: 3
+Token reduced: 15
+Average weight before reduction: 3.0
+Average weight after reduction: 3.0
+Number of tests: 3
+Time: 16886 ms
+***********************************************************************************************************************************************
+weight_list(before reduction): [15, ]
+
+weight_list(after reduction): [15, ]
+
+No node is deleted.
+Number of tests: 0
+Time: 0 ms
+***********************************************************************************************************************************************
+weight_list(before reduction): [3, 3, ]
+
+weight_list(after reduction): [3, ]
+
+[Length of the list before reduction: 2]
+[Length of the list after reduction: 1]
+Sum of weight before reduction: 6
+Sum of weight after reduction: 3
+Token reduced: 3
+Average weight before reduction: 3.0
+Average weight after reduction: 3.0
+Number of tests: 1
+Time: 6195 ms
+***********************************************************************************************************************************************
+weight_list(before reduction): [93, 18, ]
+
+weight_list(after reduction): [93, 18, ]
+
+No node is deleted.
+Number of tests: 2
+Time: 12411 ms
+***********************************************************************************************************************************************
+weight_list(before reduction): [21, 63, ]
+
+weight_list(after reduction): [21, 63, ]
+
+No node is deleted.
+Number of tests: 2
+Time: 12060 ms
+***********************************************************************************************************************************************
+weight_list(before reduction): [36, 9, ]
+
+weight_list(after reduction): [36, 9, ]
+
+No node is deleted.
+Number of tests: 2
+Time: 11823 ms
+***********************************************************************************************************************************************
+weight_list(before reduction): [3, ]
+
+weight_list(after reduction): [3, ]
+
+No node is deleted.
+Number of tests: 0
+Time: 0 ms
+***********************************************************************************************************************************************
+weight_list(before reduction): [75, 18, ]
+
+weight_list(after reduction): [75, 18, ]
+
+No node is deleted.
+Number of tests: 2
+Time: 12280 ms
+***********************************************************************************************************************************************
+weight_list(before reduction): [21, 45, ]
+
+weight_list(after reduction): [21, 45, ]
+
+No node is deleted.
+Number of tests: 2
+Time: 14723 ms
+***********************************************************************************************************************************************
+weight_list(before reduction): [18, 9, ]
+
+weight_list(after reduction): [18, 9, ]
+
+No node is deleted.
+Number of tests: 2
+Time: 13578 ms
+***********************************************************************************************************************************************
+weight_list(before reduction): [3, ]
+
+weight_list(after reduction): [3, ]
+
+No node is deleted.
+Number of tests: 0
+Time: 0 ms
+***********************************************************************************************************************************************
+/tmp/benchmark
