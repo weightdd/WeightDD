@@ -1,0 +1,21 @@
+
+SELECT CAST('-9223372036854775808' AS INTEGER) / CAST('-1' AS SMALLINT);
+
+
+/*
+[force_exit_all] #0 0xc227a4 (artm_div_int+0xf4)
+[force_exit_all] #1 0xc23766 (artm_vec+0x7d6)
+[force_exit_all] #2 0x7518c2 (code_vec_run_v+0x10e2)
+[force_exit_all] #3 0x7ac3ff (qn_input+0x38f)
+[force_exit_all] #4 0x7ac8a6 (qn_send_output+0x236)
+[force_exit_all] #5 0x81e26d (set_ctr_vec_input+0x94d)
+[force_exit_all] #6 0x7ac43e (qn_input+0x3ce)
+[force_exit_all] #7 0x7bdc6e (qr_exec+0x11ee)
+[force_exit_all] #8 0x7cb446 (sf_sql_execute+0x11a6)
+[force_exit_all] #9 0x7cbf4e (sf_sql_execute_w+0x17e)
+[force_exit_all] #10 0x7d4c0d (sf_sql_execute_wrapper+0x3d)
+[force_exit_all] #11 0xe1f01c (future_wrapper+0x3fc)
+[force_exit_all] #12 0xe2691e (_thread_boot+0x11e)
+[force_exit_all] #13 0x7ffff7c3a609 (start_thread+0xd9)
+[force_exit_all] #14 0x7ffff7a0a133 (clone+0x43)
+*/

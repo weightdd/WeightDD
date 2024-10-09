@@ -1,0 +1,1746 @@
+=====================Reduction starts.======================
+
+The initial program size is 36
+------------------------------------------------------------
+
+
+=Fixpoint iteration 1. Reducer: perses_node_priority_with_dfs_delta
+
+The spar-tree is the following.
+file_input {id=1}
+|___(*) {id=2,slot_type=kleene_star__file_input_2}
+    |___Token:
+ {id=219,slot_type=[aux_rule__file_input_1,NEWLINE]}
+    |___funcdef {id=79,slot_type=[aux_rule__file_input_1,stmt,funcdef]}
+    |   |___Token:def {id=80,slot_type=DEF}
+    |   |___Token:main {id=81,slot_type=NAME}
+    |   |___parameters {id=82,slot_type=parameters}
+    |   |   |___Token:( {id=217,slot_type=OPEN_PAREN}
+    |   |   |___Token:) {id=218,slot_type=CLOSE_PAREN}
+    |   |___Token:: {id=83,slot_type=COLON}
+    |   |___aux_rule__suite_2 {id=85,slot_type=[suite,aux_rule__suite_2]}
+    |       |___Token:  {id=86,slot_type=NEWLINE}
+    |       |___Token:     {id=87,slot_type=Token}
+    |       |___(+) {id=88,slot_type=kleene_plus__suite_1}
+    |       |   |___simple_stmt {id=169,slot_type=[stmt,simple_stmt]}
+    |       |   |   |___expr_stmt {id=172,slot_type=[small_stmt,expr_stmt]}
+    |       |   |   |   |___Token:a {id=216,slot_type=[testlist_star_expr,altnt_block__testlist_star_expr_4,test,aux_rule__test_3,or_test,and_test,not_test,comparison,expr,xor_expr,and_expr,shift_expr,arith_expr,term,factor,power,atom_expr,atom,NAME]}
+    |       |   |   |   |___(?) {id=174,slot_type=optional__expr_stmt_4}
+    |       |   |   |       |___(+) {id=176,slot_type=[aux_rule__expr_stmt_3,kleene_plus__expr_stmt_2]}
+    |       |   |   |           |___aux_rule__expr_stmt_1 {id=177,slot_type=aux_rule__expr_stmt_1}
+    |       |   |   |               |___Token:= {id=178,slot_type=ASSIGN}
+    |       |   |   |               |___Token:True {id=198,slot_type=[altnt_block__expr_stmt_5,testlist_star_expr,altnt_block__testlist_star_expr_4,test,aux_rule__test_3,or_test,and_test,not_test,comparison,expr,xor_expr,and_expr,shift_expr,arith_expr,term,factor,power,atom_expr,atom,TRUE]}
+    |       |   |   |___Token:  {id=171,slot_type=NEWLINE}
+    |       |   |___if_stmt {id=92,slot_type=[stmt,if_stmt]}
+    |       |       |___Token:if {id=93,slot_type=IF}
+    |       |       |___Token:a {id=168,slot_type=[test,aux_rule__test_3,or_test,and_test,not_test,comparison,expr,xor_expr,and_expr,shift_expr,arith_expr,term,factor,power,atom_expr,atom,NAME]}
+    |       |       |___Token:: {id=95,slot_type=COLON}
+    |       |       |___aux_rule__suite_2 {id=97,slot_type=[suite,aux_rule__suite_2]}
+    |       |           |___Token:  {id=98,slot_type=NEWLINE}
+    |       |           |___Token:         {id=99,slot_type=Token}
+    |       |           |___(+) {id=100,slot_type=kleene_plus__suite_1}
+    |       |           |   |___simple_stmt {id=103,slot_type=[stmt,simple_stmt]}
+    |       |           |       |___atom_expr {id=123,slot_type=[small_stmt,expr_stmt,testlist_star_expr,altnt_block__testlist_star_expr_4,test,aux_rule__test_3,or_test,and_test,not_test,comparison,expr,xor_expr,and_expr,shift_expr,arith_expr,term,factor,power,atom_expr]}
+    |       |           |       |   |___Token:print {id=152,slot_type=[atom,NAME]}
+    |       |           |       |   |___(*) {id=125,slot_type=kleene_star__atom_expr_2}
+    |       |           |       |       |___aux_rule__trailer_2 {id=127,slot_type=[trailer,aux_rule__trailer_2]}
+    |       |           |       |           |___Token:( {id=128,slot_type=OPEN_PAREN}
+    |       |           |       |           |___(?) {id=129,slot_type=optional__decorator_1}
+    |       |           |       |           |   |___(+) {id=150,slot_type=[arglist,argument,aux_rule__argument_3,test,aux_rule__test_3,or_test,and_test,not_test,comparison,expr,xor_expr,and_expr,shift_expr,arith_expr,term,factor,power,atom_expr,atom,kleene_plus__atom_5]}
+    |       |           |       |           |       |___Token:"hello world" {id=151,slot_type=STRING}
+    |       |           |       |           |___Token:) {id=130,slot_type=CLOSE_PAREN}
+    |       |           |       |___Token:
+ {id=105,slot_type=NEWLINE}
+    |       |           |___Token:
+ {id=101,slot_type=Token}
+    |       |___Token:
+ {id=89,slot_type=Token}
+    |___if_stmt {id=7,slot_type=[aux_rule__file_input_1,stmt,if_stmt]}
+        |___Token:if {id=8,slot_type=IF}
+        |___comparison {id=50,slot_type=[test,aux_rule__test_3,or_test,and_test,not_test,comparison]}
+        |   |___Token:__name__ {id=77,slot_type=[expr,xor_expr,and_expr,shift_expr,arith_expr,term,factor,power,atom_expr,atom,NAME]}
+        |   |___(*) {id=52,slot_type=kleene_star__comparison_2}
+        |       |___aux_rule__comparison_1 {id=53,slot_type=aux_rule__comparison_1}
+        |           |___Token:== {id=67,slot_type=[comp_op,EQUALS]}
+        |           |___(+) {id=65,slot_type=[expr,xor_expr,and_expr,shift_expr,arith_expr,term,factor,power,atom_expr,atom,kleene_plus__atom_5]}
+        |               |___Token:'__main__' {id=66,slot_type=STRING}
+        |___Token:: {id=10,slot_type=COLON}
+        |___aux_rule__suite_2 {id=12,slot_type=[suite,aux_rule__suite_2]}
+            |___Token:  {id=13,slot_type=NEWLINE}
+            |___Token:     {id=14,slot_type=Token}
+            |___(+) {id=15,slot_type=kleene_plus__suite_1}
+            |   |___simple_stmt {id=18,slot_type=[stmt,simple_stmt]}
+            |       |___atom_expr {id=38,slot_type=[small_stmt,expr_stmt,testlist_star_expr,altnt_block__testlist_star_expr_4,test,aux_rule__test_3,or_test,and_test,not_test,comparison,expr,xor_expr,and_expr,shift_expr,arith_expr,term,factor,power,atom_expr]}
+            |       |   |___Token:main {id=45,slot_type=[atom,NAME]}
+            |       |   |___(*) {id=40,slot_type=kleene_star__atom_expr_2}
+            |       |       |___aux_rule__trailer_2 {id=42,slot_type=[trailer,aux_rule__trailer_2]}
+            |       |           |___Token:( {id=43,slot_type=OPEN_PAREN}
+            |       |           |___Token:) {id=44,slot_type=CLOSE_PAREN}
+            |       |___Token:) {id=20,slot_type=NEWLINE}
+            |___Token:) {id=16,slot_type=Token}
+------------------------------------------------------------
+
+
+==================Reducing node 2, size=36==================
+
+The current best program is the following
+
+    def main():
+        a = True
+        if a:
+            print("hello world")
+    if __name__ == '__main__':
+        main()
+------------------------------------------------------------
+
+
+============Testing the following program: fail=============
+
+// edit action set type: [kleene_star:kleene_star__file_input_2]dd@3
+------------------------------------------------------------
+
+
+============Testing the following program: fail=============
+
+// edit action set type: [kleene_star:kleene_star__file_input_2]dd@1
+    def main():
+        a = True
+        if a:
+            print("hello world")
+------------------------------------------------------------
+
+
+============Testing the following program: fail=============
+
+// edit action set type: [kleene_star:kleene_star__file_input_2]dd@2
+    if __name__ == '__main__':
+        main()
+------------------------------------------------------------
+
+
+============Testing the following program: fail=============
+
+// edit action set type: [kleene_star:kleene_star__file_input_2]dd@1
+    if __name__ == '__main__':
+        main()
+------------------------------------------------------------
+
+
+============Testing the following program: pass=============
+
+// edit action set type: [kleene_star:kleene_star__file_input_2]dd@1
+    def main():
+        a = True
+        if a:
+            print("hello world")
+    if __name__ == '__main__':
+        main()
+------------------------------------------------------------
+
+
+===========TestScriptExecutionCacheEntryEviction============
+
+0 entries are removed: 0 --> 0.
+------------------------------------------------------------
+
+
+===========Node edit action set cache is cleared.===========
+
+    size before clearance = 0
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Succeeded to reduce node 2 from 36 to 35
+------------------------------------------------------------
+
+
+=================Reducing node 79, size=35==================
+
+The current best program is the following
+
+    def main():
+        a = True
+        if a:
+            print("hello world")
+    if __name__ == '__main__':
+        main()
+------------------------------------------------------------
+
+
+============Testing the following program: fail=============
+
+// edit action set type: [regular_node]can be epsilon
+    if __name__ == '__main__':
+        main()
+------------------------------------------------------------
+
+
+============Testing the following program: fail=============
+
+// edit action set type: [regular node]compatible replacement
+    if __name__ == '__main__':
+        main()
+------------------------------------------------------------
+
+
+============Testing the following program: fail=============
+
+// edit action set type: [regular node]compatible replacement
+    if __name__ == '__main__':
+        main()
+------------------------------------------------------------
+
+
+============Testing the following program: fail=============
+
+// edit action set type: [regular node]compatible replacement
+    if __name__ == '__main__':
+        main()
+------------------------------------------------------------
+
+
+============Testing the following program: fail=============
+
+// edit action set type: [regular node]compatible replacement
+    a = True
+    if __name__ == '__main__':
+        main()
+------------------------------------------------------------
+
+
+============Testing the following program: fail=============
+
+// edit action set type: [regular node]compatible replacement
+    if a:
+        print("hello world")
+    if __name__ == '__main__':
+        main()
+------------------------------------------------------------
+
+
+============Testing the following program: fail=============
+
+// edit action set type: [regular_node]kleene replacement
+    a = True
+    if a:
+        print("hello world")
+    if __name__ == '__main__':
+        main()
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 79
+------------------------------------------------------------
+
+
+=================Reducing node 85, size=35==================
+
+The current best program is the following
+
+    def main():
+        a = True
+        if a:
+            print("hello world")
+    if __name__ == '__main__':
+        main()
+------------------------------------------------------------
+
+
+============Testing the following program: fail=============
+
+// edit action set type: [regular node]compatible replacement
+    def main():
+    a = True
+    if __name__ == '__main__':
+        main()
+------------------------------------------------------------
+
+
+============Testing the following program: fail=============
+
+// edit action set type: [regular node]compatible replacement
+    def main():
+    print("hello world")
+    if __name__ == '__main__':
+        main()
+------------------------------------------------------------
+
+
+============Testing the following program: pass=============
+
+// edit action set type: [regular node]compatible replacement
+    def main():
+        print("hello world")
+    if __name__ == '__main__':
+        main()
+------------------------------------------------------------
+
+
+===========TestScriptExecutionCacheEntryEviction============
+
+0 entries are removed: 0 --> 0.
+------------------------------------------------------------
+
+
+===========Node edit action set cache is cleared.===========
+
+    size before clearance = 0
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Succeeded to reduce node 85 from 35 to 25
+------------------------------------------------------------
+
+
+==================Reducing node 7, size=25==================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    if __name__ == '__main__':
+        main()
+------------------------------------------------------------
+
+
+============Testing the following program: fail=============
+
+// edit action set type: [regular_node]can be epsilon
+    def main():
+        print("hello world")
+------------------------------------------------------------
+
+
+============Testing the following program: fail=============
+
+// edit action set type: [regular node]compatible replacement
+    def main():
+        print("hello world")
+------------------------------------------------------------
+
+
+============Testing the following program: fail=============
+
+// edit action set type: [regular node]compatible replacement
+    def main():
+        print("hello world")
+------------------------------------------------------------
+
+
+============Testing the following program: pass=============
+
+// edit action set type: [regular_node]kleene replacement
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+============Test script execution is cancelled.=============
+
+It took less than 1 second to cancel the task.
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+===========TestScriptExecutionCacheEntryEviction============
+
+0 entries are removed: 0 --> 0.
+------------------------------------------------------------
+
+
+===========Node edit action set cache is cleared.===========
+
+    size before clearance = 0
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Succeeded to reduce node 7 from 25 to 17
+------------------------------------------------------------
+
+
+=================Reducing node 97, size=17==================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+============Testing the following program: fail=============
+
+// edit action set type: [regular node]compatible replacement
+    def main():
+    print("hello world")
+    main()
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 97
+------------------------------------------------------------
+
+
+=================Reducing node 100, size=17=================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 100
+------------------------------------------------------------
+
+
+=================Reducing node 103, size=17=================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 103
+------------------------------------------------------------
+
+
+=================Reducing node 123, size=17=================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+============Testing the following program: fail=============
+
+// edit action set type: [regular node]compatible replacement
+    def main():
+        print
+    main()
+------------------------------------------------------------
+
+
+============Testing the following program: fail=============
+
+// edit action set type: [regular node]compatible replacement
+    def main():
+        "hello world"
+    main()
+------------------------------------------------------------
+
+
+============Testing the following program: fail=============
+
+// edit action set type: [regular node]compatible replacement
+    def main():
+        "hello world"
+    main()
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 123
+------------------------------------------------------------
+
+
+=================Reducing node 15, size=17==================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+============Testing the following program: fail=============
+
+// edit action set type: [kleene_plus:kleene_plus__suite_1]can be epsilon
+    def main():
+        print("hello world")
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 15
+------------------------------------------------------------
+
+
+=================Reducing node 18, size=17==================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+============Testing the following program: fail=============
+
+// edit action set type: [regular_node]can be epsilon
+    def main():
+        print("hello world")
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 18
+------------------------------------------------------------
+
+
+=================Reducing node 125, size=17=================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+============Testing the following program: fail=============
+
+// edit action set type: [kleene_star:kleene_star__atom_expr_2]dd@1
+    def main():
+        print
+    main()
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 125
+------------------------------------------------------------
+
+
+=================Reducing node 127, size=17=================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+============Testing the following program: fail=============
+
+// edit action set type: [regular_node]can be epsilon
+    def main():
+        print
+    main()
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 127
+------------------------------------------------------------
+
+
+=================Reducing node 38, size=17==================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+============Testing the following program: fail=============
+
+// edit action set type: [regular node]compatible replacement
+    def main():
+        print("hello world")
+    main
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 38
+------------------------------------------------------------
+
+
+=================Reducing node 82, size=17==================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 82
+------------------------------------------------------------
+
+
+=================Reducing node 40, size=17==================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+============Testing the following program: fail=============
+
+// edit action set type: [kleene_star:kleene_star__atom_expr_2]dd@1
+    def main():
+        print("hello world")
+    main
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 40
+------------------------------------------------------------
+
+
+=================Reducing node 42, size=17==================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+============Testing the following program: fail=============
+
+// edit action set type: [regular_node]can be epsilon
+    def main():
+        print("hello world")
+    main
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 42
+------------------------------------------------------------
+
+
+=================Reducing node 218, size=17=================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 218
+------------------------------------------------------------
+
+
+=================Reducing node 217, size=17=================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 217
+------------------------------------------------------------
+
+
+=================Reducing node 152, size=17=================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 152
+------------------------------------------------------------
+
+
+=================Reducing node 130, size=17=================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 130
+------------------------------------------------------------
+
+
+=================Reducing node 129, size=17=================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+============Testing the following program: fail=============
+
+// edit action set type: [kleene_star:optional__decorator_1]dd@1
+    def main():
+        print(             )
+    main()
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 129
+------------------------------------------------------------
+
+
+=================Reducing node 150, size=17=================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+============Testing the following program: fail=============
+
+// edit action set type: [kleene_plus:kleene_plus__atom_5]can be epsilon
+    def main():
+        print(             )
+    main()
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 150
+------------------------------------------------------------
+
+
+=================Reducing node 151, size=17=================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 151
+------------------------------------------------------------
+
+
+=================Reducing node 128, size=17=================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 128
+------------------------------------------------------------
+
+
+=================Reducing node 105, size=17=================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 105
+------------------------------------------------------------
+
+
+=================Reducing node 101, size=17=================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 101
+------------------------------------------------------------
+
+
+=================Reducing node 99, size=17==================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 99
+------------------------------------------------------------
+
+
+=================Reducing node 98, size=17==================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 98
+------------------------------------------------------------
+
+
+=================Reducing node 83, size=17==================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 83
+------------------------------------------------------------
+
+
+=================Reducing node 81, size=17==================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 81
+------------------------------------------------------------
+
+
+=================Reducing node 80, size=17==================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 80
+------------------------------------------------------------
+
+
+=================Reducing node 45, size=17==================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 45
+------------------------------------------------------------
+
+
+=================Reducing node 44, size=17==================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 44
+------------------------------------------------------------
+
+
+=================Reducing node 43, size=17==================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 43
+------------------------------------------------------------
+
+
+=================Reducing node 20, size=17==================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 20
+------------------------------------------------------------
+
+
+=Fixpoint iteration 2. Reducer: perses_node_priority_with_dfs_delta
+
+The spar-tree is the following.
+file_input {id=220}
+|___(*) {id=221,slot_type=kleene_star__file_input_2}
+    |___Token:
+ {id=319,slot_type=[aux_rule__file_input_1,NEWLINE]}
+    |___funcdef {id=255,slot_type=[aux_rule__file_input_1,stmt,funcdef]}
+    |   |___Token:def {id=256,slot_type=DEF}
+    |   |___Token:main {id=257,slot_type=NAME}
+    |   |___parameters {id=258,slot_type=parameters}
+    |   |   |___Token:( {id=317,slot_type=OPEN_PAREN}
+    |   |   |___Token:) {id=318,slot_type=CLOSE_PAREN}
+    |   |___Token:: {id=259,slot_type=COLON}
+    |   |___aux_rule__suite_2 {id=261,slot_type=[suite,aux_rule__suite_2]}
+    |       |___Token:  {id=262,slot_type=NEWLINE}
+    |       |___Token:     {id=263,slot_type=Token}
+    |       |___(+) {id=264,slot_type=kleene_plus__suite_1}
+    |       |   |___simple_stmt {id=267,slot_type=[stmt,simple_stmt]}
+    |       |       |___atom_expr {id=287,slot_type=[small_stmt,expr_stmt,testlist_star_expr,altnt_block__testlist_star_expr_4,test,aux_rule__test_3,or_test,and_test,not_test,comparison,expr,xor_expr,and_expr,shift_expr,arith_expr,term,factor,power,atom_expr]}
+    |       |       |   |___Token:print {id=316,slot_type=[atom,NAME]}
+    |       |       |   |___(*) {id=289,slot_type=kleene_star__atom_expr_2}
+    |       |       |       |___aux_rule__trailer_2 {id=291,slot_type=[trailer,aux_rule__trailer_2]}
+    |       |       |           |___Token:( {id=292,slot_type=OPEN_PAREN}
+    |       |       |           |___(?) {id=293,slot_type=optional__decorator_1}
+    |       |       |           |   |___(+) {id=314,slot_type=[arglist,argument,aux_rule__argument_3,test,aux_rule__test_3,or_test,and_test,not_test,comparison,expr,xor_expr,and_expr,shift_expr,arith_expr,term,factor,power,atom_expr,atom,kleene_plus__atom_5]}
+    |       |       |           |       |___Token:"hello world" {id=315,slot_type=STRING}
+    |       |       |           |___Token:) {id=294,slot_type=CLOSE_PAREN}
+    |       |       |___Token:
+ {id=269,slot_type=NEWLINE}
+    |       |___Token:
+ {id=265,slot_type=Token}
+    |___simple_stmt {id=226,slot_type=[aux_rule__file_input_1,stmt,simple_stmt]}
+        |___atom_expr {id=246,slot_type=[small_stmt,expr_stmt,testlist_star_expr,altnt_block__testlist_star_expr_4,test,aux_rule__test_3,or_test,and_test,not_test,comparison,expr,xor_expr,and_expr,shift_expr,arith_expr,term,factor,power,atom_expr]}
+        |   |___Token:main {id=253,slot_type=[atom,NAME]}
+        |   |___(*) {id=248,slot_type=kleene_star__atom_expr_2}
+        |       |___aux_rule__trailer_2 {id=250,slot_type=[trailer,aux_rule__trailer_2]}
+        |           |___Token:( {id=251,slot_type=OPEN_PAREN}
+        |           |___Token:) {id=252,slot_type=CLOSE_PAREN}
+        |___Token:
+ {id=228,slot_type=NEWLINE}
+------------------------------------------------------------
+
+
+=================Reducing node 221, size=18=================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+============Testing the following program: fail=============
+
+// edit action set type: [kleene_star:kleene_star__file_input_2]dd@3
+------------------------------------------------------------
+
+
+============Testing the following program: fail=============
+
+// edit action set type: [kleene_star:kleene_star__file_input_2]dd@1
+    def main():
+        print("hello world")
+------------------------------------------------------------
+
+
+============Testing the following program: fail=============
+
+// edit action set type: [kleene_star:kleene_star__file_input_2]dd@2
+    main()
+------------------------------------------------------------
+
+
+============Testing the following program: fail=============
+
+// edit action set type: [kleene_star:kleene_star__file_input_2]dd@1
+    main()
+------------------------------------------------------------
+
+
+============Testing the following program: pass=============
+
+// edit action set type: [kleene_star:kleene_star__file_input_2]dd@1
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+===========TestScriptExecutionCacheEntryEviction============
+
+0 entries are removed: 0 --> 0.
+------------------------------------------------------------
+
+
+===========Node edit action set cache is cleared.===========
+
+    size before clearance = 0
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Succeeded to reduce node 221 from 18 to 17
+------------------------------------------------------------
+
+
+=================Reducing node 255, size=17=================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+============Testing the following program: fail=============
+
+// edit action set type: [regular_node]can be epsilon
+    main()
+------------------------------------------------------------
+
+
+============Testing the following program: fail=============
+
+// edit action set type: [regular node]compatible replacement
+    main()
+------------------------------------------------------------
+
+
+============Testing the following program: fail=============
+
+// edit action set type: [regular node]compatible replacement
+    main()
+------------------------------------------------------------
+
+
+============Testing the following program: fail=============
+
+// edit action set type: [regular_node]kleene replacement
+    print("hello world")
+    main()
+------------------------------------------------------------
+
+
+============Testing the following program: fail=============
+
+// edit action set type: [regular node]compatible replacement
+    print("hello world")
+    main()
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 255
+------------------------------------------------------------
+
+
+=================Reducing node 261, size=17=================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+============Testing the following program: fail=============
+
+// edit action set type: [regular node]compatible replacement
+    def main():
+    print("hello world")
+    main()
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 261
+------------------------------------------------------------
+
+
+=================Reducing node 264, size=17=================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 264
+------------------------------------------------------------
+
+
+=================Reducing node 267, size=17=================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 267
+------------------------------------------------------------
+
+
+=================Reducing node 287, size=17=================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+============Testing the following program: fail=============
+
+// edit action set type: [regular node]compatible replacement
+    def main():
+        print
+    main()
+------------------------------------------------------------
+
+
+============Testing the following program: fail=============
+
+// edit action set type: [regular node]compatible replacement
+    def main():
+        "hello world"
+    main()
+------------------------------------------------------------
+
+
+============Testing the following program: fail=============
+
+// edit action set type: [regular node]compatible replacement
+    def main():
+        "hello world"
+    main()
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 287
+------------------------------------------------------------
+
+
+=================Reducing node 226, size=17=================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+============Testing the following program: fail=============
+
+// edit action set type: [regular_node]can be epsilon
+    def main():
+        print("hello world")
+------------------------------------------------------------
+
+
+============Testing the following program: fail=============
+
+// edit action set type: [regular node]compatible replacement
+    def main():
+        print("hello world")
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 226
+------------------------------------------------------------
+
+
+=================Reducing node 289, size=17=================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+============Testing the following program: fail=============
+
+// edit action set type: [kleene_star:kleene_star__atom_expr_2]dd@1
+    def main():
+        print
+    main()
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 289
+------------------------------------------------------------
+
+
+=================Reducing node 291, size=17=================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+============Testing the following program: fail=============
+
+// edit action set type: [regular_node]can be epsilon
+    def main():
+        print
+    main()
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 291
+------------------------------------------------------------
+
+
+=================Reducing node 246, size=17=================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+============Testing the following program: fail=============
+
+// edit action set type: [regular node]compatible replacement
+    def main():
+        print("hello world")
+    main
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 246
+------------------------------------------------------------
+
+
+=================Reducing node 258, size=17=================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 258
+------------------------------------------------------------
+
+
+=================Reducing node 248, size=17=================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+============Testing the following program: fail=============
+
+// edit action set type: [kleene_star:kleene_star__atom_expr_2]dd@1
+    def main():
+        print("hello world")
+    main
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 248
+------------------------------------------------------------
+
+
+=================Reducing node 250, size=17=================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+============Testing the following program: fail=============
+
+// edit action set type: [regular_node]can be epsilon
+    def main():
+        print("hello world")
+    main
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 250
+------------------------------------------------------------
+
+
+=================Reducing node 318, size=17=================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 318
+------------------------------------------------------------
+
+
+=================Reducing node 317, size=17=================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 317
+------------------------------------------------------------
+
+
+=================Reducing node 316, size=17=================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 316
+------------------------------------------------------------
+
+
+=================Reducing node 294, size=17=================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 294
+------------------------------------------------------------
+
+
+=================Reducing node 293, size=17=================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+============Testing the following program: fail=============
+
+// edit action set type: [kleene_star:optional__decorator_1]dd@1
+    def main():
+        print(             )
+    main()
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 293
+------------------------------------------------------------
+
+
+=================Reducing node 314, size=17=================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+============Testing the following program: fail=============
+
+// edit action set type: [kleene_plus:kleene_plus__atom_5]can be epsilon
+    def main():
+        print(             )
+    main()
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 314
+------------------------------------------------------------
+
+
+=================Reducing node 315, size=17=================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 315
+------------------------------------------------------------
+
+
+=================Reducing node 292, size=17=================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 292
+------------------------------------------------------------
+
+
+=================Reducing node 269, size=17=================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 269
+------------------------------------------------------------
+
+
+=================Reducing node 265, size=17=================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 265
+------------------------------------------------------------
+
+
+=================Reducing node 263, size=17=================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 263
+------------------------------------------------------------
+
+
+=================Reducing node 262, size=17=================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 262
+------------------------------------------------------------
+
+
+=================Reducing node 259, size=17=================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 259
+------------------------------------------------------------
+
+
+=================Reducing node 257, size=17=================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 257
+------------------------------------------------------------
+
+
+=================Reducing node 256, size=17=================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 256
+------------------------------------------------------------
+
+
+=================Reducing node 253, size=17=================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 253
+------------------------------------------------------------
+
+
+=================Reducing node 252, size=17=================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 252
+------------------------------------------------------------
+
+
+=================Reducing node 251, size=17=================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 251
+------------------------------------------------------------
+
+
+=================Reducing node 228, size=17=================
+
+The current best program is the following
+
+    def main():
+        print("hello world")
+    main()
+------------------------------------------------------------
+
+
+===================Node reduction is done===================
+
+Failed to reduce node 228
+------------------------------------------------------------
+
+
+#test success = 4
+#test failure = 51
+#test result cache hits = 0
+#test execution cancelled = 1
+#node edit action set cache hits = 0
+#external test execution cache hits = 0

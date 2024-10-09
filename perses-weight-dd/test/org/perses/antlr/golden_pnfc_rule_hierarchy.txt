@@ -1,0 +1,4522 @@
+entries {
+  ruleName: "AUX_TOKEN__primaryExpression_1"
+  immediateStringLiterals: "__builtin_va_arg"
+  transitiveStringLiterals: "__builtin_va_arg"
+}
+entries {
+  ruleName: "AUX_TOKEN__primaryExpression_2"
+  immediateStringLiterals: "__builtin_offsetof"
+  transitiveStringLiterals: "__builtin_offsetof"
+}
+entries {
+  ruleName: "AUX_TOKEN__typeSpecifier_1"
+  immediateStringLiterals: "__m128"
+  transitiveStringLiterals: "__m128"
+}
+entries {
+  ruleName: "AUX_TOKEN__typeSpecifier_2"
+  immediateStringLiterals: "__m128d"
+  transitiveStringLiterals: "__m128d"
+}
+entries {
+  ruleName: "AUX_TOKEN__typeSpecifier_3"
+  immediateStringLiterals: "__m128i"
+  transitiveStringLiterals: "__m128i"
+}
+entries {
+  ruleName: "AUX_TOKEN__typeSpecifier_4"
+  immediateStringLiterals: "__typeof__"
+  transitiveStringLiterals: "__typeof__"
+}
+entries {
+  ruleName: "AUX_TOKEN__functionSpecifier_1"
+  immediateStringLiterals: "__inline__"
+  transitiveStringLiterals: "__inline__"
+}
+entries {
+  ruleName: "AUX_TOKEN__functionSpecifier_2"
+  immediateStringLiterals: "__stdcall"
+  transitiveStringLiterals: "__stdcall"
+}
+entries {
+  ruleName: "AUX_TOKEN__functionSpecifier_3"
+  immediateStringLiterals: "__declspec"
+  transitiveStringLiterals: "__declspec"
+}
+entries {
+  ruleName: "AUX_TOKEN__asmKeyword_1"
+  immediateStringLiterals: "asm"
+  transitiveStringLiterals: "asm"
+}
+entries {
+  ruleName: "AUX_TOKEN__asmKeyword_2"
+  immediateStringLiterals: "__asm__"
+  transitiveStringLiterals: "__asm__"
+}
+entries {
+  ruleName: "AUX_TOKEN__asmKeyword_3"
+  immediateStringLiterals: "__asm"
+  transitiveStringLiterals: "__asm"
+}
+entries {
+  ruleName: "AUX_TOKEN__gccAttributeSpecifier_1"
+  immediateStringLiterals: "__attribute__"
+  transitiveStringLiterals: "__attribute__"
+}
+entries {
+  ruleName: "AUX_TOKEN__asmStatement_1"
+  immediateStringLiterals: "__volatile__"
+  transitiveStringLiterals: "__volatile__"
+}
+entries {
+  ruleName: "IncludeDirective"
+}
+entries {
+  ruleName: "Auto"
+  immediateStringLiterals: "auto"
+  transitiveStringLiterals: "auto"
+}
+entries {
+  ruleName: "Break"
+  immediateStringLiterals: "break"
+  transitiveStringLiterals: "break"
+}
+entries {
+  ruleName: "Case"
+  immediateStringLiterals: "case"
+  transitiveStringLiterals: "case"
+}
+entries {
+  ruleName: "Char"
+  immediateStringLiterals: "char"
+  transitiveStringLiterals: "char"
+}
+entries {
+  ruleName: "Const"
+  immediateStringLiterals: "const"
+  transitiveStringLiterals: "const"
+}
+entries {
+  ruleName: "Nonnull"
+  immediateStringLiterals: "_Nonnull"
+  transitiveStringLiterals: "_Nonnull"
+}
+entries {
+  ruleName: "Nullable"
+  immediateStringLiterals: "_Nullable"
+  transitiveStringLiterals: "_Nullable"
+}
+entries {
+  ruleName: "Continue"
+  immediateStringLiterals: "continue"
+  transitiveStringLiterals: "continue"
+}
+entries {
+  ruleName: "Default"
+  immediateStringLiterals: "default"
+  transitiveStringLiterals: "default"
+}
+entries {
+  ruleName: "Do"
+  immediateStringLiterals: "do"
+  transitiveStringLiterals: "do"
+}
+entries {
+  ruleName: "Double"
+  immediateStringLiterals: "double"
+  transitiveStringLiterals: "double"
+}
+entries {
+  ruleName: "Else"
+  immediateStringLiterals: "else"
+  transitiveStringLiterals: "else"
+}
+entries {
+  ruleName: "Enum"
+  immediateStringLiterals: "enum"
+  transitiveStringLiterals: "enum"
+}
+entries {
+  ruleName: "Extern"
+  immediateStringLiterals: "extern"
+  transitiveStringLiterals: "extern"
+}
+entries {
+  ruleName: "Float"
+  immediateStringLiterals: "float"
+  transitiveStringLiterals: "float"
+}
+entries {
+  ruleName: "For"
+  immediateStringLiterals: "for"
+  transitiveStringLiterals: "for"
+}
+entries {
+  ruleName: "Goto"
+  immediateStringLiterals: "goto"
+  transitiveStringLiterals: "goto"
+}
+entries {
+  ruleName: "If"
+  immediateStringLiterals: "if"
+  transitiveStringLiterals: "if"
+}
+entries {
+  ruleName: "Inline"
+  immediateStringLiterals: "inline"
+  transitiveStringLiterals: "inline"
+}
+entries {
+  ruleName: "Int"
+  immediateStringLiterals: "int"
+  transitiveStringLiterals: "int"
+}
+entries {
+  ruleName: "Long"
+  immediateStringLiterals: "long"
+  transitiveStringLiterals: "long"
+}
+entries {
+  ruleName: "Register"
+  immediateStringLiterals: "register"
+  transitiveStringLiterals: "register"
+}
+entries {
+  ruleName: "Restrict"
+  immediateStringLiterals: "restrict"
+  transitiveStringLiterals: "restrict"
+}
+entries {
+  ruleName: "Restrict_gcc"
+  immediateStringLiterals: "__restrict__"
+  transitiveStringLiterals: "__restrict__"
+}
+entries {
+  ruleName: "Restrict_gcc2"
+  immediateStringLiterals: "__restrict"
+  transitiveStringLiterals: "__restrict"
+}
+entries {
+  ruleName: "Extension_gcc"
+  immediateStringLiterals: "__extension__"
+  transitiveStringLiterals: "__extension__"
+}
+entries {
+  ruleName: "Return"
+  immediateStringLiterals: "return"
+  transitiveStringLiterals: "return"
+}
+entries {
+  ruleName: "Short"
+  immediateStringLiterals: "short"
+  transitiveStringLiterals: "short"
+}
+entries {
+  ruleName: "Signed"
+  immediateStringLiterals: "signed"
+  transitiveStringLiterals: "signed"
+}
+entries {
+  ruleName: "Sizeof"
+  immediateStringLiterals: "sizeof"
+  transitiveStringLiterals: "sizeof"
+}
+entries {
+  ruleName: "Static"
+  immediateStringLiterals: "static"
+  transitiveStringLiterals: "static"
+}
+entries {
+  ruleName: "Struct"
+  immediateStringLiterals: "struct"
+  transitiveStringLiterals: "struct"
+}
+entries {
+  ruleName: "Switch"
+  immediateStringLiterals: "switch"
+  transitiveStringLiterals: "switch"
+}
+entries {
+  ruleName: "Typedef"
+  immediateStringLiterals: "typedef"
+  transitiveStringLiterals: "typedef"
+}
+entries {
+  ruleName: "Union"
+  immediateStringLiterals: "union"
+  transitiveStringLiterals: "union"
+}
+entries {
+  ruleName: "Unsigned"
+  immediateStringLiterals: "unsigned"
+  transitiveStringLiterals: "unsigned"
+}
+entries {
+  ruleName: "Void"
+  immediateStringLiterals: "void"
+  transitiveStringLiterals: "void"
+}
+entries {
+  ruleName: "Volatile"
+  immediateStringLiterals: "volatile"
+  transitiveStringLiterals: "volatile"
+}
+entries {
+  ruleName: "While"
+  immediateStringLiterals: "while"
+  transitiveStringLiterals: "while"
+}
+entries {
+  ruleName: "Alignas"
+  immediateStringLiterals: "_Alignas"
+  transitiveStringLiterals: "_Alignas"
+}
+entries {
+  ruleName: "Alignof"
+  immediateStringLiterals: "_Alignof"
+  transitiveStringLiterals: "_Alignof"
+}
+entries {
+  ruleName: "Alignof_gcc"
+  immediateStringLiterals: "__alignof__"
+  transitiveStringLiterals: "__alignof__"
+}
+entries {
+  ruleName: "Atomic"
+  immediateStringLiterals: "_Atomic"
+  transitiveStringLiterals: "_Atomic"
+}
+entries {
+  ruleName: "Bool"
+  immediateStringLiterals: "_Bool"
+  transitiveStringLiterals: "_Bool"
+}
+entries {
+  ruleName: "Complex"
+  immediateStringLiterals: "_Complex"
+  transitiveStringLiterals: "_Complex"
+}
+entries {
+  ruleName: "Generic"
+  immediateStringLiterals: "_Generic"
+  transitiveStringLiterals: "_Generic"
+}
+entries {
+  ruleName: "Imaginary"
+  immediateStringLiterals: "_Imaginary"
+  transitiveStringLiterals: "_Imaginary"
+}
+entries {
+  ruleName: "Noreturn"
+  immediateStringLiterals: "_Noreturn"
+  transitiveStringLiterals: "_Noreturn"
+}
+entries {
+  ruleName: "StaticAssert"
+  immediateStringLiterals: "_Static_assert"
+  transitiveStringLiterals: "_Static_assert"
+}
+entries {
+  ruleName: "ThreadLocal"
+  immediateStringLiterals: "_Thread_local"
+  transitiveStringLiterals: "_Thread_local"
+}
+entries {
+  ruleName: "LeftParen"
+  immediateStringLiterals: "("
+  transitiveStringLiterals: "("
+}
+entries {
+  ruleName: "RightParen"
+  immediateStringLiterals: ")"
+  transitiveStringLiterals: ")"
+}
+entries {
+  ruleName: "LeftBracket"
+  immediateStringLiterals: "["
+  transitiveStringLiterals: "["
+}
+entries {
+  ruleName: "RightBracket"
+  immediateStringLiterals: "]"
+  transitiveStringLiterals: "]"
+}
+entries {
+  ruleName: "LeftBrace"
+  immediateStringLiterals: "{"
+  transitiveStringLiterals: "{"
+}
+entries {
+  ruleName: "RightBrace"
+  immediateStringLiterals: "}"
+  transitiveStringLiterals: "}"
+}
+entries {
+  ruleName: "Less"
+  immediateStringLiterals: "<"
+  transitiveStringLiterals: "<"
+}
+entries {
+  ruleName: "LessEqual"
+  immediateStringLiterals: "<="
+  transitiveStringLiterals: "<="
+}
+entries {
+  ruleName: "Greater"
+  immediateStringLiterals: ">"
+  transitiveStringLiterals: ">"
+}
+entries {
+  ruleName: "GreaterEqual"
+  immediateStringLiterals: ">="
+  transitiveStringLiterals: ">="
+}
+entries {
+  ruleName: "LeftShift"
+  immediateStringLiterals: "<<"
+  transitiveStringLiterals: "<<"
+}
+entries {
+  ruleName: "RightShift"
+  immediateStringLiterals: ">>"
+  transitiveStringLiterals: ">>"
+}
+entries {
+  ruleName: "Plus"
+  immediateStringLiterals: "+"
+  transitiveStringLiterals: "+"
+}
+entries {
+  ruleName: "PlusPlus"
+  immediateStringLiterals: "++"
+  transitiveStringLiterals: "++"
+}
+entries {
+  ruleName: "Minus"
+  immediateStringLiterals: "-"
+  transitiveStringLiterals: "-"
+}
+entries {
+  ruleName: "MinusMinus"
+  immediateStringLiterals: "--"
+  transitiveStringLiterals: "--"
+}
+entries {
+  ruleName: "Star"
+  immediateStringLiterals: "*"
+  transitiveStringLiterals: "*"
+}
+entries {
+  ruleName: "Div"
+  immediateStringLiterals: "/"
+  transitiveStringLiterals: "/"
+}
+entries {
+  ruleName: "Mod"
+  immediateStringLiterals: "%"
+  transitiveStringLiterals: "%"
+}
+entries {
+  ruleName: "And"
+  immediateStringLiterals: "&"
+  transitiveStringLiterals: "&"
+}
+entries {
+  ruleName: "Or"
+  immediateStringLiterals: "|"
+  transitiveStringLiterals: "|"
+}
+entries {
+  ruleName: "AndAnd"
+  immediateStringLiterals: "&&"
+  transitiveStringLiterals: "&&"
+}
+entries {
+  ruleName: "OrOr"
+  immediateStringLiterals: "||"
+  transitiveStringLiterals: "||"
+}
+entries {
+  ruleName: "Caret"
+  immediateStringLiterals: "^"
+  transitiveStringLiterals: "^"
+}
+entries {
+  ruleName: "Not"
+  immediateStringLiterals: "!"
+  transitiveStringLiterals: "!"
+}
+entries {
+  ruleName: "Tilde"
+  immediateStringLiterals: "~"
+  transitiveStringLiterals: "~"
+}
+entries {
+  ruleName: "Question"
+  immediateStringLiterals: "?"
+  transitiveStringLiterals: "?"
+}
+entries {
+  ruleName: "Colon"
+  immediateStringLiterals: ":"
+  transitiveStringLiterals: ":"
+}
+entries {
+  ruleName: "Semi"
+  immediateStringLiterals: ";"
+  transitiveStringLiterals: ";"
+}
+entries {
+  ruleName: "Comma"
+  immediateStringLiterals: ","
+  transitiveStringLiterals: ","
+}
+entries {
+  ruleName: "Assign"
+  immediateStringLiterals: "="
+  transitiveStringLiterals: "="
+}
+entries {
+  ruleName: "StarAssign"
+  immediateStringLiterals: "*="
+  transitiveStringLiterals: "*="
+}
+entries {
+  ruleName: "DivAssign"
+  immediateStringLiterals: "/="
+  transitiveStringLiterals: "/="
+}
+entries {
+  ruleName: "ModAssign"
+  immediateStringLiterals: "%="
+  transitiveStringLiterals: "%="
+}
+entries {
+  ruleName: "PlusAssign"
+  immediateStringLiterals: "+="
+  transitiveStringLiterals: "+="
+}
+entries {
+  ruleName: "MinusAssign"
+  immediateStringLiterals: "-="
+  transitiveStringLiterals: "-="
+}
+entries {
+  ruleName: "LeftShiftAssign"
+  immediateStringLiterals: "<<="
+  transitiveStringLiterals: "<<="
+}
+entries {
+  ruleName: "RightShiftAssign"
+  immediateStringLiterals: ">>="
+  transitiveStringLiterals: ">>="
+}
+entries {
+  ruleName: "AndAssign"
+  immediateStringLiterals: "&="
+  transitiveStringLiterals: "&="
+}
+entries {
+  ruleName: "XorAssign"
+  immediateStringLiterals: "^="
+  transitiveStringLiterals: "^="
+}
+entries {
+  ruleName: "OrAssign"
+  immediateStringLiterals: "|="
+  transitiveStringLiterals: "|="
+}
+entries {
+  ruleName: "Equal"
+  immediateStringLiterals: "=="
+  transitiveStringLiterals: "=="
+}
+entries {
+  ruleName: "NotEqual"
+  immediateStringLiterals: "!="
+  transitiveStringLiterals: "!="
+}
+entries {
+  ruleName: "Arrow"
+  immediateStringLiterals: "->"
+  transitiveStringLiterals: "->"
+}
+entries {
+  ruleName: "Dot"
+  immediateStringLiterals: "."
+  transitiveStringLiterals: "."
+}
+entries {
+  ruleName: "Ellipsis"
+  immediateStringLiterals: "..."
+  transitiveStringLiterals: "..."
+}
+entries {
+  ruleName: "Identifier"
+}
+entries {
+  ruleName: "IdentifierNondigit"
+}
+entries {
+  ruleName: "Nondigit"
+}
+entries {
+  ruleName: "Digit"
+}
+entries {
+  ruleName: "UniversalCharacterName"
+}
+entries {
+  ruleName: "HexQuad"
+}
+entries {
+  ruleName: "Constant"
+}
+entries {
+  ruleName: "IntegerConstant"
+}
+entries {
+  ruleName: "BinaryConstant"
+}
+entries {
+  ruleName: "DecimalConstant"
+}
+entries {
+  ruleName: "OctalConstant"
+}
+entries {
+  ruleName: "HexadecimalConstant"
+}
+entries {
+  ruleName: "HexadecimalPrefix"
+}
+entries {
+  ruleName: "NonzeroDigit"
+}
+entries {
+  ruleName: "OctalDigit"
+}
+entries {
+  ruleName: "HexadecimalDigit"
+}
+entries {
+  ruleName: "IntegerSuffix"
+}
+entries {
+  ruleName: "UnsignedSuffix"
+}
+entries {
+  ruleName: "LongSuffix"
+}
+entries {
+  ruleName: "LongLongSuffix"
+}
+entries {
+  ruleName: "FloatingConstant"
+}
+entries {
+  ruleName: "DecimalFloatingConstant"
+}
+entries {
+  ruleName: "HexadecimalFloatingConstant"
+}
+entries {
+  ruleName: "FractionalConstant"
+}
+entries {
+  ruleName: "ExponentPart"
+}
+entries {
+  ruleName: "Sign"
+}
+entries {
+  ruleName: "DigitSequence"
+}
+entries {
+  ruleName: "HexadecimalFractionalConstant"
+}
+entries {
+  ruleName: "BinaryExponentPart"
+}
+entries {
+  ruleName: "HexadecimalDigitSequence"
+}
+entries {
+  ruleName: "FloatingSuffix"
+}
+entries {
+  ruleName: "CharacterConstant"
+}
+entries {
+  ruleName: "CCharSequence"
+}
+entries {
+  ruleName: "CChar"
+}
+entries {
+  ruleName: "EscapeSequence"
+}
+entries {
+  ruleName: "SimpleEscapeSequence"
+}
+entries {
+  ruleName: "OctalEscapeSequence"
+}
+entries {
+  ruleName: "HexadecimalEscapeSequence"
+}
+entries {
+  ruleName: "StringLiteral"
+}
+entries {
+  ruleName: "EncodingPrefix"
+}
+entries {
+  ruleName: "SCharSequence"
+}
+entries {
+  ruleName: "SChar"
+}
+entries {
+  ruleName: "ComplexDefine"
+}
+entries {
+  ruleName: "AsmBlock"
+}
+entries {
+  ruleName: "LineAfterPreprocessing"
+}
+entries {
+  ruleName: "LineDirective"
+}
+entries {
+  ruleName: "PragmaDirective"
+}
+entries {
+  ruleName: "Whitespace"
+}
+entries {
+  ruleName: "Newline"
+}
+entries {
+  ruleName: "BlockComment"
+}
+entries {
+  ruleName: "LineComment"
+}
+entries {
+  ruleName: "genericSelection"
+}
+entries {
+  ruleName: "genericAssociation"
+}
+entries {
+  ruleName: "unaryExpression"
+  immediateSubRuleNames: "aux_rule__unaryExpression_5"
+  immediateSubRuleNames: "aux_rule__unaryExpression_6"
+  immediateSubRuleNames: "aux_rule__unaryExpression_7"
+  immediateSubRuleNames: "aux_rule__unaryExpression_8"
+  immediateSubRuleNames: "postfixExpression"
+  transitiveSubRuleNames: "Constant"
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "StringLiteral"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_13"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_14"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_4"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_5"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_6"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_7"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_8"
+  transitiveSubRuleNames: "genericSelection"
+  transitiveSubRuleNames: "kleene_plus__primaryExpression_1"
+  transitiveSubRuleNames: "postfixExpression"
+}
+entries {
+  ruleName: "unaryOperator"
+  immediateSubRuleNames: "And"
+  immediateSubRuleNames: "Minus"
+  immediateSubRuleNames: "Not"
+  immediateSubRuleNames: "Plus"
+  immediateSubRuleNames: "Star"
+  immediateSubRuleNames: "Tilde"
+  transitiveSubRuleNames: "And"
+  transitiveSubRuleNames: "Minus"
+  transitiveSubRuleNames: "Not"
+  transitiveSubRuleNames: "Plus"
+  transitiveSubRuleNames: "Star"
+  transitiveSubRuleNames: "Tilde"
+  transitiveStringLiterals: "!"
+  transitiveStringLiterals: "&"
+  transitiveStringLiterals: "*"
+  transitiveStringLiterals: "+"
+  transitiveStringLiterals: "-"
+  transitiveStringLiterals: "~"
+}
+entries {
+  ruleName: "castExpression"
+  immediateSubRuleNames: "aux_rule__castExpression_2"
+  immediateSubRuleNames: "unaryExpression"
+  transitiveSubRuleNames: "Constant"
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "StringLiteral"
+  transitiveSubRuleNames: "aux_rule__castExpression_2"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_13"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_14"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_4"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_5"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_6"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_7"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_8"
+  transitiveSubRuleNames: "genericSelection"
+  transitiveSubRuleNames: "kleene_plus__primaryExpression_1"
+  transitiveSubRuleNames: "postfixExpression"
+  transitiveSubRuleNames: "unaryExpression"
+}
+entries {
+  ruleName: "conditionalExpression"
+  immediateSubRuleNames: "logicalOrExpression"
+  transitiveSubRuleNames: "Constant"
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "StringLiteral"
+  transitiveSubRuleNames: "additiveExpression"
+  transitiveSubRuleNames: "andExpression"
+  transitiveSubRuleNames: "aux_rule__castExpression_2"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_13"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_14"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_4"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_5"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_6"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_7"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_8"
+  transitiveSubRuleNames: "castExpression"
+  transitiveSubRuleNames: "equalityExpression"
+  transitiveSubRuleNames: "exclusiveOrExpression"
+  transitiveSubRuleNames: "genericSelection"
+  transitiveSubRuleNames: "inclusiveOrExpression"
+  transitiveSubRuleNames: "kleene_plus__primaryExpression_1"
+  transitiveSubRuleNames: "logicalAndExpression"
+  transitiveSubRuleNames: "logicalOrExpression"
+  transitiveSubRuleNames: "multiplicativeExpression"
+  transitiveSubRuleNames: "postfixExpression"
+  transitiveSubRuleNames: "relationalExpression"
+  transitiveSubRuleNames: "shiftExpression"
+  transitiveSubRuleNames: "unaryExpression"
+}
+entries {
+  ruleName: "assignmentExpression"
+  immediateSubRuleNames: "aux_rule__assignmentExpression_1"
+  immediateSubRuleNames: "conditionalExpression"
+  transitiveSubRuleNames: "Constant"
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "StringLiteral"
+  transitiveSubRuleNames: "additiveExpression"
+  transitiveSubRuleNames: "andExpression"
+  transitiveSubRuleNames: "aux_rule__assignmentExpression_1"
+  transitiveSubRuleNames: "aux_rule__castExpression_2"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_13"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_14"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_4"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_5"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_6"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_7"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_8"
+  transitiveSubRuleNames: "castExpression"
+  transitiveSubRuleNames: "conditionalExpression"
+  transitiveSubRuleNames: "equalityExpression"
+  transitiveSubRuleNames: "exclusiveOrExpression"
+  transitiveSubRuleNames: "genericSelection"
+  transitiveSubRuleNames: "inclusiveOrExpression"
+  transitiveSubRuleNames: "kleene_plus__primaryExpression_1"
+  transitiveSubRuleNames: "logicalAndExpression"
+  transitiveSubRuleNames: "logicalOrExpression"
+  transitiveSubRuleNames: "multiplicativeExpression"
+  transitiveSubRuleNames: "postfixExpression"
+  transitiveSubRuleNames: "relationalExpression"
+  transitiveSubRuleNames: "shiftExpression"
+  transitiveSubRuleNames: "unaryExpression"
+}
+entries {
+  ruleName: "assignmentOperator"
+  immediateSubRuleNames: "AndAssign"
+  immediateSubRuleNames: "Assign"
+  immediateSubRuleNames: "DivAssign"
+  immediateSubRuleNames: "LeftShiftAssign"
+  immediateSubRuleNames: "MinusAssign"
+  immediateSubRuleNames: "ModAssign"
+  immediateSubRuleNames: "OrAssign"
+  immediateSubRuleNames: "PlusAssign"
+  immediateSubRuleNames: "RightShiftAssign"
+  immediateSubRuleNames: "StarAssign"
+  immediateSubRuleNames: "XorAssign"
+  transitiveSubRuleNames: "AndAssign"
+  transitiveSubRuleNames: "Assign"
+  transitiveSubRuleNames: "DivAssign"
+  transitiveSubRuleNames: "LeftShiftAssign"
+  transitiveSubRuleNames: "MinusAssign"
+  transitiveSubRuleNames: "ModAssign"
+  transitiveSubRuleNames: "OrAssign"
+  transitiveSubRuleNames: "PlusAssign"
+  transitiveSubRuleNames: "RightShiftAssign"
+  transitiveSubRuleNames: "StarAssign"
+  transitiveSubRuleNames: "XorAssign"
+  transitiveStringLiterals: "%="
+  transitiveStringLiterals: "&="
+  transitiveStringLiterals: "*="
+  transitiveStringLiterals: "+="
+  transitiveStringLiterals: "-="
+  transitiveStringLiterals: "/="
+  transitiveStringLiterals: "<<="
+  transitiveStringLiterals: "="
+  transitiveStringLiterals: ">>="
+  transitiveStringLiterals: "^="
+  transitiveStringLiterals: "|="
+}
+entries {
+  ruleName: "constantExpression"
+  immediateSubRuleNames: "conditionalExpression"
+  transitiveSubRuleNames: "Constant"
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "StringLiteral"
+  transitiveSubRuleNames: "additiveExpression"
+  transitiveSubRuleNames: "andExpression"
+  transitiveSubRuleNames: "aux_rule__castExpression_2"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_13"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_14"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_4"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_5"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_6"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_7"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_8"
+  transitiveSubRuleNames: "castExpression"
+  transitiveSubRuleNames: "conditionalExpression"
+  transitiveSubRuleNames: "equalityExpression"
+  transitiveSubRuleNames: "exclusiveOrExpression"
+  transitiveSubRuleNames: "genericSelection"
+  transitiveSubRuleNames: "inclusiveOrExpression"
+  transitiveSubRuleNames: "kleene_plus__primaryExpression_1"
+  transitiveSubRuleNames: "logicalAndExpression"
+  transitiveSubRuleNames: "logicalOrExpression"
+  transitiveSubRuleNames: "multiplicativeExpression"
+  transitiveSubRuleNames: "postfixExpression"
+  transitiveSubRuleNames: "relationalExpression"
+  transitiveSubRuleNames: "shiftExpression"
+  transitiveSubRuleNames: "unaryExpression"
+}
+entries {
+  ruleName: "declaration"
+  immediateSubRuleNames: "asmStatement"
+  immediateSubRuleNames: "aux_rule__declaration_3"
+  immediateSubRuleNames: "staticAssertDeclaration"
+  transitiveSubRuleNames: "asmStatement"
+  transitiveSubRuleNames: "aux_rule__declaration_3"
+  transitiveSubRuleNames: "staticAssertDeclaration"
+}
+entries {
+  ruleName: "declarationSpecifiers"
+  immediateSubRuleNames: "declarationSpecifier"
+  transitiveSubRuleNames: "AUX_TOKEN__functionSpecifier_1"
+  transitiveSubRuleNames: "AUX_TOKEN__functionSpecifier_2"
+  transitiveSubRuleNames: "AUX_TOKEN__typeSpecifier_1"
+  transitiveSubRuleNames: "AUX_TOKEN__typeSpecifier_2"
+  transitiveSubRuleNames: "AUX_TOKEN__typeSpecifier_3"
+  transitiveSubRuleNames: "Atomic"
+  transitiveSubRuleNames: "Auto"
+  transitiveSubRuleNames: "Bool"
+  transitiveSubRuleNames: "Char"
+  transitiveSubRuleNames: "Complex"
+  transitiveSubRuleNames: "Const"
+  transitiveSubRuleNames: "Double"
+  transitiveSubRuleNames: "Extern"
+  transitiveSubRuleNames: "Float"
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "Inline"
+  transitiveSubRuleNames: "Int"
+  transitiveSubRuleNames: "Long"
+  transitiveSubRuleNames: "Nonnull"
+  transitiveSubRuleNames: "Noreturn"
+  transitiveSubRuleNames: "Nullable"
+  transitiveSubRuleNames: "Register"
+  transitiveSubRuleNames: "Restrict"
+  transitiveSubRuleNames: "Restrict_gcc"
+  transitiveSubRuleNames: "Restrict_gcc2"
+  transitiveSubRuleNames: "Short"
+  transitiveSubRuleNames: "Signed"
+  transitiveSubRuleNames: "Static"
+  transitiveSubRuleNames: "ThreadLocal"
+  transitiveSubRuleNames: "Typedef"
+  transitiveSubRuleNames: "Unsigned"
+  transitiveSubRuleNames: "Void"
+  transitiveSubRuleNames: "Volatile"
+  transitiveSubRuleNames: "alignmentSpecifier"
+  transitiveSubRuleNames: "atomicTypeSpecifier"
+  transitiveSubRuleNames: "aux_rule__declarationSpecifier_1"
+  transitiveSubRuleNames: "aux_rule__typeSpecifier_3"
+  transitiveSubRuleNames: "declarationSpecifier"
+  transitiveSubRuleNames: "enumSpecifier"
+  transitiveSubRuleNames: "gccAttributeSpecifier"
+  transitiveSubRuleNames: "structOrUnionSpecifier"
+  transitiveSubRuleNames: "typeQualifier"
+  transitiveSubRuleNames: "typeSpecifier"
+  transitiveSubRuleNames: "typeSpecifierWithAttrList"
+  transitiveSubRuleNames: "typedefName"
+  transitiveStringLiterals: "_Atomic"
+  transitiveStringLiterals: "_Bool"
+  transitiveStringLiterals: "_Complex"
+  transitiveStringLiterals: "_Nonnull"
+  transitiveStringLiterals: "_Noreturn"
+  transitiveStringLiterals: "_Nullable"
+  transitiveStringLiterals: "_Thread_local"
+  transitiveStringLiterals: "__inline__"
+  transitiveStringLiterals: "__m128"
+  transitiveStringLiterals: "__m128d"
+  transitiveStringLiterals: "__m128i"
+  transitiveStringLiterals: "__restrict"
+  transitiveStringLiterals: "__restrict__"
+  transitiveStringLiterals: "__stdcall"
+  transitiveStringLiterals: "auto"
+  transitiveStringLiterals: "char"
+  transitiveStringLiterals: "const"
+  transitiveStringLiterals: "double"
+  transitiveStringLiterals: "extern"
+  transitiveStringLiterals: "float"
+  transitiveStringLiterals: "inline"
+  transitiveStringLiterals: "int"
+  transitiveStringLiterals: "long"
+  transitiveStringLiterals: "register"
+  transitiveStringLiterals: "restrict"
+  transitiveStringLiterals: "short"
+  transitiveStringLiterals: "signed"
+  transitiveStringLiterals: "static"
+  transitiveStringLiterals: "typedef"
+  transitiveStringLiterals: "unsigned"
+  transitiveStringLiterals: "void"
+  transitiveStringLiterals: "volatile"
+}
+entries {
+  ruleName: "initDeclarator"
+  immediateSubRuleNames: "declarator"
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "aux_rule__directDeclarator_16"
+  transitiveSubRuleNames: "aux_rule__directDeclarator_9"
+  transitiveSubRuleNames: "declarator"
+  transitiveSubRuleNames: "directDeclarator"
+}
+entries {
+  ruleName: "typeSpecifier"
+  immediateSubRuleNames: "AUX_TOKEN__typeSpecifier_1"
+  immediateSubRuleNames: "AUX_TOKEN__typeSpecifier_2"
+  immediateSubRuleNames: "AUX_TOKEN__typeSpecifier_3"
+  immediateSubRuleNames: "Bool"
+  immediateSubRuleNames: "Char"
+  immediateSubRuleNames: "Complex"
+  immediateSubRuleNames: "Double"
+  immediateSubRuleNames: "Float"
+  immediateSubRuleNames: "Int"
+  immediateSubRuleNames: "Long"
+  immediateSubRuleNames: "Short"
+  immediateSubRuleNames: "Signed"
+  immediateSubRuleNames: "Unsigned"
+  immediateSubRuleNames: "Void"
+  immediateSubRuleNames: "atomicTypeSpecifier"
+  immediateSubRuleNames: "aux_rule__typeSpecifier_3"
+  immediateSubRuleNames: "enumSpecifier"
+  immediateSubRuleNames: "structOrUnionSpecifier"
+  immediateSubRuleNames: "typedefName"
+  transitiveSubRuleNames: "AUX_TOKEN__typeSpecifier_1"
+  transitiveSubRuleNames: "AUX_TOKEN__typeSpecifier_2"
+  transitiveSubRuleNames: "AUX_TOKEN__typeSpecifier_3"
+  transitiveSubRuleNames: "Bool"
+  transitiveSubRuleNames: "Char"
+  transitiveSubRuleNames: "Complex"
+  transitiveSubRuleNames: "Double"
+  transitiveSubRuleNames: "Float"
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "Int"
+  transitiveSubRuleNames: "Long"
+  transitiveSubRuleNames: "Short"
+  transitiveSubRuleNames: "Signed"
+  transitiveSubRuleNames: "Unsigned"
+  transitiveSubRuleNames: "Void"
+  transitiveSubRuleNames: "atomicTypeSpecifier"
+  transitiveSubRuleNames: "aux_rule__typeSpecifier_3"
+  transitiveSubRuleNames: "enumSpecifier"
+  transitiveSubRuleNames: "structOrUnionSpecifier"
+  transitiveSubRuleNames: "typedefName"
+  transitiveStringLiterals: "_Bool"
+  transitiveStringLiterals: "_Complex"
+  transitiveStringLiterals: "__m128"
+  transitiveStringLiterals: "__m128d"
+  transitiveStringLiterals: "__m128i"
+  transitiveStringLiterals: "char"
+  transitiveStringLiterals: "double"
+  transitiveStringLiterals: "float"
+  transitiveStringLiterals: "int"
+  transitiveStringLiterals: "long"
+  transitiveStringLiterals: "short"
+  transitiveStringLiterals: "signed"
+  transitiveStringLiterals: "unsigned"
+  transitiveStringLiterals: "void"
+}
+entries {
+  ruleName: "typeSpecifierWithAttrList"
+  immediateSubRuleNames: "typeSpecifier"
+  transitiveSubRuleNames: "AUX_TOKEN__typeSpecifier_1"
+  transitiveSubRuleNames: "AUX_TOKEN__typeSpecifier_2"
+  transitiveSubRuleNames: "AUX_TOKEN__typeSpecifier_3"
+  transitiveSubRuleNames: "Bool"
+  transitiveSubRuleNames: "Char"
+  transitiveSubRuleNames: "Complex"
+  transitiveSubRuleNames: "Double"
+  transitiveSubRuleNames: "Float"
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "Int"
+  transitiveSubRuleNames: "Long"
+  transitiveSubRuleNames: "Short"
+  transitiveSubRuleNames: "Signed"
+  transitiveSubRuleNames: "Unsigned"
+  transitiveSubRuleNames: "Void"
+  transitiveSubRuleNames: "atomicTypeSpecifier"
+  transitiveSubRuleNames: "aux_rule__typeSpecifier_3"
+  transitiveSubRuleNames: "enumSpecifier"
+  transitiveSubRuleNames: "structOrUnionSpecifier"
+  transitiveSubRuleNames: "typeSpecifier"
+  transitiveSubRuleNames: "typedefName"
+  transitiveStringLiterals: "_Bool"
+  transitiveStringLiterals: "_Complex"
+  transitiveStringLiterals: "__m128"
+  transitiveStringLiterals: "__m128d"
+  transitiveStringLiterals: "__m128i"
+  transitiveStringLiterals: "char"
+  transitiveStringLiterals: "double"
+  transitiveStringLiterals: "float"
+  transitiveStringLiterals: "int"
+  transitiveStringLiterals: "long"
+  transitiveStringLiterals: "short"
+  transitiveStringLiterals: "signed"
+  transitiveStringLiterals: "unsigned"
+  transitiveStringLiterals: "void"
+}
+entries {
+  ruleName: "structOrUnionSpecifier"
+}
+entries {
+  ruleName: "structOrUnion"
+  immediateSubRuleNames: "Struct"
+  immediateSubRuleNames: "Union"
+  transitiveSubRuleNames: "Struct"
+  transitiveSubRuleNames: "Union"
+  transitiveStringLiterals: "struct"
+  transitiveStringLiterals: "union"
+}
+entries {
+  ruleName: "specifierQualifierList"
+  immediateSubRuleNames: "altnt_block__specifierQualifierList_3"
+  transitiveSubRuleNames: "AUX_TOKEN__typeSpecifier_1"
+  transitiveSubRuleNames: "AUX_TOKEN__typeSpecifier_2"
+  transitiveSubRuleNames: "AUX_TOKEN__typeSpecifier_3"
+  transitiveSubRuleNames: "Atomic"
+  transitiveSubRuleNames: "Bool"
+  transitiveSubRuleNames: "Char"
+  transitiveSubRuleNames: "Complex"
+  transitiveSubRuleNames: "Const"
+  transitiveSubRuleNames: "Double"
+  transitiveSubRuleNames: "Float"
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "Int"
+  transitiveSubRuleNames: "Long"
+  transitiveSubRuleNames: "Nonnull"
+  transitiveSubRuleNames: "Nullable"
+  transitiveSubRuleNames: "Restrict"
+  transitiveSubRuleNames: "Restrict_gcc"
+  transitiveSubRuleNames: "Restrict_gcc2"
+  transitiveSubRuleNames: "Short"
+  transitiveSubRuleNames: "Signed"
+  transitiveSubRuleNames: "Unsigned"
+  transitiveSubRuleNames: "Void"
+  transitiveSubRuleNames: "Volatile"
+  transitiveSubRuleNames: "altnt_block__specifierQualifierList_3"
+  transitiveSubRuleNames: "atomicTypeSpecifier"
+  transitiveSubRuleNames: "aux_rule__typeSpecifier_3"
+  transitiveSubRuleNames: "enumSpecifier"
+  transitiveSubRuleNames: "structOrUnionSpecifier"
+  transitiveSubRuleNames: "typeQualifier"
+  transitiveSubRuleNames: "typeSpecifier"
+  transitiveSubRuleNames: "typeSpecifierWithAttrList"
+  transitiveSubRuleNames: "typedefName"
+  transitiveStringLiterals: "_Atomic"
+  transitiveStringLiterals: "_Bool"
+  transitiveStringLiterals: "_Complex"
+  transitiveStringLiterals: "_Nonnull"
+  transitiveStringLiterals: "_Nullable"
+  transitiveStringLiterals: "__m128"
+  transitiveStringLiterals: "__m128d"
+  transitiveStringLiterals: "__m128i"
+  transitiveStringLiterals: "__restrict"
+  transitiveStringLiterals: "__restrict__"
+  transitiveStringLiterals: "char"
+  transitiveStringLiterals: "const"
+  transitiveStringLiterals: "double"
+  transitiveStringLiterals: "float"
+  transitiveStringLiterals: "int"
+  transitiveStringLiterals: "long"
+  transitiveStringLiterals: "restrict"
+  transitiveStringLiterals: "short"
+  transitiveStringLiterals: "signed"
+  transitiveStringLiterals: "unsigned"
+  transitiveStringLiterals: "void"
+  transitiveStringLiterals: "volatile"
+}
+entries {
+  ruleName: "structDeclarator"
+  immediateSubRuleNames: "aux_rule__structDeclarator_2"
+  immediateSubRuleNames: "declarator"
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "aux_rule__directDeclarator_16"
+  transitiveSubRuleNames: "aux_rule__directDeclarator_9"
+  transitiveSubRuleNames: "aux_rule__structDeclarator_2"
+  transitiveSubRuleNames: "declarator"
+  transitiveSubRuleNames: "directDeclarator"
+}
+entries {
+  ruleName: "enumSpecifier"
+}
+entries {
+  ruleName: "enumerator"
+  immediateSubRuleNames: "typedefName"
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "typedefName"
+}
+entries {
+  ruleName: "atomicTypeSpecifier"
+}
+entries {
+  ruleName: "typeQualifier"
+  immediateSubRuleNames: "Atomic"
+  immediateSubRuleNames: "Const"
+  immediateSubRuleNames: "Nonnull"
+  immediateSubRuleNames: "Nullable"
+  immediateSubRuleNames: "Restrict"
+  immediateSubRuleNames: "Restrict_gcc"
+  immediateSubRuleNames: "Restrict_gcc2"
+  immediateSubRuleNames: "Volatile"
+  transitiveSubRuleNames: "Atomic"
+  transitiveSubRuleNames: "Const"
+  transitiveSubRuleNames: "Nonnull"
+  transitiveSubRuleNames: "Nullable"
+  transitiveSubRuleNames: "Restrict"
+  transitiveSubRuleNames: "Restrict_gcc"
+  transitiveSubRuleNames: "Restrict_gcc2"
+  transitiveSubRuleNames: "Volatile"
+  transitiveStringLiterals: "_Atomic"
+  transitiveStringLiterals: "_Nonnull"
+  transitiveStringLiterals: "_Nullable"
+  transitiveStringLiterals: "__restrict"
+  transitiveStringLiterals: "__restrict__"
+  transitiveStringLiterals: "const"
+  transitiveStringLiterals: "restrict"
+  transitiveStringLiterals: "volatile"
+}
+entries {
+  ruleName: "alignmentSpecifier"
+}
+entries {
+  ruleName: "declarator"
+  immediateSubRuleNames: "directDeclarator"
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "aux_rule__directDeclarator_16"
+  transitiveSubRuleNames: "aux_rule__directDeclarator_9"
+  transitiveSubRuleNames: "directDeclarator"
+}
+entries {
+  ruleName: "gccDeclaratorExtension"
+  immediateSubRuleNames: "aux_rule__gccDeclaratorExtension_2"
+  immediateSubRuleNames: "gccAttributeSpecifier"
+  transitiveSubRuleNames: "aux_rule__gccDeclaratorExtension_2"
+  transitiveSubRuleNames: "gccAttributeSpecifier"
+}
+entries {
+  ruleName: "asmKeyword"
+  immediateSubRuleNames: "AUX_TOKEN__asmKeyword_1"
+  immediateSubRuleNames: "AUX_TOKEN__asmKeyword_2"
+  immediateSubRuleNames: "AUX_TOKEN__asmKeyword_3"
+  transitiveSubRuleNames: "AUX_TOKEN__asmKeyword_1"
+  transitiveSubRuleNames: "AUX_TOKEN__asmKeyword_2"
+  transitiveSubRuleNames: "AUX_TOKEN__asmKeyword_3"
+  transitiveStringLiterals: "__asm"
+  transitiveStringLiterals: "__asm__"
+  transitiveStringLiterals: "asm"
+}
+entries {
+  ruleName: "gccAttributeSpecifier"
+}
+entries {
+  ruleName: "gccAttributeList"
+  immediateSubRuleNames: "aux_rule__gccAttributeList_3"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "Comma"
+  transitiveSubRuleNames: "aux_rule__gccAttributeList_1"
+  transitiveSubRuleNames: "aux_rule__gccAttributeList_3"
+  transitiveSubRuleNames: "aux_rule__gccAttribute_4"
+  transitiveSubRuleNames: "gccAttribute"
+  transitiveSubRuleNames: "kleene_star__gccAttributeList_2"
+  transitiveStringLiterals: ","
+}
+entries {
+  ruleName: "gccAttribute"
+  immediateSubRuleNames: "aux_rule__gccAttribute_4"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "aux_rule__gccAttribute_4"
+}
+entries {
+  ruleName: "pointer"
+  immediateSubRuleNames: "altnt_block__pointer_8"
+  transitiveSubRuleNames: "Caret"
+  transitiveSubRuleNames: "Star"
+  transitiveSubRuleNames: "altnt_block__pointer_8"
+  transitiveStringLiterals: "*"
+  transitiveStringLiterals: "^"
+}
+entries {
+  ruleName: "typeQualifierList"
+  immediateSubRuleNames: "aux_rule__typeQualifierList_1"
+  transitiveSubRuleNames: "Atomic"
+  transitiveSubRuleNames: "Const"
+  transitiveSubRuleNames: "Nonnull"
+  transitiveSubRuleNames: "Nullable"
+  transitiveSubRuleNames: "Restrict"
+  transitiveSubRuleNames: "Restrict_gcc"
+  transitiveSubRuleNames: "Restrict_gcc2"
+  transitiveSubRuleNames: "Volatile"
+  transitiveSubRuleNames: "aux_rule__typeQualifierList_1"
+  transitiveSubRuleNames: "gccAttributeSpecifier"
+  transitiveSubRuleNames: "typeQualifier"
+  transitiveStringLiterals: "_Atomic"
+  transitiveStringLiterals: "_Nonnull"
+  transitiveStringLiterals: "_Nullable"
+  transitiveStringLiterals: "__restrict"
+  transitiveStringLiterals: "__restrict__"
+  transitiveStringLiterals: "const"
+  transitiveStringLiterals: "restrict"
+  transitiveStringLiterals: "volatile"
+}
+entries {
+  ruleName: "parameterTypeList"
+  immediateSubRuleNames: "parameterList"
+  transitiveSubRuleNames: "AUX_TOKEN__functionSpecifier_1"
+  transitiveSubRuleNames: "AUX_TOKEN__functionSpecifier_2"
+  transitiveSubRuleNames: "AUX_TOKEN__typeSpecifier_1"
+  transitiveSubRuleNames: "AUX_TOKEN__typeSpecifier_2"
+  transitiveSubRuleNames: "AUX_TOKEN__typeSpecifier_3"
+  transitiveSubRuleNames: "Atomic"
+  transitiveSubRuleNames: "Auto"
+  transitiveSubRuleNames: "Bool"
+  transitiveSubRuleNames: "Char"
+  transitiveSubRuleNames: "Complex"
+  transitiveSubRuleNames: "Const"
+  transitiveSubRuleNames: "Double"
+  transitiveSubRuleNames: "Extern"
+  transitiveSubRuleNames: "Float"
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "Inline"
+  transitiveSubRuleNames: "Int"
+  transitiveSubRuleNames: "Long"
+  transitiveSubRuleNames: "Nonnull"
+  transitiveSubRuleNames: "Noreturn"
+  transitiveSubRuleNames: "Nullable"
+  transitiveSubRuleNames: "Register"
+  transitiveSubRuleNames: "Restrict"
+  transitiveSubRuleNames: "Restrict_gcc"
+  transitiveSubRuleNames: "Restrict_gcc2"
+  transitiveSubRuleNames: "Short"
+  transitiveSubRuleNames: "Signed"
+  transitiveSubRuleNames: "Static"
+  transitiveSubRuleNames: "ThreadLocal"
+  transitiveSubRuleNames: "Typedef"
+  transitiveSubRuleNames: "Unsigned"
+  transitiveSubRuleNames: "Void"
+  transitiveSubRuleNames: "Volatile"
+  transitiveSubRuleNames: "alignmentSpecifier"
+  transitiveSubRuleNames: "atomicTypeSpecifier"
+  transitiveSubRuleNames: "aux_rule__declarationSpecifier_1"
+  transitiveSubRuleNames: "aux_rule__typeSpecifier_3"
+  transitiveSubRuleNames: "declarationSpecifier"
+  transitiveSubRuleNames: "declarationSpecifiers"
+  transitiveSubRuleNames: "enumSpecifier"
+  transitiveSubRuleNames: "gccAttributeSpecifier"
+  transitiveSubRuleNames: "parameterDeclaration"
+  transitiveSubRuleNames: "parameterList"
+  transitiveSubRuleNames: "structOrUnionSpecifier"
+  transitiveSubRuleNames: "typeQualifier"
+  transitiveSubRuleNames: "typeSpecifier"
+  transitiveSubRuleNames: "typeSpecifierWithAttrList"
+  transitiveSubRuleNames: "typedefName"
+  transitiveStringLiterals: "_Atomic"
+  transitiveStringLiterals: "_Bool"
+  transitiveStringLiterals: "_Complex"
+  transitiveStringLiterals: "_Nonnull"
+  transitiveStringLiterals: "_Noreturn"
+  transitiveStringLiterals: "_Nullable"
+  transitiveStringLiterals: "_Thread_local"
+  transitiveStringLiterals: "__inline__"
+  transitiveStringLiterals: "__m128"
+  transitiveStringLiterals: "__m128d"
+  transitiveStringLiterals: "__m128i"
+  transitiveStringLiterals: "__restrict"
+  transitiveStringLiterals: "__restrict__"
+  transitiveStringLiterals: "__stdcall"
+  transitiveStringLiterals: "auto"
+  transitiveStringLiterals: "char"
+  transitiveStringLiterals: "const"
+  transitiveStringLiterals: "double"
+  transitiveStringLiterals: "extern"
+  transitiveStringLiterals: "float"
+  transitiveStringLiterals: "inline"
+  transitiveStringLiterals: "int"
+  transitiveStringLiterals: "long"
+  transitiveStringLiterals: "register"
+  transitiveStringLiterals: "restrict"
+  transitiveStringLiterals: "short"
+  transitiveStringLiterals: "signed"
+  transitiveStringLiterals: "static"
+  transitiveStringLiterals: "typedef"
+  transitiveStringLiterals: "unsigned"
+  transitiveStringLiterals: "void"
+  transitiveStringLiterals: "volatile"
+}
+entries {
+  ruleName: "parameterDeclaration"
+  immediateSubRuleNames: "declarationSpecifiers"
+  transitiveSubRuleNames: "AUX_TOKEN__functionSpecifier_1"
+  transitiveSubRuleNames: "AUX_TOKEN__functionSpecifier_2"
+  transitiveSubRuleNames: "AUX_TOKEN__typeSpecifier_1"
+  transitiveSubRuleNames: "AUX_TOKEN__typeSpecifier_2"
+  transitiveSubRuleNames: "AUX_TOKEN__typeSpecifier_3"
+  transitiveSubRuleNames: "Atomic"
+  transitiveSubRuleNames: "Auto"
+  transitiveSubRuleNames: "Bool"
+  transitiveSubRuleNames: "Char"
+  transitiveSubRuleNames: "Complex"
+  transitiveSubRuleNames: "Const"
+  transitiveSubRuleNames: "Double"
+  transitiveSubRuleNames: "Extern"
+  transitiveSubRuleNames: "Float"
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "Inline"
+  transitiveSubRuleNames: "Int"
+  transitiveSubRuleNames: "Long"
+  transitiveSubRuleNames: "Nonnull"
+  transitiveSubRuleNames: "Noreturn"
+  transitiveSubRuleNames: "Nullable"
+  transitiveSubRuleNames: "Register"
+  transitiveSubRuleNames: "Restrict"
+  transitiveSubRuleNames: "Restrict_gcc"
+  transitiveSubRuleNames: "Restrict_gcc2"
+  transitiveSubRuleNames: "Short"
+  transitiveSubRuleNames: "Signed"
+  transitiveSubRuleNames: "Static"
+  transitiveSubRuleNames: "ThreadLocal"
+  transitiveSubRuleNames: "Typedef"
+  transitiveSubRuleNames: "Unsigned"
+  transitiveSubRuleNames: "Void"
+  transitiveSubRuleNames: "Volatile"
+  transitiveSubRuleNames: "alignmentSpecifier"
+  transitiveSubRuleNames: "atomicTypeSpecifier"
+  transitiveSubRuleNames: "aux_rule__declarationSpecifier_1"
+  transitiveSubRuleNames: "aux_rule__typeSpecifier_3"
+  transitiveSubRuleNames: "declarationSpecifier"
+  transitiveSubRuleNames: "declarationSpecifiers"
+  transitiveSubRuleNames: "enumSpecifier"
+  transitiveSubRuleNames: "gccAttributeSpecifier"
+  transitiveSubRuleNames: "structOrUnionSpecifier"
+  transitiveSubRuleNames: "typeQualifier"
+  transitiveSubRuleNames: "typeSpecifier"
+  transitiveSubRuleNames: "typeSpecifierWithAttrList"
+  transitiveSubRuleNames: "typedefName"
+  transitiveStringLiterals: "_Atomic"
+  transitiveStringLiterals: "_Bool"
+  transitiveStringLiterals: "_Complex"
+  transitiveStringLiterals: "_Nonnull"
+  transitiveStringLiterals: "_Noreturn"
+  transitiveStringLiterals: "_Nullable"
+  transitiveStringLiterals: "_Thread_local"
+  transitiveStringLiterals: "__inline__"
+  transitiveStringLiterals: "__m128"
+  transitiveStringLiterals: "__m128d"
+  transitiveStringLiterals: "__m128i"
+  transitiveStringLiterals: "__restrict"
+  transitiveStringLiterals: "__restrict__"
+  transitiveStringLiterals: "__stdcall"
+  transitiveStringLiterals: "auto"
+  transitiveStringLiterals: "char"
+  transitiveStringLiterals: "const"
+  transitiveStringLiterals: "double"
+  transitiveStringLiterals: "extern"
+  transitiveStringLiterals: "float"
+  transitiveStringLiterals: "inline"
+  transitiveStringLiterals: "int"
+  transitiveStringLiterals: "long"
+  transitiveStringLiterals: "register"
+  transitiveStringLiterals: "restrict"
+  transitiveStringLiterals: "short"
+  transitiveStringLiterals: "signed"
+  transitiveStringLiterals: "static"
+  transitiveStringLiterals: "typedef"
+  transitiveStringLiterals: "unsigned"
+  transitiveStringLiterals: "void"
+  transitiveStringLiterals: "volatile"
+}
+entries {
+  ruleName: "typeName"
+  immediateSubRuleNames: "specifierQualifierList"
+  transitiveSubRuleNames: "AUX_TOKEN__typeSpecifier_1"
+  transitiveSubRuleNames: "AUX_TOKEN__typeSpecifier_2"
+  transitiveSubRuleNames: "AUX_TOKEN__typeSpecifier_3"
+  transitiveSubRuleNames: "Atomic"
+  transitiveSubRuleNames: "Bool"
+  transitiveSubRuleNames: "Char"
+  transitiveSubRuleNames: "Complex"
+  transitiveSubRuleNames: "Const"
+  transitiveSubRuleNames: "Double"
+  transitiveSubRuleNames: "Float"
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "Int"
+  transitiveSubRuleNames: "Long"
+  transitiveSubRuleNames: "Nonnull"
+  transitiveSubRuleNames: "Nullable"
+  transitiveSubRuleNames: "Restrict"
+  transitiveSubRuleNames: "Restrict_gcc"
+  transitiveSubRuleNames: "Restrict_gcc2"
+  transitiveSubRuleNames: "Short"
+  transitiveSubRuleNames: "Signed"
+  transitiveSubRuleNames: "Unsigned"
+  transitiveSubRuleNames: "Void"
+  transitiveSubRuleNames: "Volatile"
+  transitiveSubRuleNames: "altnt_block__specifierQualifierList_3"
+  transitiveSubRuleNames: "atomicTypeSpecifier"
+  transitiveSubRuleNames: "aux_rule__typeSpecifier_3"
+  transitiveSubRuleNames: "enumSpecifier"
+  transitiveSubRuleNames: "specifierQualifierList"
+  transitiveSubRuleNames: "structOrUnionSpecifier"
+  transitiveSubRuleNames: "typeQualifier"
+  transitiveSubRuleNames: "typeSpecifier"
+  transitiveSubRuleNames: "typeSpecifierWithAttrList"
+  transitiveSubRuleNames: "typedefName"
+  transitiveStringLiterals: "_Atomic"
+  transitiveStringLiterals: "_Bool"
+  transitiveStringLiterals: "_Complex"
+  transitiveStringLiterals: "_Nonnull"
+  transitiveStringLiterals: "_Nullable"
+  transitiveStringLiterals: "__m128"
+  transitiveStringLiterals: "__m128d"
+  transitiveStringLiterals: "__m128i"
+  transitiveStringLiterals: "__restrict"
+  transitiveStringLiterals: "__restrict__"
+  transitiveStringLiterals: "char"
+  transitiveStringLiterals: "const"
+  transitiveStringLiterals: "double"
+  transitiveStringLiterals: "float"
+  transitiveStringLiterals: "int"
+  transitiveStringLiterals: "long"
+  transitiveStringLiterals: "restrict"
+  transitiveStringLiterals: "short"
+  transitiveStringLiterals: "signed"
+  transitiveStringLiterals: "unsigned"
+  transitiveStringLiterals: "void"
+  transitiveStringLiterals: "volatile"
+}
+entries {
+  ruleName: "abstractDeclarator"
+  immediateSubRuleNames: "aux_rule__abstractDeclarator_3"
+  immediateSubRuleNames: "pointer"
+  transitiveSubRuleNames: "Caret"
+  transitiveSubRuleNames: "Star"
+  transitiveSubRuleNames: "altnt_block__pointer_8"
+  transitiveSubRuleNames: "aux_rule__abstractDeclarator_3"
+  transitiveSubRuleNames: "aux_rule__directAbstractDeclarator_14"
+  transitiveSubRuleNames: "aux_rule__directAbstractDeclarator_23"
+  transitiveSubRuleNames: "aux_rule__directAbstractDeclarator_24"
+  transitiveSubRuleNames: "directAbstractDeclarator"
+  transitiveSubRuleNames: "pointer"
+  transitiveStringLiterals: "*"
+  transitiveStringLiterals: "^"
+}
+entries {
+  ruleName: "typedefName"
+  immediateSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "Identifier"
+}
+entries {
+  ruleName: "initializer"
+  immediateSubRuleNames: "assignmentExpression"
+  immediateSubRuleNames: "aux_rule__initializer_2"
+  transitiveSubRuleNames: "Constant"
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "StringLiteral"
+  transitiveSubRuleNames: "additiveExpression"
+  transitiveSubRuleNames: "andExpression"
+  transitiveSubRuleNames: "assignmentExpression"
+  transitiveSubRuleNames: "aux_rule__assignmentExpression_1"
+  transitiveSubRuleNames: "aux_rule__castExpression_2"
+  transitiveSubRuleNames: "aux_rule__initializer_2"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_13"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_14"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_4"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_5"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_6"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_7"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_8"
+  transitiveSubRuleNames: "castExpression"
+  transitiveSubRuleNames: "conditionalExpression"
+  transitiveSubRuleNames: "equalityExpression"
+  transitiveSubRuleNames: "exclusiveOrExpression"
+  transitiveSubRuleNames: "genericSelection"
+  transitiveSubRuleNames: "inclusiveOrExpression"
+  transitiveSubRuleNames: "kleene_plus__primaryExpression_1"
+  transitiveSubRuleNames: "logicalAndExpression"
+  transitiveSubRuleNames: "logicalOrExpression"
+  transitiveSubRuleNames: "multiplicativeExpression"
+  transitiveSubRuleNames: "postfixExpression"
+  transitiveSubRuleNames: "relationalExpression"
+  transitiveSubRuleNames: "shiftExpression"
+  transitiveSubRuleNames: "unaryExpression"
+}
+entries {
+  ruleName: "designation"
+}
+entries {
+  ruleName: "staticAssertDeclaration"
+}
+entries {
+  ruleName: "asmStatement"
+}
+entries {
+  ruleName: "labeledStatement"
+}
+entries {
+  ruleName: "compoundStatement"
+}
+entries {
+  ruleName: "expressionStatement"
+  immediateSubRuleNames: "Semi"
+  transitiveSubRuleNames: "Semi"
+  transitiveStringLiterals: ";"
+}
+entries {
+  ruleName: "jumpStatement"
+}
+entries {
+  ruleName: "compilationUnit"
+}
+entries {
+  ruleName: "functionDefinition"
+}
+entries {
+  ruleName: "kleene_plus__primaryExpression_1"
+  immediateSubRuleNames: "StringLiteral"
+  transitiveSubRuleNames: "StringLiteral"
+}
+entries {
+  ruleName: "optional__primaryExpression_2"
+  immediateSubRuleNames: "Extension_gcc"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "Extension_gcc"
+  transitiveStringLiterals: "__extension__"
+}
+entries {
+  ruleName: "optional__postfixExpression_1"
+  immediateSubRuleNames: "expression"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "Constant"
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "StringLiteral"
+  transitiveSubRuleNames: "additiveExpression"
+  transitiveSubRuleNames: "andExpression"
+  transitiveSubRuleNames: "assignmentExpression"
+  transitiveSubRuleNames: "aux_rule__assignmentExpression_1"
+  transitiveSubRuleNames: "aux_rule__castExpression_2"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_13"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_14"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_4"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_5"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_6"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_7"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_8"
+  transitiveSubRuleNames: "castExpression"
+  transitiveSubRuleNames: "conditionalExpression"
+  transitiveSubRuleNames: "equalityExpression"
+  transitiveSubRuleNames: "exclusiveOrExpression"
+  transitiveSubRuleNames: "expression"
+  transitiveSubRuleNames: "genericSelection"
+  transitiveSubRuleNames: "inclusiveOrExpression"
+  transitiveSubRuleNames: "kleene_plus__primaryExpression_1"
+  transitiveSubRuleNames: "logicalAndExpression"
+  transitiveSubRuleNames: "logicalOrExpression"
+  transitiveSubRuleNames: "multiplicativeExpression"
+  transitiveSubRuleNames: "postfixExpression"
+  transitiveSubRuleNames: "relationalExpression"
+  transitiveSubRuleNames: "shiftExpression"
+  transitiveSubRuleNames: "unaryExpression"
+}
+entries {
+  ruleName: "aux_rule__conditionalExpression_1"
+}
+entries {
+  ruleName: "optional__conditionalExpression_2"
+  immediateSubRuleNames: "aux_rule__conditionalExpression_1"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "aux_rule__conditionalExpression_1"
+}
+entries {
+  ruleName: "optional__declaration_2"
+  immediateSubRuleNames: "initDeclaratorList"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "aux_rule__directDeclarator_16"
+  transitiveSubRuleNames: "aux_rule__directDeclarator_9"
+  transitiveSubRuleNames: "declarator"
+  transitiveSubRuleNames: "directDeclarator"
+  transitiveSubRuleNames: "initDeclarator"
+  transitiveSubRuleNames: "initDeclaratorList"
+}
+entries {
+  ruleName: "optional__typeSpecifierWithAttrList_1"
+  immediateSubRuleNames: "gccAttributeSpecifier"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "gccAttributeSpecifier"
+}
+entries {
+  ruleName: "optional__structOrUnionSpecifier_1"
+  immediateSubRuleNames: "Identifier"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "Identifier"
+}
+entries {
+  ruleName: "optional__structDeclaration_2"
+  immediateSubRuleNames: "structDeclaratorList"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "aux_rule__directDeclarator_16"
+  transitiveSubRuleNames: "aux_rule__directDeclarator_9"
+  transitiveSubRuleNames: "aux_rule__structDeclarator_2"
+  transitiveSubRuleNames: "declarator"
+  transitiveSubRuleNames: "directDeclarator"
+  transitiveSubRuleNames: "structDeclarator"
+  transitiveSubRuleNames: "structDeclaratorList"
+}
+entries {
+  ruleName: "optional__specifierQualifierList_1"
+  immediateSubRuleNames: "specifierQualifierList"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "AUX_TOKEN__typeSpecifier_1"
+  transitiveSubRuleNames: "AUX_TOKEN__typeSpecifier_2"
+  transitiveSubRuleNames: "AUX_TOKEN__typeSpecifier_3"
+  transitiveSubRuleNames: "Atomic"
+  transitiveSubRuleNames: "Bool"
+  transitiveSubRuleNames: "Char"
+  transitiveSubRuleNames: "Complex"
+  transitiveSubRuleNames: "Const"
+  transitiveSubRuleNames: "Double"
+  transitiveSubRuleNames: "Float"
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "Int"
+  transitiveSubRuleNames: "Long"
+  transitiveSubRuleNames: "Nonnull"
+  transitiveSubRuleNames: "Nullable"
+  transitiveSubRuleNames: "Restrict"
+  transitiveSubRuleNames: "Restrict_gcc"
+  transitiveSubRuleNames: "Restrict_gcc2"
+  transitiveSubRuleNames: "Short"
+  transitiveSubRuleNames: "Signed"
+  transitiveSubRuleNames: "Unsigned"
+  transitiveSubRuleNames: "Void"
+  transitiveSubRuleNames: "Volatile"
+  transitiveSubRuleNames: "altnt_block__specifierQualifierList_3"
+  transitiveSubRuleNames: "atomicTypeSpecifier"
+  transitiveSubRuleNames: "aux_rule__typeSpecifier_3"
+  transitiveSubRuleNames: "enumSpecifier"
+  transitiveSubRuleNames: "specifierQualifierList"
+  transitiveSubRuleNames: "structOrUnionSpecifier"
+  transitiveSubRuleNames: "typeQualifier"
+  transitiveSubRuleNames: "typeSpecifier"
+  transitiveSubRuleNames: "typeSpecifierWithAttrList"
+  transitiveSubRuleNames: "typedefName"
+  transitiveStringLiterals: "_Atomic"
+  transitiveStringLiterals: "_Bool"
+  transitiveStringLiterals: "_Complex"
+  transitiveStringLiterals: "_Nonnull"
+  transitiveStringLiterals: "_Nullable"
+  transitiveStringLiterals: "__m128"
+  transitiveStringLiterals: "__m128d"
+  transitiveStringLiterals: "__m128i"
+  transitiveStringLiterals: "__restrict"
+  transitiveStringLiterals: "__restrict__"
+  transitiveStringLiterals: "char"
+  transitiveStringLiterals: "const"
+  transitiveStringLiterals: "double"
+  transitiveStringLiterals: "float"
+  transitiveStringLiterals: "int"
+  transitiveStringLiterals: "long"
+  transitiveStringLiterals: "restrict"
+  transitiveStringLiterals: "short"
+  transitiveStringLiterals: "signed"
+  transitiveStringLiterals: "unsigned"
+  transitiveStringLiterals: "void"
+  transitiveStringLiterals: "volatile"
+}
+entries {
+  ruleName: "optional__structDeclarator_1"
+  immediateSubRuleNames: "declarator"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "aux_rule__directDeclarator_16"
+  transitiveSubRuleNames: "aux_rule__directDeclarator_9"
+  transitiveSubRuleNames: "declarator"
+  transitiveSubRuleNames: "directDeclarator"
+}
+entries {
+  ruleName: "optional__declarator_1"
+  immediateSubRuleNames: "pointer"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "Caret"
+  transitiveSubRuleNames: "Star"
+  transitiveSubRuleNames: "altnt_block__pointer_8"
+  transitiveSubRuleNames: "pointer"
+  transitiveStringLiterals: "*"
+  transitiveStringLiterals: "^"
+}
+entries {
+  ruleName: "kleene_star__declarator_2"
+  immediateSubRuleNames: "gccDeclaratorExtension"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "aux_rule__gccDeclaratorExtension_2"
+  transitiveSubRuleNames: "gccAttributeSpecifier"
+  transitiveSubRuleNames: "gccDeclaratorExtension"
+}
+entries {
+  ruleName: "optional__directDeclarator_3"
+  immediateSubRuleNames: "assignmentExpression"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "Constant"
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "StringLiteral"
+  transitiveSubRuleNames: "additiveExpression"
+  transitiveSubRuleNames: "andExpression"
+  transitiveSubRuleNames: "assignmentExpression"
+  transitiveSubRuleNames: "aux_rule__assignmentExpression_1"
+  transitiveSubRuleNames: "aux_rule__castExpression_2"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_13"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_14"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_4"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_5"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_6"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_7"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_8"
+  transitiveSubRuleNames: "castExpression"
+  transitiveSubRuleNames: "conditionalExpression"
+  transitiveSubRuleNames: "equalityExpression"
+  transitiveSubRuleNames: "exclusiveOrExpression"
+  transitiveSubRuleNames: "genericSelection"
+  transitiveSubRuleNames: "inclusiveOrExpression"
+  transitiveSubRuleNames: "kleene_plus__primaryExpression_1"
+  transitiveSubRuleNames: "logicalAndExpression"
+  transitiveSubRuleNames: "logicalOrExpression"
+  transitiveSubRuleNames: "multiplicativeExpression"
+  transitiveSubRuleNames: "postfixExpression"
+  transitiveSubRuleNames: "relationalExpression"
+  transitiveSubRuleNames: "shiftExpression"
+  transitiveSubRuleNames: "unaryExpression"
+}
+entries {
+  ruleName: "optional__directDeclarator_6"
+  immediateSubRuleNames: "identifierList"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "identifierList"
+}
+entries {
+  ruleName: "aux_rule__gccAttributeList_1"
+  immediateSubRuleNames: "Comma"
+  transitiveSubRuleNames: "Comma"
+  transitiveStringLiterals: ","
+}
+entries {
+  ruleName: "kleene_star__gccAttributeList_2"
+  immediateSubRuleNames: "aux_rule__gccAttributeList_1"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "Comma"
+  transitiveSubRuleNames: "aux_rule__gccAttributeList_1"
+  transitiveStringLiterals: ","
+}
+entries {
+  ruleName: "aux_rule__gccAttributeList_3"
+  immediateSubRuleNames: "gccAttribute"
+  immediateSubRuleNames: "kleene_star__gccAttributeList_2"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "Comma"
+  transitiveSubRuleNames: "aux_rule__gccAttributeList_1"
+  transitiveSubRuleNames: "aux_rule__gccAttribute_4"
+  transitiveSubRuleNames: "gccAttribute"
+  transitiveSubRuleNames: "kleene_star__gccAttributeList_2"
+  transitiveStringLiterals: ","
+}
+entries {
+  ruleName: "aux_rule__gccAttribute_2"
+}
+entries {
+  ruleName: "optional__gccAttribute_3"
+  immediateSubRuleNames: "aux_rule__gccAttribute_2"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "aux_rule__gccAttribute_2"
+}
+entries {
+  ruleName: "aux_rule__gccAttribute_4"
+}
+entries {
+  ruleName: "optional__pointer_1"
+  immediateSubRuleNames: "typeQualifierList"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "Atomic"
+  transitiveSubRuleNames: "Const"
+  transitiveSubRuleNames: "Nonnull"
+  transitiveSubRuleNames: "Nullable"
+  transitiveSubRuleNames: "Restrict"
+  transitiveSubRuleNames: "Restrict_gcc"
+  transitiveSubRuleNames: "Restrict_gcc2"
+  transitiveSubRuleNames: "Volatile"
+  transitiveSubRuleNames: "aux_rule__typeQualifierList_1"
+  transitiveSubRuleNames: "gccAttributeSpecifier"
+  transitiveSubRuleNames: "typeQualifier"
+  transitiveSubRuleNames: "typeQualifierList"
+  transitiveStringLiterals: "_Atomic"
+  transitiveStringLiterals: "_Nonnull"
+  transitiveStringLiterals: "_Nullable"
+  transitiveStringLiterals: "__restrict"
+  transitiveStringLiterals: "__restrict__"
+  transitiveStringLiterals: "const"
+  transitiveStringLiterals: "restrict"
+  transitiveStringLiterals: "volatile"
+}
+entries {
+  ruleName: "aux_rule__typeQualifierList_1"
+  immediateSubRuleNames: "gccAttributeSpecifier"
+  immediateSubRuleNames: "typeQualifier"
+  transitiveSubRuleNames: "Atomic"
+  transitiveSubRuleNames: "Const"
+  transitiveSubRuleNames: "Nonnull"
+  transitiveSubRuleNames: "Nullable"
+  transitiveSubRuleNames: "Restrict"
+  transitiveSubRuleNames: "Restrict_gcc"
+  transitiveSubRuleNames: "Restrict_gcc2"
+  transitiveSubRuleNames: "Volatile"
+  transitiveSubRuleNames: "gccAttributeSpecifier"
+  transitiveSubRuleNames: "typeQualifier"
+  transitiveStringLiterals: "_Atomic"
+  transitiveStringLiterals: "_Nonnull"
+  transitiveStringLiterals: "_Nullable"
+  transitiveStringLiterals: "__restrict"
+  transitiveStringLiterals: "__restrict__"
+  transitiveStringLiterals: "const"
+  transitiveStringLiterals: "restrict"
+  transitiveStringLiterals: "volatile"
+}
+entries {
+  ruleName: "optional__typeName_1"
+  immediateSubRuleNames: "abstractDeclarator"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "Caret"
+  transitiveSubRuleNames: "Star"
+  transitiveSubRuleNames: "abstractDeclarator"
+  transitiveSubRuleNames: "altnt_block__pointer_8"
+  transitiveSubRuleNames: "aux_rule__abstractDeclarator_3"
+  transitiveSubRuleNames: "aux_rule__directAbstractDeclarator_14"
+  transitiveSubRuleNames: "aux_rule__directAbstractDeclarator_23"
+  transitiveSubRuleNames: "aux_rule__directAbstractDeclarator_24"
+  transitiveSubRuleNames: "directAbstractDeclarator"
+  transitiveSubRuleNames: "pointer"
+  transitiveStringLiterals: "*"
+  transitiveStringLiterals: "^"
+}
+entries {
+  ruleName: "optional__directAbstractDeclarator_5"
+  immediateSubRuleNames: "parameterTypeList"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "AUX_TOKEN__functionSpecifier_1"
+  transitiveSubRuleNames: "AUX_TOKEN__functionSpecifier_2"
+  transitiveSubRuleNames: "AUX_TOKEN__typeSpecifier_1"
+  transitiveSubRuleNames: "AUX_TOKEN__typeSpecifier_2"
+  transitiveSubRuleNames: "AUX_TOKEN__typeSpecifier_3"
+  transitiveSubRuleNames: "Atomic"
+  transitiveSubRuleNames: "Auto"
+  transitiveSubRuleNames: "Bool"
+  transitiveSubRuleNames: "Char"
+  transitiveSubRuleNames: "Complex"
+  transitiveSubRuleNames: "Const"
+  transitiveSubRuleNames: "Double"
+  transitiveSubRuleNames: "Extern"
+  transitiveSubRuleNames: "Float"
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "Inline"
+  transitiveSubRuleNames: "Int"
+  transitiveSubRuleNames: "Long"
+  transitiveSubRuleNames: "Nonnull"
+  transitiveSubRuleNames: "Noreturn"
+  transitiveSubRuleNames: "Nullable"
+  transitiveSubRuleNames: "Register"
+  transitiveSubRuleNames: "Restrict"
+  transitiveSubRuleNames: "Restrict_gcc"
+  transitiveSubRuleNames: "Restrict_gcc2"
+  transitiveSubRuleNames: "Short"
+  transitiveSubRuleNames: "Signed"
+  transitiveSubRuleNames: "Static"
+  transitiveSubRuleNames: "ThreadLocal"
+  transitiveSubRuleNames: "Typedef"
+  transitiveSubRuleNames: "Unsigned"
+  transitiveSubRuleNames: "Void"
+  transitiveSubRuleNames: "Volatile"
+  transitiveSubRuleNames: "alignmentSpecifier"
+  transitiveSubRuleNames: "atomicTypeSpecifier"
+  transitiveSubRuleNames: "aux_rule__declarationSpecifier_1"
+  transitiveSubRuleNames: "aux_rule__typeSpecifier_3"
+  transitiveSubRuleNames: "declarationSpecifier"
+  transitiveSubRuleNames: "declarationSpecifiers"
+  transitiveSubRuleNames: "enumSpecifier"
+  transitiveSubRuleNames: "gccAttributeSpecifier"
+  transitiveSubRuleNames: "parameterDeclaration"
+  transitiveSubRuleNames: "parameterList"
+  transitiveSubRuleNames: "parameterTypeList"
+  transitiveSubRuleNames: "structOrUnionSpecifier"
+  transitiveSubRuleNames: "typeQualifier"
+  transitiveSubRuleNames: "typeSpecifier"
+  transitiveSubRuleNames: "typeSpecifierWithAttrList"
+  transitiveSubRuleNames: "typedefName"
+  transitiveStringLiterals: "_Atomic"
+  transitiveStringLiterals: "_Bool"
+  transitiveStringLiterals: "_Complex"
+  transitiveStringLiterals: "_Nonnull"
+  transitiveStringLiterals: "_Noreturn"
+  transitiveStringLiterals: "_Nullable"
+  transitiveStringLiterals: "_Thread_local"
+  transitiveStringLiterals: "__inline__"
+  transitiveStringLiterals: "__m128"
+  transitiveStringLiterals: "__m128d"
+  transitiveStringLiterals: "__m128i"
+  transitiveStringLiterals: "__restrict"
+  transitiveStringLiterals: "__restrict__"
+  transitiveStringLiterals: "__stdcall"
+  transitiveStringLiterals: "auto"
+  transitiveStringLiterals: "char"
+  transitiveStringLiterals: "const"
+  transitiveStringLiterals: "double"
+  transitiveStringLiterals: "extern"
+  transitiveStringLiterals: "float"
+  transitiveStringLiterals: "inline"
+  transitiveStringLiterals: "int"
+  transitiveStringLiterals: "long"
+  transitiveStringLiterals: "register"
+  transitiveStringLiterals: "restrict"
+  transitiveStringLiterals: "short"
+  transitiveStringLiterals: "signed"
+  transitiveStringLiterals: "static"
+  transitiveStringLiterals: "typedef"
+  transitiveStringLiterals: "unsigned"
+  transitiveStringLiterals: "void"
+  transitiveStringLiterals: "volatile"
+}
+entries {
+  ruleName: "optional__initializerList_1"
+  immediateSubRuleNames: "designation"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "designation"
+}
+entries {
+  ruleName: "aux_rule__asmStatement_1"
+  immediateSubRuleNames: "AUX_TOKEN__asmStatement_1"
+  immediateSubRuleNames: "Volatile"
+  transitiveSubRuleNames: "AUX_TOKEN__asmStatement_1"
+  transitiveSubRuleNames: "Volatile"
+  transitiveStringLiterals: "__volatile__"
+  transitiveStringLiterals: "volatile"
+}
+entries {
+  ruleName: "optional__asmStatement_2"
+  immediateSubRuleNames: "aux_rule__asmStatement_1"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "AUX_TOKEN__asmStatement_1"
+  transitiveSubRuleNames: "Volatile"
+  transitiveSubRuleNames: "aux_rule__asmStatement_1"
+  transitiveStringLiterals: "__volatile__"
+  transitiveStringLiterals: "volatile"
+}
+entries {
+  ruleName: "aux_rule__asmStatement_3"
+}
+entries {
+  ruleName: "kleene_star__asmStatement_4"
+  immediateSubRuleNames: "aux_rule__asmStatement_3"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "aux_rule__asmStatement_3"
+}
+entries {
+  ruleName: "aux_rule__asmStatement_5"
+  immediateSubRuleNames: "logicalOrExpression"
+  transitiveSubRuleNames: "Constant"
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "StringLiteral"
+  transitiveSubRuleNames: "additiveExpression"
+  transitiveSubRuleNames: "andExpression"
+  transitiveSubRuleNames: "aux_rule__castExpression_2"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_13"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_14"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_4"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_5"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_6"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_7"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_8"
+  transitiveSubRuleNames: "castExpression"
+  transitiveSubRuleNames: "equalityExpression"
+  transitiveSubRuleNames: "exclusiveOrExpression"
+  transitiveSubRuleNames: "genericSelection"
+  transitiveSubRuleNames: "inclusiveOrExpression"
+  transitiveSubRuleNames: "kleene_plus__primaryExpression_1"
+  transitiveSubRuleNames: "logicalAndExpression"
+  transitiveSubRuleNames: "logicalOrExpression"
+  transitiveSubRuleNames: "multiplicativeExpression"
+  transitiveSubRuleNames: "postfixExpression"
+  transitiveSubRuleNames: "relationalExpression"
+  transitiveSubRuleNames: "shiftExpression"
+  transitiveSubRuleNames: "unaryExpression"
+}
+entries {
+  ruleName: "optional__asmStatement_6"
+  immediateSubRuleNames: "aux_rule__asmStatement_5"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "Constant"
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "StringLiteral"
+  transitiveSubRuleNames: "additiveExpression"
+  transitiveSubRuleNames: "andExpression"
+  transitiveSubRuleNames: "aux_rule__asmStatement_5"
+  transitiveSubRuleNames: "aux_rule__castExpression_2"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_13"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_14"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_4"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_5"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_6"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_7"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_8"
+  transitiveSubRuleNames: "castExpression"
+  transitiveSubRuleNames: "equalityExpression"
+  transitiveSubRuleNames: "exclusiveOrExpression"
+  transitiveSubRuleNames: "genericSelection"
+  transitiveSubRuleNames: "inclusiveOrExpression"
+  transitiveSubRuleNames: "kleene_plus__primaryExpression_1"
+  transitiveSubRuleNames: "logicalAndExpression"
+  transitiveSubRuleNames: "logicalOrExpression"
+  transitiveSubRuleNames: "multiplicativeExpression"
+  transitiveSubRuleNames: "postfixExpression"
+  transitiveSubRuleNames: "relationalExpression"
+  transitiveSubRuleNames: "shiftExpression"
+  transitiveSubRuleNames: "unaryExpression"
+}
+entries {
+  ruleName: "aux_rule__asmStatement_11"
+  immediateSubRuleNames: "Colon"
+  transitiveSubRuleNames: "Colon"
+  transitiveStringLiterals: ":"
+}
+entries {
+  ruleName: "kleene_star__asmStatement_12"
+  immediateSubRuleNames: "aux_rule__asmStatement_11"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "Colon"
+  transitiveSubRuleNames: "aux_rule__asmStatement_11"
+  transitiveStringLiterals: ":"
+}
+entries {
+  ruleName: "optional__compoundStatement_1"
+  immediateSubRuleNames: "blockItemList"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "Semi"
+  transitiveSubRuleNames: "asmStatement"
+  transitiveSubRuleNames: "aux_rule__blockItemList_2"
+  transitiveSubRuleNames: "aux_rule__declaration_3"
+  transitiveSubRuleNames: "aux_rule__statement_3"
+  transitiveSubRuleNames: "aux_rule__statement_4"
+  transitiveSubRuleNames: "aux_rule__statement_5"
+  transitiveSubRuleNames: "blockItemList"
+  transitiveSubRuleNames: "compoundStatement"
+  transitiveSubRuleNames: "declaration"
+  transitiveSubRuleNames: "expressionStatement"
+  transitiveSubRuleNames: "jumpStatement"
+  transitiveSubRuleNames: "kleene_plus__blockItemList_3"
+  transitiveSubRuleNames: "labeledStatement"
+  transitiveSubRuleNames: "statement"
+  transitiveSubRuleNames: "staticAssertDeclaration"
+  transitiveStringLiterals: ";"
+}
+entries {
+  ruleName: "aux_rule__selectionStatement_1"
+}
+entries {
+  ruleName: "optional__selectionStatement_2"
+  immediateSubRuleNames: "aux_rule__selectionStatement_1"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "aux_rule__selectionStatement_1"
+}
+entries {
+  ruleName: "optional__compilationUnit_1"
+  immediateSubRuleNames: "translationUnit"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "IncludeDirective"
+  transitiveSubRuleNames: "Semi"
+  transitiveSubRuleNames: "asmStatement"
+  transitiveSubRuleNames: "aux_rule__declaration_3"
+  transitiveSubRuleNames: "aux_rule__translationUnit_2"
+  transitiveSubRuleNames: "declaration"
+  transitiveSubRuleNames: "functionDefinition"
+  transitiveSubRuleNames: "kleene_plus__translationUnit_3"
+  transitiveSubRuleNames: "staticAssertDeclaration"
+  transitiveSubRuleNames: "translationUnit"
+  transitiveStringLiterals: ";"
+}
+entries {
+  ruleName: "optional__functionDefinition_2"
+  immediateSubRuleNames: "declarationSpecifiers"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "AUX_TOKEN__functionSpecifier_1"
+  transitiveSubRuleNames: "AUX_TOKEN__functionSpecifier_2"
+  transitiveSubRuleNames: "AUX_TOKEN__typeSpecifier_1"
+  transitiveSubRuleNames: "AUX_TOKEN__typeSpecifier_2"
+  transitiveSubRuleNames: "AUX_TOKEN__typeSpecifier_3"
+  transitiveSubRuleNames: "Atomic"
+  transitiveSubRuleNames: "Auto"
+  transitiveSubRuleNames: "Bool"
+  transitiveSubRuleNames: "Char"
+  transitiveSubRuleNames: "Complex"
+  transitiveSubRuleNames: "Const"
+  transitiveSubRuleNames: "Double"
+  transitiveSubRuleNames: "Extern"
+  transitiveSubRuleNames: "Float"
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "Inline"
+  transitiveSubRuleNames: "Int"
+  transitiveSubRuleNames: "Long"
+  transitiveSubRuleNames: "Nonnull"
+  transitiveSubRuleNames: "Noreturn"
+  transitiveSubRuleNames: "Nullable"
+  transitiveSubRuleNames: "Register"
+  transitiveSubRuleNames: "Restrict"
+  transitiveSubRuleNames: "Restrict_gcc"
+  transitiveSubRuleNames: "Restrict_gcc2"
+  transitiveSubRuleNames: "Short"
+  transitiveSubRuleNames: "Signed"
+  transitiveSubRuleNames: "Static"
+  transitiveSubRuleNames: "ThreadLocal"
+  transitiveSubRuleNames: "Typedef"
+  transitiveSubRuleNames: "Unsigned"
+  transitiveSubRuleNames: "Void"
+  transitiveSubRuleNames: "Volatile"
+  transitiveSubRuleNames: "alignmentSpecifier"
+  transitiveSubRuleNames: "atomicTypeSpecifier"
+  transitiveSubRuleNames: "aux_rule__declarationSpecifier_1"
+  transitiveSubRuleNames: "aux_rule__typeSpecifier_3"
+  transitiveSubRuleNames: "declarationSpecifier"
+  transitiveSubRuleNames: "declarationSpecifiers"
+  transitiveSubRuleNames: "enumSpecifier"
+  transitiveSubRuleNames: "gccAttributeSpecifier"
+  transitiveSubRuleNames: "structOrUnionSpecifier"
+  transitiveSubRuleNames: "typeQualifier"
+  transitiveSubRuleNames: "typeSpecifier"
+  transitiveSubRuleNames: "typeSpecifierWithAttrList"
+  transitiveSubRuleNames: "typedefName"
+  transitiveStringLiterals: "_Atomic"
+  transitiveStringLiterals: "_Bool"
+  transitiveStringLiterals: "_Complex"
+  transitiveStringLiterals: "_Nonnull"
+  transitiveStringLiterals: "_Noreturn"
+  transitiveStringLiterals: "_Nullable"
+  transitiveStringLiterals: "_Thread_local"
+  transitiveStringLiterals: "__inline__"
+  transitiveStringLiterals: "__m128"
+  transitiveStringLiterals: "__m128d"
+  transitiveStringLiterals: "__m128i"
+  transitiveStringLiterals: "__restrict"
+  transitiveStringLiterals: "__restrict__"
+  transitiveStringLiterals: "__stdcall"
+  transitiveStringLiterals: "auto"
+  transitiveStringLiterals: "char"
+  transitiveStringLiterals: "const"
+  transitiveStringLiterals: "double"
+  transitiveStringLiterals: "extern"
+  transitiveStringLiterals: "float"
+  transitiveStringLiterals: "inline"
+  transitiveStringLiterals: "int"
+  transitiveStringLiterals: "long"
+  transitiveStringLiterals: "register"
+  transitiveStringLiterals: "restrict"
+  transitiveStringLiterals: "short"
+  transitiveStringLiterals: "signed"
+  transitiveStringLiterals: "static"
+  transitiveStringLiterals: "typedef"
+  transitiveStringLiterals: "unsigned"
+  transitiveStringLiterals: "void"
+  transitiveStringLiterals: "volatile"
+}
+entries {
+  ruleName: "optional__functionDefinition_3"
+  immediateSubRuleNames: "declarationList"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "asmStatement"
+  transitiveSubRuleNames: "aux_rule__declarationList_2"
+  transitiveSubRuleNames: "aux_rule__declaration_3"
+  transitiveSubRuleNames: "declaration"
+  transitiveSubRuleNames: "declarationList"
+  transitiveSubRuleNames: "kleene_plus__declarationList_3"
+  transitiveSubRuleNames: "staticAssertDeclaration"
+}
+entries {
+  ruleName: "aux_rule__expression_2"
+}
+entries {
+  ruleName: "kleene_star__expression_1"
+  immediateSubRuleNames: "aux_rule__expression_2"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "aux_rule__expression_2"
+}
+entries {
+  ruleName: "expression"
+  immediateSubRuleNames: "assignmentExpression"
+  transitiveSubRuleNames: "Constant"
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "StringLiteral"
+  transitiveSubRuleNames: "additiveExpression"
+  transitiveSubRuleNames: "andExpression"
+  transitiveSubRuleNames: "assignmentExpression"
+  transitiveSubRuleNames: "aux_rule__assignmentExpression_1"
+  transitiveSubRuleNames: "aux_rule__castExpression_2"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_13"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_14"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_4"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_5"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_6"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_7"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_8"
+  transitiveSubRuleNames: "castExpression"
+  transitiveSubRuleNames: "conditionalExpression"
+  transitiveSubRuleNames: "equalityExpression"
+  transitiveSubRuleNames: "exclusiveOrExpression"
+  transitiveSubRuleNames: "genericSelection"
+  transitiveSubRuleNames: "inclusiveOrExpression"
+  transitiveSubRuleNames: "kleene_plus__primaryExpression_1"
+  transitiveSubRuleNames: "logicalAndExpression"
+  transitiveSubRuleNames: "logicalOrExpression"
+  transitiveSubRuleNames: "multiplicativeExpression"
+  transitiveSubRuleNames: "postfixExpression"
+  transitiveSubRuleNames: "relationalExpression"
+  transitiveSubRuleNames: "shiftExpression"
+  transitiveSubRuleNames: "unaryExpression"
+}
+entries {
+  ruleName: "aux_rule__genericAssocList_2"
+}
+entries {
+  ruleName: "kleene_star__genericAssocList_1"
+  immediateSubRuleNames: "aux_rule__genericAssocList_2"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "aux_rule__genericAssocList_2"
+}
+entries {
+  ruleName: "genericAssocList"
+  immediateSubRuleNames: "genericAssociation"
+  transitiveSubRuleNames: "genericAssociation"
+}
+entries {
+  ruleName: "aux_rule__postfixExpression_3"
+  immediateSubRuleNames: "MinusMinus"
+  immediateSubRuleNames: "PlusPlus"
+  immediateSubRuleNames: "aux_rule__postfixExpression_10"
+  immediateSubRuleNames: "aux_rule__postfixExpression_11"
+  immediateSubRuleNames: "aux_rule__postfixExpression_12"
+  transitiveSubRuleNames: "MinusMinus"
+  transitiveSubRuleNames: "PlusPlus"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_10"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_11"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_12"
+  transitiveStringLiterals: "++"
+  transitiveStringLiterals: "--"
+}
+entries {
+  ruleName: "kleene_star__postfixExpression_2"
+  immediateSubRuleNames: "aux_rule__postfixExpression_3"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "MinusMinus"
+  transitiveSubRuleNames: "PlusPlus"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_10"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_11"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_12"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_3"
+  transitiveStringLiterals: "++"
+  transitiveStringLiterals: "--"
+}
+entries {
+  ruleName: "postfixExpression"
+  immediateSubRuleNames: "aux_rule__postfixExpression_4"
+  transitiveSubRuleNames: "Constant"
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "StringLiteral"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_13"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_14"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_4"
+  transitiveSubRuleNames: "genericSelection"
+  transitiveSubRuleNames: "kleene_plus__primaryExpression_1"
+}
+entries {
+  ruleName: "aux_rule__initializerList_4"
+}
+entries {
+  ruleName: "kleene_star__initializerList_3"
+  immediateSubRuleNames: "aux_rule__initializerList_4"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "aux_rule__initializerList_4"
+}
+entries {
+  ruleName: "initializerList"
+  immediateSubRuleNames: "initializer"
+  transitiveSubRuleNames: "Constant"
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "StringLiteral"
+  transitiveSubRuleNames: "additiveExpression"
+  transitiveSubRuleNames: "andExpression"
+  transitiveSubRuleNames: "assignmentExpression"
+  transitiveSubRuleNames: "aux_rule__assignmentExpression_1"
+  transitiveSubRuleNames: "aux_rule__castExpression_2"
+  transitiveSubRuleNames: "aux_rule__initializer_2"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_13"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_14"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_4"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_5"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_6"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_7"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_8"
+  transitiveSubRuleNames: "castExpression"
+  transitiveSubRuleNames: "conditionalExpression"
+  transitiveSubRuleNames: "equalityExpression"
+  transitiveSubRuleNames: "exclusiveOrExpression"
+  transitiveSubRuleNames: "genericSelection"
+  transitiveSubRuleNames: "inclusiveOrExpression"
+  transitiveSubRuleNames: "initializer"
+  transitiveSubRuleNames: "kleene_plus__primaryExpression_1"
+  transitiveSubRuleNames: "logicalAndExpression"
+  transitiveSubRuleNames: "logicalOrExpression"
+  transitiveSubRuleNames: "multiplicativeExpression"
+  transitiveSubRuleNames: "postfixExpression"
+  transitiveSubRuleNames: "relationalExpression"
+  transitiveSubRuleNames: "shiftExpression"
+  transitiveSubRuleNames: "unaryExpression"
+}
+entries {
+  ruleName: "aux_rule__multiplicativeExpression_2"
+}
+entries {
+  ruleName: "kleene_star__multiplicativeExpression_1"
+  immediateSubRuleNames: "aux_rule__multiplicativeExpression_2"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "aux_rule__multiplicativeExpression_2"
+}
+entries {
+  ruleName: "multiplicativeExpression"
+  immediateSubRuleNames: "castExpression"
+  transitiveSubRuleNames: "Constant"
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "StringLiteral"
+  transitiveSubRuleNames: "aux_rule__castExpression_2"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_13"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_14"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_4"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_5"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_6"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_7"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_8"
+  transitiveSubRuleNames: "castExpression"
+  transitiveSubRuleNames: "genericSelection"
+  transitiveSubRuleNames: "kleene_plus__primaryExpression_1"
+  transitiveSubRuleNames: "postfixExpression"
+  transitiveSubRuleNames: "unaryExpression"
+}
+entries {
+  ruleName: "aux_rule__additiveExpression_2"
+}
+entries {
+  ruleName: "kleene_star__additiveExpression_1"
+  immediateSubRuleNames: "aux_rule__additiveExpression_2"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "aux_rule__additiveExpression_2"
+}
+entries {
+  ruleName: "additiveExpression"
+  immediateSubRuleNames: "multiplicativeExpression"
+  transitiveSubRuleNames: "Constant"
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "StringLiteral"
+  transitiveSubRuleNames: "aux_rule__castExpression_2"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_13"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_14"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_4"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_5"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_6"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_7"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_8"
+  transitiveSubRuleNames: "castExpression"
+  transitiveSubRuleNames: "genericSelection"
+  transitiveSubRuleNames: "kleene_plus__primaryExpression_1"
+  transitiveSubRuleNames: "multiplicativeExpression"
+  transitiveSubRuleNames: "postfixExpression"
+  transitiveSubRuleNames: "unaryExpression"
+}
+entries {
+  ruleName: "aux_rule__shiftExpression_2"
+}
+entries {
+  ruleName: "kleene_star__shiftExpression_1"
+  immediateSubRuleNames: "aux_rule__shiftExpression_2"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "aux_rule__shiftExpression_2"
+}
+entries {
+  ruleName: "shiftExpression"
+  immediateSubRuleNames: "additiveExpression"
+  transitiveSubRuleNames: "Constant"
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "StringLiteral"
+  transitiveSubRuleNames: "additiveExpression"
+  transitiveSubRuleNames: "aux_rule__castExpression_2"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_13"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_14"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_4"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_5"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_6"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_7"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_8"
+  transitiveSubRuleNames: "castExpression"
+  transitiveSubRuleNames: "genericSelection"
+  transitiveSubRuleNames: "kleene_plus__primaryExpression_1"
+  transitiveSubRuleNames: "multiplicativeExpression"
+  transitiveSubRuleNames: "postfixExpression"
+  transitiveSubRuleNames: "unaryExpression"
+}
+entries {
+  ruleName: "aux_rule__relationalExpression_2"
+}
+entries {
+  ruleName: "kleene_star__relationalExpression_1"
+  immediateSubRuleNames: "aux_rule__relationalExpression_2"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "aux_rule__relationalExpression_2"
+}
+entries {
+  ruleName: "relationalExpression"
+  immediateSubRuleNames: "shiftExpression"
+  transitiveSubRuleNames: "Constant"
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "StringLiteral"
+  transitiveSubRuleNames: "additiveExpression"
+  transitiveSubRuleNames: "aux_rule__castExpression_2"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_13"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_14"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_4"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_5"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_6"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_7"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_8"
+  transitiveSubRuleNames: "castExpression"
+  transitiveSubRuleNames: "genericSelection"
+  transitiveSubRuleNames: "kleene_plus__primaryExpression_1"
+  transitiveSubRuleNames: "multiplicativeExpression"
+  transitiveSubRuleNames: "postfixExpression"
+  transitiveSubRuleNames: "shiftExpression"
+  transitiveSubRuleNames: "unaryExpression"
+}
+entries {
+  ruleName: "aux_rule__equalityExpression_2"
+}
+entries {
+  ruleName: "kleene_star__equalityExpression_1"
+  immediateSubRuleNames: "aux_rule__equalityExpression_2"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "aux_rule__equalityExpression_2"
+}
+entries {
+  ruleName: "equalityExpression"
+  immediateSubRuleNames: "relationalExpression"
+  transitiveSubRuleNames: "Constant"
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "StringLiteral"
+  transitiveSubRuleNames: "additiveExpression"
+  transitiveSubRuleNames: "aux_rule__castExpression_2"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_13"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_14"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_4"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_5"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_6"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_7"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_8"
+  transitiveSubRuleNames: "castExpression"
+  transitiveSubRuleNames: "genericSelection"
+  transitiveSubRuleNames: "kleene_plus__primaryExpression_1"
+  transitiveSubRuleNames: "multiplicativeExpression"
+  transitiveSubRuleNames: "postfixExpression"
+  transitiveSubRuleNames: "relationalExpression"
+  transitiveSubRuleNames: "shiftExpression"
+  transitiveSubRuleNames: "unaryExpression"
+}
+entries {
+  ruleName: "aux_rule__andExpression_2"
+}
+entries {
+  ruleName: "kleene_star__andExpression_1"
+  immediateSubRuleNames: "aux_rule__andExpression_2"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "aux_rule__andExpression_2"
+}
+entries {
+  ruleName: "andExpression"
+  immediateSubRuleNames: "equalityExpression"
+  transitiveSubRuleNames: "Constant"
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "StringLiteral"
+  transitiveSubRuleNames: "additiveExpression"
+  transitiveSubRuleNames: "aux_rule__castExpression_2"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_13"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_14"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_4"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_5"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_6"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_7"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_8"
+  transitiveSubRuleNames: "castExpression"
+  transitiveSubRuleNames: "equalityExpression"
+  transitiveSubRuleNames: "genericSelection"
+  transitiveSubRuleNames: "kleene_plus__primaryExpression_1"
+  transitiveSubRuleNames: "multiplicativeExpression"
+  transitiveSubRuleNames: "postfixExpression"
+  transitiveSubRuleNames: "relationalExpression"
+  transitiveSubRuleNames: "shiftExpression"
+  transitiveSubRuleNames: "unaryExpression"
+}
+entries {
+  ruleName: "aux_rule__exclusiveOrExpression_2"
+}
+entries {
+  ruleName: "kleene_star__exclusiveOrExpression_1"
+  immediateSubRuleNames: "aux_rule__exclusiveOrExpression_2"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "aux_rule__exclusiveOrExpression_2"
+}
+entries {
+  ruleName: "exclusiveOrExpression"
+  immediateSubRuleNames: "andExpression"
+  transitiveSubRuleNames: "Constant"
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "StringLiteral"
+  transitiveSubRuleNames: "additiveExpression"
+  transitiveSubRuleNames: "andExpression"
+  transitiveSubRuleNames: "aux_rule__castExpression_2"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_13"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_14"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_4"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_5"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_6"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_7"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_8"
+  transitiveSubRuleNames: "castExpression"
+  transitiveSubRuleNames: "equalityExpression"
+  transitiveSubRuleNames: "genericSelection"
+  transitiveSubRuleNames: "kleene_plus__primaryExpression_1"
+  transitiveSubRuleNames: "multiplicativeExpression"
+  transitiveSubRuleNames: "postfixExpression"
+  transitiveSubRuleNames: "relationalExpression"
+  transitiveSubRuleNames: "shiftExpression"
+  transitiveSubRuleNames: "unaryExpression"
+}
+entries {
+  ruleName: "aux_rule__inclusiveOrExpression_2"
+}
+entries {
+  ruleName: "kleene_star__inclusiveOrExpression_1"
+  immediateSubRuleNames: "aux_rule__inclusiveOrExpression_2"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "aux_rule__inclusiveOrExpression_2"
+}
+entries {
+  ruleName: "inclusiveOrExpression"
+  immediateSubRuleNames: "exclusiveOrExpression"
+  transitiveSubRuleNames: "Constant"
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "StringLiteral"
+  transitiveSubRuleNames: "additiveExpression"
+  transitiveSubRuleNames: "andExpression"
+  transitiveSubRuleNames: "aux_rule__castExpression_2"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_13"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_14"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_4"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_5"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_6"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_7"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_8"
+  transitiveSubRuleNames: "castExpression"
+  transitiveSubRuleNames: "equalityExpression"
+  transitiveSubRuleNames: "exclusiveOrExpression"
+  transitiveSubRuleNames: "genericSelection"
+  transitiveSubRuleNames: "kleene_plus__primaryExpression_1"
+  transitiveSubRuleNames: "multiplicativeExpression"
+  transitiveSubRuleNames: "postfixExpression"
+  transitiveSubRuleNames: "relationalExpression"
+  transitiveSubRuleNames: "shiftExpression"
+  transitiveSubRuleNames: "unaryExpression"
+}
+entries {
+  ruleName: "aux_rule__logicalAndExpression_2"
+}
+entries {
+  ruleName: "kleene_star__logicalAndExpression_1"
+  immediateSubRuleNames: "aux_rule__logicalAndExpression_2"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "aux_rule__logicalAndExpression_2"
+}
+entries {
+  ruleName: "logicalAndExpression"
+  immediateSubRuleNames: "inclusiveOrExpression"
+  transitiveSubRuleNames: "Constant"
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "StringLiteral"
+  transitiveSubRuleNames: "additiveExpression"
+  transitiveSubRuleNames: "andExpression"
+  transitiveSubRuleNames: "aux_rule__castExpression_2"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_13"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_14"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_4"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_5"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_6"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_7"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_8"
+  transitiveSubRuleNames: "castExpression"
+  transitiveSubRuleNames: "equalityExpression"
+  transitiveSubRuleNames: "exclusiveOrExpression"
+  transitiveSubRuleNames: "genericSelection"
+  transitiveSubRuleNames: "inclusiveOrExpression"
+  transitiveSubRuleNames: "kleene_plus__primaryExpression_1"
+  transitiveSubRuleNames: "multiplicativeExpression"
+  transitiveSubRuleNames: "postfixExpression"
+  transitiveSubRuleNames: "relationalExpression"
+  transitiveSubRuleNames: "shiftExpression"
+  transitiveSubRuleNames: "unaryExpression"
+}
+entries {
+  ruleName: "aux_rule__logicalOrExpression_2"
+}
+entries {
+  ruleName: "kleene_star__logicalOrExpression_1"
+  immediateSubRuleNames: "aux_rule__logicalOrExpression_2"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "aux_rule__logicalOrExpression_2"
+}
+entries {
+  ruleName: "logicalOrExpression"
+  immediateSubRuleNames: "logicalAndExpression"
+  transitiveSubRuleNames: "Constant"
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "StringLiteral"
+  transitiveSubRuleNames: "additiveExpression"
+  transitiveSubRuleNames: "andExpression"
+  transitiveSubRuleNames: "aux_rule__castExpression_2"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_13"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_14"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_4"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_5"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_6"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_7"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_8"
+  transitiveSubRuleNames: "castExpression"
+  transitiveSubRuleNames: "equalityExpression"
+  transitiveSubRuleNames: "exclusiveOrExpression"
+  transitiveSubRuleNames: "genericSelection"
+  transitiveSubRuleNames: "inclusiveOrExpression"
+  transitiveSubRuleNames: "kleene_plus__primaryExpression_1"
+  transitiveSubRuleNames: "logicalAndExpression"
+  transitiveSubRuleNames: "multiplicativeExpression"
+  transitiveSubRuleNames: "postfixExpression"
+  transitiveSubRuleNames: "relationalExpression"
+  transitiveSubRuleNames: "shiftExpression"
+  transitiveSubRuleNames: "unaryExpression"
+}
+entries {
+  ruleName: "aux_rule__initDeclaratorList_2"
+}
+entries {
+  ruleName: "kleene_star__initDeclaratorList_1"
+  immediateSubRuleNames: "aux_rule__initDeclaratorList_2"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "aux_rule__initDeclaratorList_2"
+}
+entries {
+  ruleName: "initDeclaratorList"
+  immediateSubRuleNames: "initDeclarator"
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "aux_rule__directDeclarator_16"
+  transitiveSubRuleNames: "aux_rule__directDeclarator_9"
+  transitiveSubRuleNames: "declarator"
+  transitiveSubRuleNames: "directDeclarator"
+  transitiveSubRuleNames: "initDeclarator"
+}
+entries {
+  ruleName: "structDeclarationList"
+  immediateSubRuleNames: "kleene_plus__structDeclarationList_3"
+  transitiveSubRuleNames: "aux_rule__structDeclarationList_2"
+  transitiveSubRuleNames: "aux_rule__structDeclarationList_4"
+  transitiveSubRuleNames: "kleene_plus__structDeclarationList_3"
+  transitiveSubRuleNames: "staticAssertDeclaration"
+}
+entries {
+  ruleName: "aux_rule__structDeclaratorList_2"
+}
+entries {
+  ruleName: "kleene_star__structDeclaratorList_1"
+  immediateSubRuleNames: "aux_rule__structDeclaratorList_2"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "aux_rule__structDeclaratorList_2"
+}
+entries {
+  ruleName: "structDeclaratorList"
+  immediateSubRuleNames: "structDeclarator"
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "aux_rule__directDeclarator_16"
+  transitiveSubRuleNames: "aux_rule__directDeclarator_9"
+  transitiveSubRuleNames: "aux_rule__structDeclarator_2"
+  transitiveSubRuleNames: "declarator"
+  transitiveSubRuleNames: "directDeclarator"
+  transitiveSubRuleNames: "structDeclarator"
+}
+entries {
+  ruleName: "aux_rule__enumeratorList_2"
+}
+entries {
+  ruleName: "kleene_star__enumeratorList_1"
+  immediateSubRuleNames: "aux_rule__enumeratorList_2"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "aux_rule__enumeratorList_2"
+}
+entries {
+  ruleName: "enumeratorList"
+  immediateSubRuleNames: "enumerator"
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "enumerator"
+  transitiveSubRuleNames: "typedefName"
+}
+entries {
+  ruleName: "aux_rule__directDeclarator_8"
+  immediateSubRuleNames: "aux_rule__directDeclarator_14"
+  immediateSubRuleNames: "aux_rule__directDeclarator_15"
+  transitiveSubRuleNames: "aux_rule__directDeclarator_14"
+  transitiveSubRuleNames: "aux_rule__directDeclarator_15"
+}
+entries {
+  ruleName: "kleene_star__directDeclarator_7"
+  immediateSubRuleNames: "aux_rule__directDeclarator_8"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "aux_rule__directDeclarator_14"
+  transitiveSubRuleNames: "aux_rule__directDeclarator_15"
+  transitiveSubRuleNames: "aux_rule__directDeclarator_8"
+}
+entries {
+  ruleName: "aux_rule__directDeclarator_9"
+  immediateSubRuleNames: "Identifier"
+  immediateSubRuleNames: "aux_rule__directDeclarator_16"
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "aux_rule__directDeclarator_16"
+}
+entries {
+  ruleName: "directDeclarator"
+  immediateSubRuleNames: "aux_rule__directDeclarator_9"
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "aux_rule__directDeclarator_16"
+  transitiveSubRuleNames: "aux_rule__directDeclarator_9"
+}
+entries {
+  ruleName: "aux_rule__identifierList_2"
+}
+entries {
+  ruleName: "kleene_star__identifierList_1"
+  immediateSubRuleNames: "aux_rule__identifierList_2"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "aux_rule__identifierList_2"
+}
+entries {
+  ruleName: "identifierList"
+  immediateSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "Identifier"
+}
+entries {
+  ruleName: "aux_rule__parameterList_2"
+}
+entries {
+  ruleName: "kleene_star__parameterList_1"
+  immediateSubRuleNames: "aux_rule__parameterList_2"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "aux_rule__parameterList_2"
+}
+entries {
+  ruleName: "parameterList"
+  immediateSubRuleNames: "parameterDeclaration"
+  transitiveSubRuleNames: "AUX_TOKEN__functionSpecifier_1"
+  transitiveSubRuleNames: "AUX_TOKEN__functionSpecifier_2"
+  transitiveSubRuleNames: "AUX_TOKEN__typeSpecifier_1"
+  transitiveSubRuleNames: "AUX_TOKEN__typeSpecifier_2"
+  transitiveSubRuleNames: "AUX_TOKEN__typeSpecifier_3"
+  transitiveSubRuleNames: "Atomic"
+  transitiveSubRuleNames: "Auto"
+  transitiveSubRuleNames: "Bool"
+  transitiveSubRuleNames: "Char"
+  transitiveSubRuleNames: "Complex"
+  transitiveSubRuleNames: "Const"
+  transitiveSubRuleNames: "Double"
+  transitiveSubRuleNames: "Extern"
+  transitiveSubRuleNames: "Float"
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "Inline"
+  transitiveSubRuleNames: "Int"
+  transitiveSubRuleNames: "Long"
+  transitiveSubRuleNames: "Nonnull"
+  transitiveSubRuleNames: "Noreturn"
+  transitiveSubRuleNames: "Nullable"
+  transitiveSubRuleNames: "Register"
+  transitiveSubRuleNames: "Restrict"
+  transitiveSubRuleNames: "Restrict_gcc"
+  transitiveSubRuleNames: "Restrict_gcc2"
+  transitiveSubRuleNames: "Short"
+  transitiveSubRuleNames: "Signed"
+  transitiveSubRuleNames: "Static"
+  transitiveSubRuleNames: "ThreadLocal"
+  transitiveSubRuleNames: "Typedef"
+  transitiveSubRuleNames: "Unsigned"
+  transitiveSubRuleNames: "Void"
+  transitiveSubRuleNames: "Volatile"
+  transitiveSubRuleNames: "alignmentSpecifier"
+  transitiveSubRuleNames: "atomicTypeSpecifier"
+  transitiveSubRuleNames: "aux_rule__declarationSpecifier_1"
+  transitiveSubRuleNames: "aux_rule__typeSpecifier_3"
+  transitiveSubRuleNames: "declarationSpecifier"
+  transitiveSubRuleNames: "declarationSpecifiers"
+  transitiveSubRuleNames: "enumSpecifier"
+  transitiveSubRuleNames: "gccAttributeSpecifier"
+  transitiveSubRuleNames: "parameterDeclaration"
+  transitiveSubRuleNames: "structOrUnionSpecifier"
+  transitiveSubRuleNames: "typeQualifier"
+  transitiveSubRuleNames: "typeSpecifier"
+  transitiveSubRuleNames: "typeSpecifierWithAttrList"
+  transitiveSubRuleNames: "typedefName"
+  transitiveStringLiterals: "_Atomic"
+  transitiveStringLiterals: "_Bool"
+  transitiveStringLiterals: "_Complex"
+  transitiveStringLiterals: "_Nonnull"
+  transitiveStringLiterals: "_Noreturn"
+  transitiveStringLiterals: "_Nullable"
+  transitiveStringLiterals: "_Thread_local"
+  transitiveStringLiterals: "__inline__"
+  transitiveStringLiterals: "__m128"
+  transitiveStringLiterals: "__m128d"
+  transitiveStringLiterals: "__m128i"
+  transitiveStringLiterals: "__restrict"
+  transitiveStringLiterals: "__restrict__"
+  transitiveStringLiterals: "__stdcall"
+  transitiveStringLiterals: "auto"
+  transitiveStringLiterals: "char"
+  transitiveStringLiterals: "const"
+  transitiveStringLiterals: "double"
+  transitiveStringLiterals: "extern"
+  transitiveStringLiterals: "float"
+  transitiveStringLiterals: "inline"
+  transitiveStringLiterals: "int"
+  transitiveStringLiterals: "long"
+  transitiveStringLiterals: "register"
+  transitiveStringLiterals: "restrict"
+  transitiveStringLiterals: "short"
+  transitiveStringLiterals: "signed"
+  transitiveStringLiterals: "static"
+  transitiveStringLiterals: "typedef"
+  transitiveStringLiterals: "unsigned"
+  transitiveStringLiterals: "void"
+  transitiveStringLiterals: "volatile"
+}
+entries {
+  ruleName: "aux_rule__directAbstractDeclarator_13"
+  immediateSubRuleNames: "aux_rule__directAbstractDeclarator_21"
+  immediateSubRuleNames: "aux_rule__directAbstractDeclarator_22"
+  transitiveSubRuleNames: "aux_rule__directAbstractDeclarator_21"
+  transitiveSubRuleNames: "aux_rule__directAbstractDeclarator_22"
+}
+entries {
+  ruleName: "kleene_star__directAbstractDeclarator_12"
+  immediateSubRuleNames: "aux_rule__directAbstractDeclarator_13"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "aux_rule__directAbstractDeclarator_13"
+  transitiveSubRuleNames: "aux_rule__directAbstractDeclarator_21"
+  transitiveSubRuleNames: "aux_rule__directAbstractDeclarator_22"
+}
+entries {
+  ruleName: "aux_rule__directAbstractDeclarator_14"
+  immediateSubRuleNames: "aux_rule__directAbstractDeclarator_23"
+  immediateSubRuleNames: "aux_rule__directAbstractDeclarator_24"
+  transitiveSubRuleNames: "aux_rule__directAbstractDeclarator_23"
+  transitiveSubRuleNames: "aux_rule__directAbstractDeclarator_24"
+}
+entries {
+  ruleName: "directAbstractDeclarator"
+  immediateSubRuleNames: "aux_rule__directAbstractDeclarator_14"
+  transitiveSubRuleNames: "aux_rule__directAbstractDeclarator_14"
+  transitiveSubRuleNames: "aux_rule__directAbstractDeclarator_23"
+  transitiveSubRuleNames: "aux_rule__directAbstractDeclarator_24"
+}
+entries {
+  ruleName: "designatorList"
+  immediateSubRuleNames: "kleene_plus__designatorList_3"
+  transitiveSubRuleNames: "aux_rule__designatorList_2"
+  transitiveSubRuleNames: "aux_rule__designatorList_4"
+  transitiveSubRuleNames: "aux_rule__designatorList_5"
+  transitiveSubRuleNames: "kleene_plus__designatorList_3"
+}
+entries {
+  ruleName: "blockItemList"
+  immediateSubRuleNames: "kleene_plus__blockItemList_3"
+  transitiveSubRuleNames: "Semi"
+  transitiveSubRuleNames: "asmStatement"
+  transitiveSubRuleNames: "aux_rule__blockItemList_2"
+  transitiveSubRuleNames: "aux_rule__declaration_3"
+  transitiveSubRuleNames: "aux_rule__statement_3"
+  transitiveSubRuleNames: "aux_rule__statement_4"
+  transitiveSubRuleNames: "aux_rule__statement_5"
+  transitiveSubRuleNames: "compoundStatement"
+  transitiveSubRuleNames: "declaration"
+  transitiveSubRuleNames: "expressionStatement"
+  transitiveSubRuleNames: "jumpStatement"
+  transitiveSubRuleNames: "kleene_plus__blockItemList_3"
+  transitiveSubRuleNames: "labeledStatement"
+  transitiveSubRuleNames: "statement"
+  transitiveSubRuleNames: "staticAssertDeclaration"
+  transitiveStringLiterals: ";"
+}
+entries {
+  ruleName: "translationUnit"
+  immediateSubRuleNames: "kleene_plus__translationUnit_3"
+  transitiveSubRuleNames: "IncludeDirective"
+  transitiveSubRuleNames: "Semi"
+  transitiveSubRuleNames: "asmStatement"
+  transitiveSubRuleNames: "aux_rule__declaration_3"
+  transitiveSubRuleNames: "aux_rule__translationUnit_2"
+  transitiveSubRuleNames: "declaration"
+  transitiveSubRuleNames: "functionDefinition"
+  transitiveSubRuleNames: "kleene_plus__translationUnit_3"
+  transitiveSubRuleNames: "staticAssertDeclaration"
+  transitiveStringLiterals: ";"
+}
+entries {
+  ruleName: "aux_rule__declarationList_2"
+  immediateSubRuleNames: "declaration"
+  transitiveSubRuleNames: "asmStatement"
+  transitiveSubRuleNames: "aux_rule__declaration_3"
+  transitiveSubRuleNames: "declaration"
+  transitiveSubRuleNames: "staticAssertDeclaration"
+}
+entries {
+  ruleName: "declarationList"
+  immediateSubRuleNames: "kleene_plus__declarationList_3"
+  transitiveSubRuleNames: "asmStatement"
+  transitiveSubRuleNames: "aux_rule__declarationList_2"
+  transitiveSubRuleNames: "aux_rule__declaration_3"
+  transitiveSubRuleNames: "declaration"
+  transitiveSubRuleNames: "kleene_plus__declarationList_3"
+  transitiveSubRuleNames: "staticAssertDeclaration"
+}
+entries {
+  ruleName: "kleene_plus__structDeclarationList_3"
+  immediateSubRuleNames: "aux_rule__structDeclarationList_2"
+  transitiveSubRuleNames: "aux_rule__structDeclarationList_2"
+  transitiveSubRuleNames: "aux_rule__structDeclarationList_4"
+  transitiveSubRuleNames: "staticAssertDeclaration"
+}
+entries {
+  ruleName: "kleene_plus__designatorList_3"
+  immediateSubRuleNames: "aux_rule__designatorList_2"
+  transitiveSubRuleNames: "aux_rule__designatorList_2"
+  transitiveSubRuleNames: "aux_rule__designatorList_4"
+  transitiveSubRuleNames: "aux_rule__designatorList_5"
+}
+entries {
+  ruleName: "kleene_plus__blockItemList_3"
+  immediateSubRuleNames: "aux_rule__blockItemList_2"
+  transitiveSubRuleNames: "Semi"
+  transitiveSubRuleNames: "asmStatement"
+  transitiveSubRuleNames: "aux_rule__blockItemList_2"
+  transitiveSubRuleNames: "aux_rule__declaration_3"
+  transitiveSubRuleNames: "aux_rule__statement_3"
+  transitiveSubRuleNames: "aux_rule__statement_4"
+  transitiveSubRuleNames: "aux_rule__statement_5"
+  transitiveSubRuleNames: "compoundStatement"
+  transitiveSubRuleNames: "declaration"
+  transitiveSubRuleNames: "expressionStatement"
+  transitiveSubRuleNames: "jumpStatement"
+  transitiveSubRuleNames: "labeledStatement"
+  transitiveSubRuleNames: "statement"
+  transitiveSubRuleNames: "staticAssertDeclaration"
+  transitiveStringLiterals: ";"
+}
+entries {
+  ruleName: "kleene_plus__translationUnit_3"
+  immediateSubRuleNames: "aux_rule__translationUnit_2"
+  transitiveSubRuleNames: "IncludeDirective"
+  transitiveSubRuleNames: "Semi"
+  transitiveSubRuleNames: "asmStatement"
+  transitiveSubRuleNames: "aux_rule__declaration_3"
+  transitiveSubRuleNames: "aux_rule__translationUnit_2"
+  transitiveSubRuleNames: "declaration"
+  transitiveSubRuleNames: "functionDefinition"
+  transitiveSubRuleNames: "staticAssertDeclaration"
+  transitiveStringLiterals: ";"
+}
+entries {
+  ruleName: "kleene_plus__declarationList_3"
+  immediateSubRuleNames: "aux_rule__declarationList_2"
+  transitiveSubRuleNames: "asmStatement"
+  transitiveSubRuleNames: "aux_rule__declarationList_2"
+  transitiveSubRuleNames: "aux_rule__declaration_3"
+  transitiveSubRuleNames: "declaration"
+  transitiveSubRuleNames: "staticAssertDeclaration"
+}
+entries {
+  ruleName: "optional__postfixExpression_5"
+  immediateSubRuleNames: "Comma"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "Comma"
+  transitiveStringLiterals: ","
+}
+entries {
+  ruleName: "aux_rule__initDeclarator_1"
+}
+entries {
+  ruleName: "optional__initDeclarator_2"
+  immediateSubRuleNames: "aux_rule__initDeclarator_1"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "aux_rule__initDeclarator_1"
+}
+entries {
+  ruleName: "aux_rule__enumerator_1"
+}
+entries {
+  ruleName: "optional__enumerator_2"
+  immediateSubRuleNames: "aux_rule__enumerator_1"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "aux_rule__enumerator_1"
+}
+entries {
+  ruleName: "aux_rule__parameterTypeList_1"
+}
+entries {
+  ruleName: "optional__parameterTypeList_2"
+  immediateSubRuleNames: "aux_rule__parameterTypeList_1"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "aux_rule__parameterTypeList_1"
+}
+entries {
+  ruleName: "altnt_block__primaryExpression_3"
+  immediateSubRuleNames: "aux_rule__primaryExpression_4"
+  immediateSubRuleNames: "aux_rule__primaryExpression_5"
+  immediateSubRuleNames: "aux_rule__primaryExpression_6"
+  immediateSubRuleNames: "aux_rule__primaryExpression_7"
+  transitiveSubRuleNames: "aux_rule__primaryExpression_4"
+  transitiveSubRuleNames: "aux_rule__primaryExpression_5"
+  transitiveSubRuleNames: "aux_rule__primaryExpression_6"
+  transitiveSubRuleNames: "aux_rule__primaryExpression_7"
+}
+entries {
+  ruleName: "altnt_block__unaryExpression_1"
+  immediateSubRuleNames: "MinusMinus"
+  immediateSubRuleNames: "PlusPlus"
+  immediateSubRuleNames: "Sizeof"
+  transitiveSubRuleNames: "MinusMinus"
+  transitiveSubRuleNames: "PlusPlus"
+  transitiveSubRuleNames: "Sizeof"
+  transitiveStringLiterals: "++"
+  transitiveStringLiterals: "--"
+  transitiveStringLiterals: "sizeof"
+}
+entries {
+  ruleName: "altnt_block__unaryExpression_2"
+  immediateSubRuleNames: "aux_rule__unaryExpression_10"
+  immediateSubRuleNames: "aux_rule__unaryExpression_9"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_10"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_9"
+}
+entries {
+  ruleName: "altnt_block__genericAssociation_1"
+  immediateSubRuleNames: "Default"
+  immediateSubRuleNames: "typeName"
+  transitiveSubRuleNames: "AUX_TOKEN__typeSpecifier_1"
+  transitiveSubRuleNames: "AUX_TOKEN__typeSpecifier_2"
+  transitiveSubRuleNames: "AUX_TOKEN__typeSpecifier_3"
+  transitiveSubRuleNames: "Atomic"
+  transitiveSubRuleNames: "Bool"
+  transitiveSubRuleNames: "Char"
+  transitiveSubRuleNames: "Complex"
+  transitiveSubRuleNames: "Const"
+  transitiveSubRuleNames: "Default"
+  transitiveSubRuleNames: "Double"
+  transitiveSubRuleNames: "Float"
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "Int"
+  transitiveSubRuleNames: "Long"
+  transitiveSubRuleNames: "Nonnull"
+  transitiveSubRuleNames: "Nullable"
+  transitiveSubRuleNames: "Restrict"
+  transitiveSubRuleNames: "Restrict_gcc"
+  transitiveSubRuleNames: "Restrict_gcc2"
+  transitiveSubRuleNames: "Short"
+  transitiveSubRuleNames: "Signed"
+  transitiveSubRuleNames: "Unsigned"
+  transitiveSubRuleNames: "Void"
+  transitiveSubRuleNames: "Volatile"
+  transitiveSubRuleNames: "altnt_block__specifierQualifierList_3"
+  transitiveSubRuleNames: "atomicTypeSpecifier"
+  transitiveSubRuleNames: "aux_rule__typeSpecifier_3"
+  transitiveSubRuleNames: "enumSpecifier"
+  transitiveSubRuleNames: "specifierQualifierList"
+  transitiveSubRuleNames: "structOrUnionSpecifier"
+  transitiveSubRuleNames: "typeName"
+  transitiveSubRuleNames: "typeQualifier"
+  transitiveSubRuleNames: "typeSpecifier"
+  transitiveSubRuleNames: "typeSpecifierWithAttrList"
+  transitiveSubRuleNames: "typedefName"
+  transitiveStringLiterals: "_Atomic"
+  transitiveStringLiterals: "_Bool"
+  transitiveStringLiterals: "_Complex"
+  transitiveStringLiterals: "_Nonnull"
+  transitiveStringLiterals: "_Nullable"
+  transitiveStringLiterals: "__m128"
+  transitiveStringLiterals: "__m128d"
+  transitiveStringLiterals: "__m128i"
+  transitiveStringLiterals: "__restrict"
+  transitiveStringLiterals: "__restrict__"
+  transitiveStringLiterals: "char"
+  transitiveStringLiterals: "const"
+  transitiveStringLiterals: "default"
+  transitiveStringLiterals: "double"
+  transitiveStringLiterals: "float"
+  transitiveStringLiterals: "int"
+  transitiveStringLiterals: "long"
+  transitiveStringLiterals: "restrict"
+  transitiveStringLiterals: "short"
+  transitiveStringLiterals: "signed"
+  transitiveStringLiterals: "unsigned"
+  transitiveStringLiterals: "void"
+  transitiveStringLiterals: "volatile"
+}
+entries {
+  ruleName: "altnt_block__postfixExpression_7"
+  immediateSubRuleNames: "Arrow"
+  immediateSubRuleNames: "Dot"
+  transitiveSubRuleNames: "Arrow"
+  transitiveSubRuleNames: "Dot"
+  transitiveStringLiterals: "->"
+  transitiveStringLiterals: "."
+}
+entries {
+  ruleName: "altnt_block__postfixExpression_8"
+}
+entries {
+  ruleName: "altnt_block__multiplicativeExpression_3"
+  immediateSubRuleNames: "Div"
+  immediateSubRuleNames: "Mod"
+  immediateSubRuleNames: "Star"
+  transitiveSubRuleNames: "Div"
+  transitiveSubRuleNames: "Mod"
+  transitiveSubRuleNames: "Star"
+  transitiveStringLiterals: "%"
+  transitiveStringLiterals: "*"
+  transitiveStringLiterals: "/"
+}
+entries {
+  ruleName: "altnt_block__additiveExpression_3"
+  immediateSubRuleNames: "Minus"
+  immediateSubRuleNames: "Plus"
+  transitiveSubRuleNames: "Minus"
+  transitiveSubRuleNames: "Plus"
+  transitiveStringLiterals: "+"
+  transitiveStringLiterals: "-"
+}
+entries {
+  ruleName: "altnt_block__shiftExpression_3"
+  immediateSubRuleNames: "LeftShift"
+  immediateSubRuleNames: "RightShift"
+  transitiveSubRuleNames: "LeftShift"
+  transitiveSubRuleNames: "RightShift"
+  transitiveStringLiterals: "<<"
+  transitiveStringLiterals: ">>"
+}
+entries {
+  ruleName: "altnt_block__relationalExpression_3"
+  immediateSubRuleNames: "Greater"
+  immediateSubRuleNames: "GreaterEqual"
+  immediateSubRuleNames: "Less"
+  immediateSubRuleNames: "LessEqual"
+  transitiveSubRuleNames: "Greater"
+  transitiveSubRuleNames: "GreaterEqual"
+  transitiveSubRuleNames: "Less"
+  transitiveSubRuleNames: "LessEqual"
+  transitiveStringLiterals: "<"
+  transitiveStringLiterals: "<="
+  transitiveStringLiterals: ">"
+  transitiveStringLiterals: ">="
+}
+entries {
+  ruleName: "altnt_block__equalityExpression_3"
+  immediateSubRuleNames: "Equal"
+  immediateSubRuleNames: "NotEqual"
+  transitiveSubRuleNames: "Equal"
+  transitiveSubRuleNames: "NotEqual"
+  transitiveStringLiterals: "!="
+  transitiveStringLiterals: "=="
+}
+entries {
+  ruleName: "altnt_block__alignmentSpecifier_1"
+  immediateSubRuleNames: "constantExpression"
+  immediateSubRuleNames: "typeName"
+  transitiveSubRuleNames: "AUX_TOKEN__typeSpecifier_1"
+  transitiveSubRuleNames: "AUX_TOKEN__typeSpecifier_2"
+  transitiveSubRuleNames: "AUX_TOKEN__typeSpecifier_3"
+  transitiveSubRuleNames: "Atomic"
+  transitiveSubRuleNames: "Bool"
+  transitiveSubRuleNames: "Char"
+  transitiveSubRuleNames: "Complex"
+  transitiveSubRuleNames: "Const"
+  transitiveSubRuleNames: "Constant"
+  transitiveSubRuleNames: "Double"
+  transitiveSubRuleNames: "Float"
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "Int"
+  transitiveSubRuleNames: "Long"
+  transitiveSubRuleNames: "Nonnull"
+  transitiveSubRuleNames: "Nullable"
+  transitiveSubRuleNames: "Restrict"
+  transitiveSubRuleNames: "Restrict_gcc"
+  transitiveSubRuleNames: "Restrict_gcc2"
+  transitiveSubRuleNames: "Short"
+  transitiveSubRuleNames: "Signed"
+  transitiveSubRuleNames: "StringLiteral"
+  transitiveSubRuleNames: "Unsigned"
+  transitiveSubRuleNames: "Void"
+  transitiveSubRuleNames: "Volatile"
+  transitiveSubRuleNames: "additiveExpression"
+  transitiveSubRuleNames: "altnt_block__specifierQualifierList_3"
+  transitiveSubRuleNames: "andExpression"
+  transitiveSubRuleNames: "atomicTypeSpecifier"
+  transitiveSubRuleNames: "aux_rule__castExpression_2"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_13"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_14"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_4"
+  transitiveSubRuleNames: "aux_rule__typeSpecifier_3"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_5"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_6"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_7"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_8"
+  transitiveSubRuleNames: "castExpression"
+  transitiveSubRuleNames: "conditionalExpression"
+  transitiveSubRuleNames: "constantExpression"
+  transitiveSubRuleNames: "enumSpecifier"
+  transitiveSubRuleNames: "equalityExpression"
+  transitiveSubRuleNames: "exclusiveOrExpression"
+  transitiveSubRuleNames: "genericSelection"
+  transitiveSubRuleNames: "inclusiveOrExpression"
+  transitiveSubRuleNames: "kleene_plus__primaryExpression_1"
+  transitiveSubRuleNames: "logicalAndExpression"
+  transitiveSubRuleNames: "logicalOrExpression"
+  transitiveSubRuleNames: "multiplicativeExpression"
+  transitiveSubRuleNames: "postfixExpression"
+  transitiveSubRuleNames: "relationalExpression"
+  transitiveSubRuleNames: "shiftExpression"
+  transitiveSubRuleNames: "specifierQualifierList"
+  transitiveSubRuleNames: "structOrUnionSpecifier"
+  transitiveSubRuleNames: "typeName"
+  transitiveSubRuleNames: "typeQualifier"
+  transitiveSubRuleNames: "typeSpecifier"
+  transitiveSubRuleNames: "typeSpecifierWithAttrList"
+  transitiveSubRuleNames: "typedefName"
+  transitiveSubRuleNames: "unaryExpression"
+  transitiveStringLiterals: "_Atomic"
+  transitiveStringLiterals: "_Bool"
+  transitiveStringLiterals: "_Complex"
+  transitiveStringLiterals: "_Nonnull"
+  transitiveStringLiterals: "_Nullable"
+  transitiveStringLiterals: "__m128"
+  transitiveStringLiterals: "__m128d"
+  transitiveStringLiterals: "__m128i"
+  transitiveStringLiterals: "__restrict"
+  transitiveStringLiterals: "__restrict__"
+  transitiveStringLiterals: "char"
+  transitiveStringLiterals: "const"
+  transitiveStringLiterals: "double"
+  transitiveStringLiterals: "float"
+  transitiveStringLiterals: "int"
+  transitiveStringLiterals: "long"
+  transitiveStringLiterals: "restrict"
+  transitiveStringLiterals: "short"
+  transitiveStringLiterals: "signed"
+  transitiveStringLiterals: "unsigned"
+  transitiveStringLiterals: "void"
+  transitiveStringLiterals: "volatile"
+}
+entries {
+  ruleName: "altnt_block__typeSpecifier_1"
+  immediateSubRuleNames: "aux_rule__typeSpecifier_4"
+  immediateSubRuleNames: "aux_rule__typeSpecifier_5"
+  transitiveSubRuleNames: "aux_rule__typeSpecifier_4"
+  transitiveSubRuleNames: "aux_rule__typeSpecifier_5"
+}
+entries {
+  ruleName: "altnt_block__structOrUnionSpecifier_2"
+  immediateSubRuleNames: "Identifier"
+  immediateSubRuleNames: "aux_rule__structOrUnionSpecifier_3"
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "aux_rule__structOrUnionSpecifier_3"
+}
+entries {
+  ruleName: "altnt_block__enumSpecifier_3"
+  immediateSubRuleNames: "Identifier"
+  immediateSubRuleNames: "aux_rule__enumSpecifier_6"
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "aux_rule__enumSpecifier_6"
+}
+entries {
+  ruleName: "altnt_block__pointer_5"
+  immediateSubRuleNames: "optional__declarator_1"
+  immediateSubRuleNames: "optional__pointer_1"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "Atomic"
+  transitiveSubRuleNames: "Caret"
+  transitiveSubRuleNames: "Const"
+  transitiveSubRuleNames: "Nonnull"
+  transitiveSubRuleNames: "Nullable"
+  transitiveSubRuleNames: "Restrict"
+  transitiveSubRuleNames: "Restrict_gcc"
+  transitiveSubRuleNames: "Restrict_gcc2"
+  transitiveSubRuleNames: "Star"
+  transitiveSubRuleNames: "Volatile"
+  transitiveSubRuleNames: "altnt_block__pointer_8"
+  transitiveSubRuleNames: "aux_rule__typeQualifierList_1"
+  transitiveSubRuleNames: "gccAttributeSpecifier"
+  transitiveSubRuleNames: "optional__declarator_1"
+  transitiveSubRuleNames: "optional__pointer_1"
+  transitiveSubRuleNames: "pointer"
+  transitiveSubRuleNames: "typeQualifier"
+  transitiveSubRuleNames: "typeQualifierList"
+  transitiveStringLiterals: "*"
+  transitiveStringLiterals: "^"
+  transitiveStringLiterals: "_Atomic"
+  transitiveStringLiterals: "_Nonnull"
+  transitiveStringLiterals: "_Nullable"
+  transitiveStringLiterals: "__restrict"
+  transitiveStringLiterals: "__restrict__"
+  transitiveStringLiterals: "const"
+  transitiveStringLiterals: "restrict"
+  transitiveStringLiterals: "volatile"
+}
+entries {
+  ruleName: "altnt_block__directDeclarator_10"
+  immediateSubRuleNames: "aux_rule__directDeclarator_17"
+  immediateSubRuleNames: "aux_rule__directDeclarator_18"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "Atomic"
+  transitiveSubRuleNames: "Const"
+  transitiveSubRuleNames: "Constant"
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "Nonnull"
+  transitiveSubRuleNames: "Nullable"
+  transitiveSubRuleNames: "Restrict"
+  transitiveSubRuleNames: "Restrict_gcc"
+  transitiveSubRuleNames: "Restrict_gcc2"
+  transitiveSubRuleNames: "Star"
+  transitiveSubRuleNames: "StringLiteral"
+  transitiveSubRuleNames: "Volatile"
+  transitiveSubRuleNames: "additiveExpression"
+  transitiveSubRuleNames: "altnt_block__directDeclarator_13"
+  transitiveSubRuleNames: "andExpression"
+  transitiveSubRuleNames: "assignmentExpression"
+  transitiveSubRuleNames: "aux_rule__assignmentExpression_1"
+  transitiveSubRuleNames: "aux_rule__castExpression_2"
+  transitiveSubRuleNames: "aux_rule__directDeclarator_17"
+  transitiveSubRuleNames: "aux_rule__directDeclarator_18"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_13"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_14"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_4"
+  transitiveSubRuleNames: "aux_rule__typeQualifierList_1"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_5"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_6"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_7"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_8"
+  transitiveSubRuleNames: "castExpression"
+  transitiveSubRuleNames: "conditionalExpression"
+  transitiveSubRuleNames: "equalityExpression"
+  transitiveSubRuleNames: "exclusiveOrExpression"
+  transitiveSubRuleNames: "gccAttributeSpecifier"
+  transitiveSubRuleNames: "genericSelection"
+  transitiveSubRuleNames: "inclusiveOrExpression"
+  transitiveSubRuleNames: "kleene_plus__primaryExpression_1"
+  transitiveSubRuleNames: "logicalAndExpression"
+  transitiveSubRuleNames: "logicalOrExpression"
+  transitiveSubRuleNames: "multiplicativeExpression"
+  transitiveSubRuleNames: "optional__directDeclarator_3"
+  transitiveSubRuleNames: "optional__pointer_1"
+  transitiveSubRuleNames: "postfixExpression"
+  transitiveSubRuleNames: "relationalExpression"
+  transitiveSubRuleNames: "shiftExpression"
+  transitiveSubRuleNames: "typeQualifier"
+  transitiveSubRuleNames: "typeQualifierList"
+  transitiveSubRuleNames: "unaryExpression"
+  transitiveStringLiterals: "*"
+  transitiveStringLiterals: "_Atomic"
+  transitiveStringLiterals: "_Nonnull"
+  transitiveStringLiterals: "_Nullable"
+  transitiveStringLiterals: "__restrict"
+  transitiveStringLiterals: "__restrict__"
+  transitiveStringLiterals: "const"
+  transitiveStringLiterals: "restrict"
+  transitiveStringLiterals: "volatile"
+}
+entries {
+  ruleName: "altnt_block__directDeclarator_11"
+  immediateSubRuleNames: "optional__directDeclarator_6"
+  immediateSubRuleNames: "parameterTypeList"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "AUX_TOKEN__functionSpecifier_1"
+  transitiveSubRuleNames: "AUX_TOKEN__functionSpecifier_2"
+  transitiveSubRuleNames: "AUX_TOKEN__typeSpecifier_1"
+  transitiveSubRuleNames: "AUX_TOKEN__typeSpecifier_2"
+  transitiveSubRuleNames: "AUX_TOKEN__typeSpecifier_3"
+  transitiveSubRuleNames: "Atomic"
+  transitiveSubRuleNames: "Auto"
+  transitiveSubRuleNames: "Bool"
+  transitiveSubRuleNames: "Char"
+  transitiveSubRuleNames: "Complex"
+  transitiveSubRuleNames: "Const"
+  transitiveSubRuleNames: "Double"
+  transitiveSubRuleNames: "Extern"
+  transitiveSubRuleNames: "Float"
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "Inline"
+  transitiveSubRuleNames: "Int"
+  transitiveSubRuleNames: "Long"
+  transitiveSubRuleNames: "Nonnull"
+  transitiveSubRuleNames: "Noreturn"
+  transitiveSubRuleNames: "Nullable"
+  transitiveSubRuleNames: "Register"
+  transitiveSubRuleNames: "Restrict"
+  transitiveSubRuleNames: "Restrict_gcc"
+  transitiveSubRuleNames: "Restrict_gcc2"
+  transitiveSubRuleNames: "Short"
+  transitiveSubRuleNames: "Signed"
+  transitiveSubRuleNames: "Static"
+  transitiveSubRuleNames: "ThreadLocal"
+  transitiveSubRuleNames: "Typedef"
+  transitiveSubRuleNames: "Unsigned"
+  transitiveSubRuleNames: "Void"
+  transitiveSubRuleNames: "Volatile"
+  transitiveSubRuleNames: "alignmentSpecifier"
+  transitiveSubRuleNames: "atomicTypeSpecifier"
+  transitiveSubRuleNames: "aux_rule__declarationSpecifier_1"
+  transitiveSubRuleNames: "aux_rule__typeSpecifier_3"
+  transitiveSubRuleNames: "declarationSpecifier"
+  transitiveSubRuleNames: "declarationSpecifiers"
+  transitiveSubRuleNames: "enumSpecifier"
+  transitiveSubRuleNames: "gccAttributeSpecifier"
+  transitiveSubRuleNames: "identifierList"
+  transitiveSubRuleNames: "optional__directDeclarator_6"
+  transitiveSubRuleNames: "parameterDeclaration"
+  transitiveSubRuleNames: "parameterList"
+  transitiveSubRuleNames: "parameterTypeList"
+  transitiveSubRuleNames: "structOrUnionSpecifier"
+  transitiveSubRuleNames: "typeQualifier"
+  transitiveSubRuleNames: "typeSpecifier"
+  transitiveSubRuleNames: "typeSpecifierWithAttrList"
+  transitiveSubRuleNames: "typedefName"
+  transitiveStringLiterals: "_Atomic"
+  transitiveStringLiterals: "_Bool"
+  transitiveStringLiterals: "_Complex"
+  transitiveStringLiterals: "_Nonnull"
+  transitiveStringLiterals: "_Noreturn"
+  transitiveStringLiterals: "_Nullable"
+  transitiveStringLiterals: "_Thread_local"
+  transitiveStringLiterals: "__inline__"
+  transitiveStringLiterals: "__m128"
+  transitiveStringLiterals: "__m128d"
+  transitiveStringLiterals: "__m128i"
+  transitiveStringLiterals: "__restrict"
+  transitiveStringLiterals: "__restrict__"
+  transitiveStringLiterals: "__stdcall"
+  transitiveStringLiterals: "auto"
+  transitiveStringLiterals: "char"
+  transitiveStringLiterals: "const"
+  transitiveStringLiterals: "double"
+  transitiveStringLiterals: "extern"
+  transitiveStringLiterals: "float"
+  transitiveStringLiterals: "inline"
+  transitiveStringLiterals: "int"
+  transitiveStringLiterals: "long"
+  transitiveStringLiterals: "register"
+  transitiveStringLiterals: "restrict"
+  transitiveStringLiterals: "short"
+  transitiveStringLiterals: "signed"
+  transitiveStringLiterals: "static"
+  transitiveStringLiterals: "typedef"
+  transitiveStringLiterals: "unsigned"
+  transitiveStringLiterals: "void"
+  transitiveStringLiterals: "volatile"
+}
+entries {
+  ruleName: "altnt_block__directAbstractDeclarator_15"
+  immediateSubRuleNames: "Star"
+  immediateSubRuleNames: "aux_rule__directAbstractDeclarator_25"
+  immediateSubRuleNames: "aux_rule__directAbstractDeclarator_26"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "Atomic"
+  transitiveSubRuleNames: "Const"
+  transitiveSubRuleNames: "Constant"
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "Nonnull"
+  transitiveSubRuleNames: "Nullable"
+  transitiveSubRuleNames: "Restrict"
+  transitiveSubRuleNames: "Restrict_gcc"
+  transitiveSubRuleNames: "Restrict_gcc2"
+  transitiveSubRuleNames: "Star"
+  transitiveSubRuleNames: "StringLiteral"
+  transitiveSubRuleNames: "Volatile"
+  transitiveSubRuleNames: "additiveExpression"
+  transitiveSubRuleNames: "andExpression"
+  transitiveSubRuleNames: "assignmentExpression"
+  transitiveSubRuleNames: "aux_rule__assignmentExpression_1"
+  transitiveSubRuleNames: "aux_rule__castExpression_2"
+  transitiveSubRuleNames: "aux_rule__directAbstractDeclarator_25"
+  transitiveSubRuleNames: "aux_rule__directAbstractDeclarator_26"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_13"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_14"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_4"
+  transitiveSubRuleNames: "aux_rule__typeQualifierList_1"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_5"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_6"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_7"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_8"
+  transitiveSubRuleNames: "castExpression"
+  transitiveSubRuleNames: "conditionalExpression"
+  transitiveSubRuleNames: "equalityExpression"
+  transitiveSubRuleNames: "exclusiveOrExpression"
+  transitiveSubRuleNames: "gccAttributeSpecifier"
+  transitiveSubRuleNames: "genericSelection"
+  transitiveSubRuleNames: "inclusiveOrExpression"
+  transitiveSubRuleNames: "kleene_plus__primaryExpression_1"
+  transitiveSubRuleNames: "logicalAndExpression"
+  transitiveSubRuleNames: "logicalOrExpression"
+  transitiveSubRuleNames: "multiplicativeExpression"
+  transitiveSubRuleNames: "optional__directDeclarator_3"
+  transitiveSubRuleNames: "optional__pointer_1"
+  transitiveSubRuleNames: "postfixExpression"
+  transitiveSubRuleNames: "relationalExpression"
+  transitiveSubRuleNames: "shiftExpression"
+  transitiveSubRuleNames: "typeQualifier"
+  transitiveSubRuleNames: "typeQualifierList"
+  transitiveSubRuleNames: "unaryExpression"
+  transitiveStringLiterals: "*"
+  transitiveStringLiterals: "_Atomic"
+  transitiveStringLiterals: "_Nonnull"
+  transitiveStringLiterals: "_Nullable"
+  transitiveStringLiterals: "__restrict"
+  transitiveStringLiterals: "__restrict__"
+  transitiveStringLiterals: "const"
+  transitiveStringLiterals: "restrict"
+  transitiveStringLiterals: "volatile"
+}
+entries {
+  ruleName: "altnt_block__directAbstractDeclarator_17"
+  immediateSubRuleNames: "RightParen"
+  transitiveSubRuleNames: "RightParen"
+  transitiveStringLiterals: ")"
+}
+entries {
+  ruleName: "altnt_block__labeledStatement_1"
+  immediateSubRuleNames: "Default"
+  immediateSubRuleNames: "Identifier"
+  immediateSubRuleNames: "aux_rule__labeledStatement_2"
+  transitiveSubRuleNames: "Default"
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "aux_rule__labeledStatement_2"
+  transitiveStringLiterals: "default"
+}
+entries {
+  ruleName: "altnt_block__jumpStatement_2"
+  immediateSubRuleNames: "Break"
+  immediateSubRuleNames: "Continue"
+  immediateSubRuleNames: "aux_rule__jumpStatement_4"
+  immediateSubRuleNames: "aux_rule__jumpStatement_5"
+  transitiveSubRuleNames: "Break"
+  transitiveSubRuleNames: "Continue"
+  transitiveSubRuleNames: "Return"
+  transitiveSubRuleNames: "aux_rule__jumpStatement_4"
+  transitiveSubRuleNames: "aux_rule__jumpStatement_5"
+  transitiveStringLiterals: "break"
+  transitiveStringLiterals: "continue"
+  transitiveStringLiterals: "return"
+}
+entries {
+  ruleName: "altnt_block__enumSpecifier_4"
+}
+entries {
+  ruleName: "altnt_block__directDeclarator_12"
+  immediateSubRuleNames: "aux_rule__directDeclarator_19"
+  immediateSubRuleNames: "aux_rule__directDeclarator_20"
+  transitiveSubRuleNames: "Static"
+  transitiveSubRuleNames: "aux_rule__directDeclarator_19"
+  transitiveSubRuleNames: "aux_rule__directDeclarator_20"
+  transitiveStringLiterals: "static"
+}
+entries {
+  ruleName: "altnt_block__iterationStatement_7"
+}
+entries {
+  ruleName: "altnt_block__jumpStatement_3"
+  immediateSubRuleNames: "Identifier"
+  immediateSubRuleNames: "unaryExpression"
+  transitiveSubRuleNames: "Constant"
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "StringLiteral"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_13"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_14"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_4"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_5"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_6"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_7"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_8"
+  transitiveSubRuleNames: "genericSelection"
+  transitiveSubRuleNames: "kleene_plus__primaryExpression_1"
+  transitiveSubRuleNames: "postfixExpression"
+  transitiveSubRuleNames: "unaryExpression"
+}
+entries {
+  ruleName: "aux_rule__postfixExpression_4"
+  immediateSubRuleNames: "Constant"
+  immediateSubRuleNames: "Identifier"
+  immediateSubRuleNames: "aux_rule__postfixExpression_13"
+  immediateSubRuleNames: "aux_rule__postfixExpression_14"
+  immediateSubRuleNames: "genericSelection"
+  immediateSubRuleNames: "kleene_plus__primaryExpression_1"
+  transitiveSubRuleNames: "Constant"
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "StringLiteral"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_13"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_14"
+  transitiveSubRuleNames: "genericSelection"
+  transitiveSubRuleNames: "kleene_plus__primaryExpression_1"
+}
+entries {
+  ruleName: "declarationSpecifier"
+  immediateSubRuleNames: "AUX_TOKEN__functionSpecifier_1"
+  immediateSubRuleNames: "AUX_TOKEN__functionSpecifier_2"
+  immediateSubRuleNames: "Auto"
+  immediateSubRuleNames: "Extern"
+  immediateSubRuleNames: "Inline"
+  immediateSubRuleNames: "Noreturn"
+  immediateSubRuleNames: "Register"
+  immediateSubRuleNames: "Static"
+  immediateSubRuleNames: "ThreadLocal"
+  immediateSubRuleNames: "Typedef"
+  immediateSubRuleNames: "alignmentSpecifier"
+  immediateSubRuleNames: "aux_rule__declarationSpecifier_1"
+  immediateSubRuleNames: "gccAttributeSpecifier"
+  immediateSubRuleNames: "typeQualifier"
+  immediateSubRuleNames: "typeSpecifierWithAttrList"
+  transitiveSubRuleNames: "AUX_TOKEN__functionSpecifier_1"
+  transitiveSubRuleNames: "AUX_TOKEN__functionSpecifier_2"
+  transitiveSubRuleNames: "AUX_TOKEN__typeSpecifier_1"
+  transitiveSubRuleNames: "AUX_TOKEN__typeSpecifier_2"
+  transitiveSubRuleNames: "AUX_TOKEN__typeSpecifier_3"
+  transitiveSubRuleNames: "Atomic"
+  transitiveSubRuleNames: "Auto"
+  transitiveSubRuleNames: "Bool"
+  transitiveSubRuleNames: "Char"
+  transitiveSubRuleNames: "Complex"
+  transitiveSubRuleNames: "Const"
+  transitiveSubRuleNames: "Double"
+  transitiveSubRuleNames: "Extern"
+  transitiveSubRuleNames: "Float"
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "Inline"
+  transitiveSubRuleNames: "Int"
+  transitiveSubRuleNames: "Long"
+  transitiveSubRuleNames: "Nonnull"
+  transitiveSubRuleNames: "Noreturn"
+  transitiveSubRuleNames: "Nullable"
+  transitiveSubRuleNames: "Register"
+  transitiveSubRuleNames: "Restrict"
+  transitiveSubRuleNames: "Restrict_gcc"
+  transitiveSubRuleNames: "Restrict_gcc2"
+  transitiveSubRuleNames: "Short"
+  transitiveSubRuleNames: "Signed"
+  transitiveSubRuleNames: "Static"
+  transitiveSubRuleNames: "ThreadLocal"
+  transitiveSubRuleNames: "Typedef"
+  transitiveSubRuleNames: "Unsigned"
+  transitiveSubRuleNames: "Void"
+  transitiveSubRuleNames: "Volatile"
+  transitiveSubRuleNames: "alignmentSpecifier"
+  transitiveSubRuleNames: "atomicTypeSpecifier"
+  transitiveSubRuleNames: "aux_rule__declarationSpecifier_1"
+  transitiveSubRuleNames: "aux_rule__typeSpecifier_3"
+  transitiveSubRuleNames: "enumSpecifier"
+  transitiveSubRuleNames: "gccAttributeSpecifier"
+  transitiveSubRuleNames: "structOrUnionSpecifier"
+  transitiveSubRuleNames: "typeQualifier"
+  transitiveSubRuleNames: "typeSpecifier"
+  transitiveSubRuleNames: "typeSpecifierWithAttrList"
+  transitiveSubRuleNames: "typedefName"
+  transitiveStringLiterals: "_Atomic"
+  transitiveStringLiterals: "_Bool"
+  transitiveStringLiterals: "_Complex"
+  transitiveStringLiterals: "_Nonnull"
+  transitiveStringLiterals: "_Noreturn"
+  transitiveStringLiterals: "_Nullable"
+  transitiveStringLiterals: "_Thread_local"
+  transitiveStringLiterals: "__inline__"
+  transitiveStringLiterals: "__m128"
+  transitiveStringLiterals: "__m128d"
+  transitiveStringLiterals: "__m128i"
+  transitiveStringLiterals: "__restrict"
+  transitiveStringLiterals: "__restrict__"
+  transitiveStringLiterals: "__stdcall"
+  transitiveStringLiterals: "auto"
+  transitiveStringLiterals: "char"
+  transitiveStringLiterals: "const"
+  transitiveStringLiterals: "double"
+  transitiveStringLiterals: "extern"
+  transitiveStringLiterals: "float"
+  transitiveStringLiterals: "inline"
+  transitiveStringLiterals: "int"
+  transitiveStringLiterals: "long"
+  transitiveStringLiterals: "register"
+  transitiveStringLiterals: "restrict"
+  transitiveStringLiterals: "short"
+  transitiveStringLiterals: "signed"
+  transitiveStringLiterals: "static"
+  transitiveStringLiterals: "typedef"
+  transitiveStringLiterals: "unsigned"
+  transitiveStringLiterals: "void"
+  transitiveStringLiterals: "volatile"
+}
+entries {
+  ruleName: "aux_rule__structDeclarationList_2"
+  immediateSubRuleNames: "aux_rule__structDeclarationList_4"
+  immediateSubRuleNames: "staticAssertDeclaration"
+  transitiveSubRuleNames: "aux_rule__structDeclarationList_4"
+  transitiveSubRuleNames: "staticAssertDeclaration"
+}
+entries {
+  ruleName: "aux_rule__designatorList_2"
+  immediateSubRuleNames: "aux_rule__designatorList_4"
+  immediateSubRuleNames: "aux_rule__designatorList_5"
+  transitiveSubRuleNames: "aux_rule__designatorList_4"
+  transitiveSubRuleNames: "aux_rule__designatorList_5"
+}
+entries {
+  ruleName: "statement"
+  immediateSubRuleNames: "asmStatement"
+  immediateSubRuleNames: "aux_rule__statement_3"
+  immediateSubRuleNames: "aux_rule__statement_4"
+  immediateSubRuleNames: "aux_rule__statement_5"
+  immediateSubRuleNames: "compoundStatement"
+  immediateSubRuleNames: "expressionStatement"
+  immediateSubRuleNames: "jumpStatement"
+  immediateSubRuleNames: "labeledStatement"
+  transitiveSubRuleNames: "Semi"
+  transitiveSubRuleNames: "asmStatement"
+  transitiveSubRuleNames: "aux_rule__statement_3"
+  transitiveSubRuleNames: "aux_rule__statement_4"
+  transitiveSubRuleNames: "aux_rule__statement_5"
+  transitiveSubRuleNames: "compoundStatement"
+  transitiveSubRuleNames: "expressionStatement"
+  transitiveSubRuleNames: "jumpStatement"
+  transitiveSubRuleNames: "labeledStatement"
+  transitiveStringLiterals: ";"
+}
+entries {
+  ruleName: "aux_rule__blockItemList_2"
+  immediateSubRuleNames: "declaration"
+  immediateSubRuleNames: "statement"
+  transitiveSubRuleNames: "Semi"
+  transitiveSubRuleNames: "asmStatement"
+  transitiveSubRuleNames: "aux_rule__declaration_3"
+  transitiveSubRuleNames: "aux_rule__statement_3"
+  transitiveSubRuleNames: "aux_rule__statement_4"
+  transitiveSubRuleNames: "aux_rule__statement_5"
+  transitiveSubRuleNames: "compoundStatement"
+  transitiveSubRuleNames: "declaration"
+  transitiveSubRuleNames: "expressionStatement"
+  transitiveSubRuleNames: "jumpStatement"
+  transitiveSubRuleNames: "labeledStatement"
+  transitiveSubRuleNames: "statement"
+  transitiveSubRuleNames: "staticAssertDeclaration"
+  transitiveStringLiterals: ";"
+}
+entries {
+  ruleName: "aux_rule__translationUnit_2"
+  immediateSubRuleNames: "IncludeDirective"
+  immediateSubRuleNames: "Semi"
+  immediateSubRuleNames: "declaration"
+  immediateSubRuleNames: "functionDefinition"
+  transitiveSubRuleNames: "IncludeDirective"
+  transitiveSubRuleNames: "Semi"
+  transitiveSubRuleNames: "asmStatement"
+  transitiveSubRuleNames: "aux_rule__declaration_3"
+  transitiveSubRuleNames: "declaration"
+  transitiveSubRuleNames: "functionDefinition"
+  transitiveSubRuleNames: "staticAssertDeclaration"
+  transitiveStringLiterals: ";"
+}
+entries {
+  ruleName: "altnt_block__unaryExpression_3"
+  immediateSubRuleNames: "Alignof"
+  immediateSubRuleNames: "Alignof_gcc"
+  transitiveSubRuleNames: "Alignof"
+  transitiveSubRuleNames: "Alignof_gcc"
+  transitiveStringLiterals: "_Alignof"
+  transitiveStringLiterals: "__alignof__"
+}
+entries {
+  ruleName: "altnt_block__unaryExpression_4"
+  immediateSubRuleNames: "typeName"
+  immediateSubRuleNames: "unaryExpression"
+  transitiveSubRuleNames: "AUX_TOKEN__typeSpecifier_1"
+  transitiveSubRuleNames: "AUX_TOKEN__typeSpecifier_2"
+  transitiveSubRuleNames: "AUX_TOKEN__typeSpecifier_3"
+  transitiveSubRuleNames: "Atomic"
+  transitiveSubRuleNames: "Bool"
+  transitiveSubRuleNames: "Char"
+  transitiveSubRuleNames: "Complex"
+  transitiveSubRuleNames: "Const"
+  transitiveSubRuleNames: "Constant"
+  transitiveSubRuleNames: "Double"
+  transitiveSubRuleNames: "Float"
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "Int"
+  transitiveSubRuleNames: "Long"
+  transitiveSubRuleNames: "Nonnull"
+  transitiveSubRuleNames: "Nullable"
+  transitiveSubRuleNames: "Restrict"
+  transitiveSubRuleNames: "Restrict_gcc"
+  transitiveSubRuleNames: "Restrict_gcc2"
+  transitiveSubRuleNames: "Short"
+  transitiveSubRuleNames: "Signed"
+  transitiveSubRuleNames: "StringLiteral"
+  transitiveSubRuleNames: "Unsigned"
+  transitiveSubRuleNames: "Void"
+  transitiveSubRuleNames: "Volatile"
+  transitiveSubRuleNames: "altnt_block__specifierQualifierList_3"
+  transitiveSubRuleNames: "atomicTypeSpecifier"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_13"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_14"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_4"
+  transitiveSubRuleNames: "aux_rule__typeSpecifier_3"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_5"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_6"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_7"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_8"
+  transitiveSubRuleNames: "enumSpecifier"
+  transitiveSubRuleNames: "genericSelection"
+  transitiveSubRuleNames: "kleene_plus__primaryExpression_1"
+  transitiveSubRuleNames: "postfixExpression"
+  transitiveSubRuleNames: "specifierQualifierList"
+  transitiveSubRuleNames: "structOrUnionSpecifier"
+  transitiveSubRuleNames: "typeName"
+  transitiveSubRuleNames: "typeQualifier"
+  transitiveSubRuleNames: "typeSpecifier"
+  transitiveSubRuleNames: "typeSpecifierWithAttrList"
+  transitiveSubRuleNames: "typedefName"
+  transitiveSubRuleNames: "unaryExpression"
+  transitiveStringLiterals: "_Atomic"
+  transitiveStringLiterals: "_Bool"
+  transitiveStringLiterals: "_Complex"
+  transitiveStringLiterals: "_Nonnull"
+  transitiveStringLiterals: "_Nullable"
+  transitiveStringLiterals: "__m128"
+  transitiveStringLiterals: "__m128d"
+  transitiveStringLiterals: "__m128i"
+  transitiveStringLiterals: "__restrict"
+  transitiveStringLiterals: "__restrict__"
+  transitiveStringLiterals: "char"
+  transitiveStringLiterals: "const"
+  transitiveStringLiterals: "double"
+  transitiveStringLiterals: "float"
+  transitiveStringLiterals: "int"
+  transitiveStringLiterals: "long"
+  transitiveStringLiterals: "restrict"
+  transitiveStringLiterals: "short"
+  transitiveStringLiterals: "signed"
+  transitiveStringLiterals: "unsigned"
+  transitiveStringLiterals: "void"
+  transitiveStringLiterals: "volatile"
+}
+entries {
+  ruleName: "altnt_block__typeSpecifier_2"
+  immediateSubRuleNames: "AUX_TOKEN__typeSpecifier_1"
+  immediateSubRuleNames: "AUX_TOKEN__typeSpecifier_2"
+  immediateSubRuleNames: "AUX_TOKEN__typeSpecifier_3"
+  transitiveSubRuleNames: "AUX_TOKEN__typeSpecifier_1"
+  transitiveSubRuleNames: "AUX_TOKEN__typeSpecifier_2"
+  transitiveSubRuleNames: "AUX_TOKEN__typeSpecifier_3"
+  transitiveStringLiterals: "__m128"
+  transitiveStringLiterals: "__m128d"
+  transitiveStringLiterals: "__m128i"
+}
+entries {
+  ruleName: "altnt_block__specifierQualifierList_3"
+  immediateSubRuleNames: "typeQualifier"
+  immediateSubRuleNames: "typeSpecifierWithAttrList"
+  transitiveSubRuleNames: "AUX_TOKEN__typeSpecifier_1"
+  transitiveSubRuleNames: "AUX_TOKEN__typeSpecifier_2"
+  transitiveSubRuleNames: "AUX_TOKEN__typeSpecifier_3"
+  transitiveSubRuleNames: "Atomic"
+  transitiveSubRuleNames: "Bool"
+  transitiveSubRuleNames: "Char"
+  transitiveSubRuleNames: "Complex"
+  transitiveSubRuleNames: "Const"
+  transitiveSubRuleNames: "Double"
+  transitiveSubRuleNames: "Float"
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "Int"
+  transitiveSubRuleNames: "Long"
+  transitiveSubRuleNames: "Nonnull"
+  transitiveSubRuleNames: "Nullable"
+  transitiveSubRuleNames: "Restrict"
+  transitiveSubRuleNames: "Restrict_gcc"
+  transitiveSubRuleNames: "Restrict_gcc2"
+  transitiveSubRuleNames: "Short"
+  transitiveSubRuleNames: "Signed"
+  transitiveSubRuleNames: "Unsigned"
+  transitiveSubRuleNames: "Void"
+  transitiveSubRuleNames: "Volatile"
+  transitiveSubRuleNames: "atomicTypeSpecifier"
+  transitiveSubRuleNames: "aux_rule__typeSpecifier_3"
+  transitiveSubRuleNames: "enumSpecifier"
+  transitiveSubRuleNames: "structOrUnionSpecifier"
+  transitiveSubRuleNames: "typeQualifier"
+  transitiveSubRuleNames: "typeSpecifier"
+  transitiveSubRuleNames: "typeSpecifierWithAttrList"
+  transitiveSubRuleNames: "typedefName"
+  transitiveStringLiterals: "_Atomic"
+  transitiveStringLiterals: "_Bool"
+  transitiveStringLiterals: "_Complex"
+  transitiveStringLiterals: "_Nonnull"
+  transitiveStringLiterals: "_Nullable"
+  transitiveStringLiterals: "__m128"
+  transitiveStringLiterals: "__m128d"
+  transitiveStringLiterals: "__m128i"
+  transitiveStringLiterals: "__restrict"
+  transitiveStringLiterals: "__restrict__"
+  transitiveStringLiterals: "char"
+  transitiveStringLiterals: "const"
+  transitiveStringLiterals: "double"
+  transitiveStringLiterals: "float"
+  transitiveStringLiterals: "int"
+  transitiveStringLiterals: "long"
+  transitiveStringLiterals: "restrict"
+  transitiveStringLiterals: "short"
+  transitiveStringLiterals: "signed"
+  transitiveStringLiterals: "unsigned"
+  transitiveStringLiterals: "void"
+  transitiveStringLiterals: "volatile"
+}
+entries {
+  ruleName: "altnt_block__pointer_8"
+  immediateSubRuleNames: "Caret"
+  immediateSubRuleNames: "Star"
+  transitiveSubRuleNames: "Caret"
+  transitiveSubRuleNames: "Star"
+  transitiveStringLiterals: "*"
+  transitiveStringLiterals: "^"
+}
+entries {
+  ruleName: "altnt_block__directDeclarator_13"
+  immediateSubRuleNames: "Star"
+  immediateSubRuleNames: "optional__directDeclarator_3"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "Constant"
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "Star"
+  transitiveSubRuleNames: "StringLiteral"
+  transitiveSubRuleNames: "additiveExpression"
+  transitiveSubRuleNames: "andExpression"
+  transitiveSubRuleNames: "assignmentExpression"
+  transitiveSubRuleNames: "aux_rule__assignmentExpression_1"
+  transitiveSubRuleNames: "aux_rule__castExpression_2"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_13"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_14"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_4"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_5"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_6"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_7"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_8"
+  transitiveSubRuleNames: "castExpression"
+  transitiveSubRuleNames: "conditionalExpression"
+  transitiveSubRuleNames: "equalityExpression"
+  transitiveSubRuleNames: "exclusiveOrExpression"
+  transitiveSubRuleNames: "genericSelection"
+  transitiveSubRuleNames: "inclusiveOrExpression"
+  transitiveSubRuleNames: "kleene_plus__primaryExpression_1"
+  transitiveSubRuleNames: "logicalAndExpression"
+  transitiveSubRuleNames: "logicalOrExpression"
+  transitiveSubRuleNames: "multiplicativeExpression"
+  transitiveSubRuleNames: "optional__directDeclarator_3"
+  transitiveSubRuleNames: "postfixExpression"
+  transitiveSubRuleNames: "relationalExpression"
+  transitiveSubRuleNames: "shiftExpression"
+  transitiveSubRuleNames: "unaryExpression"
+  transitiveStringLiterals: "*"
+}
+entries {
+  ruleName: "altnt_block__parameterDeclaration_2"
+  immediateSubRuleNames: "declarator"
+  immediateSubRuleNames: "optional__typeName_1"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "Caret"
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "Star"
+  transitiveSubRuleNames: "abstractDeclarator"
+  transitiveSubRuleNames: "altnt_block__pointer_8"
+  transitiveSubRuleNames: "aux_rule__abstractDeclarator_3"
+  transitiveSubRuleNames: "aux_rule__directAbstractDeclarator_14"
+  transitiveSubRuleNames: "aux_rule__directAbstractDeclarator_23"
+  transitiveSubRuleNames: "aux_rule__directAbstractDeclarator_24"
+  transitiveSubRuleNames: "aux_rule__directDeclarator_16"
+  transitiveSubRuleNames: "aux_rule__directDeclarator_9"
+  transitiveSubRuleNames: "declarator"
+  transitiveSubRuleNames: "directAbstractDeclarator"
+  transitiveSubRuleNames: "directDeclarator"
+  transitiveSubRuleNames: "optional__typeName_1"
+  transitiveSubRuleNames: "pointer"
+  transitiveStringLiterals: "*"
+  transitiveStringLiterals: "^"
+}
+entries {
+  ruleName: "altnt_block__directAbstractDeclarator_20"
+  immediateSubRuleNames: "abstractDeclarator"
+  immediateSubRuleNames: "optional__directAbstractDeclarator_5"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "AUX_TOKEN__functionSpecifier_1"
+  transitiveSubRuleNames: "AUX_TOKEN__functionSpecifier_2"
+  transitiveSubRuleNames: "AUX_TOKEN__typeSpecifier_1"
+  transitiveSubRuleNames: "AUX_TOKEN__typeSpecifier_2"
+  transitiveSubRuleNames: "AUX_TOKEN__typeSpecifier_3"
+  transitiveSubRuleNames: "Atomic"
+  transitiveSubRuleNames: "Auto"
+  transitiveSubRuleNames: "Bool"
+  transitiveSubRuleNames: "Caret"
+  transitiveSubRuleNames: "Char"
+  transitiveSubRuleNames: "Complex"
+  transitiveSubRuleNames: "Const"
+  transitiveSubRuleNames: "Double"
+  transitiveSubRuleNames: "Extern"
+  transitiveSubRuleNames: "Float"
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "Inline"
+  transitiveSubRuleNames: "Int"
+  transitiveSubRuleNames: "Long"
+  transitiveSubRuleNames: "Nonnull"
+  transitiveSubRuleNames: "Noreturn"
+  transitiveSubRuleNames: "Nullable"
+  transitiveSubRuleNames: "Register"
+  transitiveSubRuleNames: "Restrict"
+  transitiveSubRuleNames: "Restrict_gcc"
+  transitiveSubRuleNames: "Restrict_gcc2"
+  transitiveSubRuleNames: "Short"
+  transitiveSubRuleNames: "Signed"
+  transitiveSubRuleNames: "Star"
+  transitiveSubRuleNames: "Static"
+  transitiveSubRuleNames: "ThreadLocal"
+  transitiveSubRuleNames: "Typedef"
+  transitiveSubRuleNames: "Unsigned"
+  transitiveSubRuleNames: "Void"
+  transitiveSubRuleNames: "Volatile"
+  transitiveSubRuleNames: "abstractDeclarator"
+  transitiveSubRuleNames: "alignmentSpecifier"
+  transitiveSubRuleNames: "altnt_block__pointer_8"
+  transitiveSubRuleNames: "atomicTypeSpecifier"
+  transitiveSubRuleNames: "aux_rule__abstractDeclarator_3"
+  transitiveSubRuleNames: "aux_rule__declarationSpecifier_1"
+  transitiveSubRuleNames: "aux_rule__directAbstractDeclarator_14"
+  transitiveSubRuleNames: "aux_rule__directAbstractDeclarator_23"
+  transitiveSubRuleNames: "aux_rule__directAbstractDeclarator_24"
+  transitiveSubRuleNames: "aux_rule__typeSpecifier_3"
+  transitiveSubRuleNames: "declarationSpecifier"
+  transitiveSubRuleNames: "declarationSpecifiers"
+  transitiveSubRuleNames: "directAbstractDeclarator"
+  transitiveSubRuleNames: "enumSpecifier"
+  transitiveSubRuleNames: "gccAttributeSpecifier"
+  transitiveSubRuleNames: "optional__directAbstractDeclarator_5"
+  transitiveSubRuleNames: "parameterDeclaration"
+  transitiveSubRuleNames: "parameterList"
+  transitiveSubRuleNames: "parameterTypeList"
+  transitiveSubRuleNames: "pointer"
+  transitiveSubRuleNames: "structOrUnionSpecifier"
+  transitiveSubRuleNames: "typeQualifier"
+  transitiveSubRuleNames: "typeSpecifier"
+  transitiveSubRuleNames: "typeSpecifierWithAttrList"
+  transitiveSubRuleNames: "typedefName"
+  transitiveStringLiterals: "*"
+  transitiveStringLiterals: "^"
+  transitiveStringLiterals: "_Atomic"
+  transitiveStringLiterals: "_Bool"
+  transitiveStringLiterals: "_Complex"
+  transitiveStringLiterals: "_Nonnull"
+  transitiveStringLiterals: "_Noreturn"
+  transitiveStringLiterals: "_Nullable"
+  transitiveStringLiterals: "_Thread_local"
+  transitiveStringLiterals: "__inline__"
+  transitiveStringLiterals: "__m128"
+  transitiveStringLiterals: "__m128d"
+  transitiveStringLiterals: "__m128i"
+  transitiveStringLiterals: "__restrict"
+  transitiveStringLiterals: "__restrict__"
+  transitiveStringLiterals: "__stdcall"
+  transitiveStringLiterals: "auto"
+  transitiveStringLiterals: "char"
+  transitiveStringLiterals: "const"
+  transitiveStringLiterals: "double"
+  transitiveStringLiterals: "extern"
+  transitiveStringLiterals: "float"
+  transitiveStringLiterals: "inline"
+  transitiveStringLiterals: "int"
+  transitiveStringLiterals: "long"
+  transitiveStringLiterals: "register"
+  transitiveStringLiterals: "restrict"
+  transitiveStringLiterals: "short"
+  transitiveStringLiterals: "signed"
+  transitiveStringLiterals: "static"
+  transitiveStringLiterals: "typedef"
+  transitiveStringLiterals: "unsigned"
+  transitiveStringLiterals: "void"
+  transitiveStringLiterals: "volatile"
+}
+entries {
+  ruleName: "altnt_block__iterationStatement_8"
+  immediateSubRuleNames: "aux_rule__iterationStatement_9"
+  immediateSubRuleNames: "declaration"
+  transitiveSubRuleNames: "Semi"
+  transitiveSubRuleNames: "asmStatement"
+  transitiveSubRuleNames: "aux_rule__declaration_3"
+  transitiveSubRuleNames: "aux_rule__iterationStatement_9"
+  transitiveSubRuleNames: "declaration"
+  transitiveSubRuleNames: "staticAssertDeclaration"
+  transitiveStringLiterals: ";"
+}
+entries {
+  ruleName: "altnt_block__statement_1"
+  immediateSubRuleNames: "aux_rule__statement_6"
+  immediateSubRuleNames: "aux_rule__statement_7"
+  transitiveSubRuleNames: "aux_rule__statement_6"
+  transitiveSubRuleNames: "aux_rule__statement_7"
+}
+entries {
+  ruleName: "altnt_block__statement_2"
+  immediateSubRuleNames: "Switch"
+  immediateSubRuleNames: "While"
+  transitiveSubRuleNames: "Switch"
+  transitiveSubRuleNames: "While"
+  transitiveStringLiterals: "switch"
+  transitiveStringLiterals: "while"
+}
+entries {
+  ruleName: "aux_rule__unaryExpression_5"
+}
+entries {
+  ruleName: "aux_rule__unaryExpression_6"
+}
+entries {
+  ruleName: "aux_rule__unaryExpression_7"
+}
+entries {
+  ruleName: "aux_rule__unaryExpression_8"
+}
+entries {
+  ruleName: "aux_rule__castExpression_2"
+}
+entries {
+  ruleName: "aux_rule__assignmentExpression_1"
+}
+entries {
+  ruleName: "aux_rule__declaration_3"
+}
+entries {
+  ruleName: "aux_rule__typeSpecifier_3"
+}
+entries {
+  ruleName: "aux_rule__structDeclarator_2"
+}
+entries {
+  ruleName: "aux_rule__gccDeclaratorExtension_2"
+}
+entries {
+  ruleName: "aux_rule__abstractDeclarator_3"
+  immediateSubRuleNames: "directAbstractDeclarator"
+  transitiveSubRuleNames: "aux_rule__directAbstractDeclarator_14"
+  transitiveSubRuleNames: "aux_rule__directAbstractDeclarator_23"
+  transitiveSubRuleNames: "aux_rule__directAbstractDeclarator_24"
+  transitiveSubRuleNames: "directAbstractDeclarator"
+}
+entries {
+  ruleName: "aux_rule__initializer_2"
+}
+entries {
+  ruleName: "aux_rule__postfixExpression_10"
+}
+entries {
+  ruleName: "aux_rule__postfixExpression_11"
+}
+entries {
+  ruleName: "aux_rule__postfixExpression_12"
+}
+entries {
+  ruleName: "aux_rule__directDeclarator_14"
+}
+entries {
+  ruleName: "aux_rule__directDeclarator_15"
+}
+entries {
+  ruleName: "aux_rule__directDeclarator_16"
+}
+entries {
+  ruleName: "aux_rule__directAbstractDeclarator_21"
+}
+entries {
+  ruleName: "aux_rule__directAbstractDeclarator_22"
+}
+entries {
+  ruleName: "aux_rule__directAbstractDeclarator_23"
+}
+entries {
+  ruleName: "aux_rule__directAbstractDeclarator_24"
+}
+entries {
+  ruleName: "aux_rule__primaryExpression_4"
+}
+entries {
+  ruleName: "aux_rule__primaryExpression_5"
+}
+entries {
+  ruleName: "aux_rule__primaryExpression_6"
+}
+entries {
+  ruleName: "aux_rule__primaryExpression_7"
+}
+entries {
+  ruleName: "aux_rule__unaryExpression_9"
+}
+entries {
+  ruleName: "aux_rule__unaryExpression_10"
+}
+entries {
+  ruleName: "aux_rule__typeSpecifier_4"
+}
+entries {
+  ruleName: "aux_rule__typeSpecifier_5"
+}
+entries {
+  ruleName: "aux_rule__structOrUnionSpecifier_3"
+}
+entries {
+  ruleName: "aux_rule__enumSpecifier_6"
+}
+entries {
+  ruleName: "aux_rule__directDeclarator_17"
+}
+entries {
+  ruleName: "aux_rule__directDeclarator_18"
+  immediateSubRuleNames: "altnt_block__directDeclarator_13"
+  immediateSubRuleNames: "optional__pointer_1"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "Atomic"
+  transitiveSubRuleNames: "Const"
+  transitiveSubRuleNames: "Constant"
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "Nonnull"
+  transitiveSubRuleNames: "Nullable"
+  transitiveSubRuleNames: "Restrict"
+  transitiveSubRuleNames: "Restrict_gcc"
+  transitiveSubRuleNames: "Restrict_gcc2"
+  transitiveSubRuleNames: "Star"
+  transitiveSubRuleNames: "StringLiteral"
+  transitiveSubRuleNames: "Volatile"
+  transitiveSubRuleNames: "additiveExpression"
+  transitiveSubRuleNames: "altnt_block__directDeclarator_13"
+  transitiveSubRuleNames: "andExpression"
+  transitiveSubRuleNames: "assignmentExpression"
+  transitiveSubRuleNames: "aux_rule__assignmentExpression_1"
+  transitiveSubRuleNames: "aux_rule__castExpression_2"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_13"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_14"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_4"
+  transitiveSubRuleNames: "aux_rule__typeQualifierList_1"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_5"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_6"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_7"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_8"
+  transitiveSubRuleNames: "castExpression"
+  transitiveSubRuleNames: "conditionalExpression"
+  transitiveSubRuleNames: "equalityExpression"
+  transitiveSubRuleNames: "exclusiveOrExpression"
+  transitiveSubRuleNames: "gccAttributeSpecifier"
+  transitiveSubRuleNames: "genericSelection"
+  transitiveSubRuleNames: "inclusiveOrExpression"
+  transitiveSubRuleNames: "kleene_plus__primaryExpression_1"
+  transitiveSubRuleNames: "logicalAndExpression"
+  transitiveSubRuleNames: "logicalOrExpression"
+  transitiveSubRuleNames: "multiplicativeExpression"
+  transitiveSubRuleNames: "optional__directDeclarator_3"
+  transitiveSubRuleNames: "optional__pointer_1"
+  transitiveSubRuleNames: "postfixExpression"
+  transitiveSubRuleNames: "relationalExpression"
+  transitiveSubRuleNames: "shiftExpression"
+  transitiveSubRuleNames: "typeQualifier"
+  transitiveSubRuleNames: "typeQualifierList"
+  transitiveSubRuleNames: "unaryExpression"
+  transitiveStringLiterals: "*"
+  transitiveStringLiterals: "_Atomic"
+  transitiveStringLiterals: "_Nonnull"
+  transitiveStringLiterals: "_Nullable"
+  transitiveStringLiterals: "__restrict"
+  transitiveStringLiterals: "__restrict__"
+  transitiveStringLiterals: "const"
+  transitiveStringLiterals: "restrict"
+  transitiveStringLiterals: "volatile"
+}
+entries {
+  ruleName: "aux_rule__directAbstractDeclarator_25"
+  immediateSubRuleNames: "optional__directDeclarator_3"
+  immediateSubRuleNames: "optional__pointer_1"
+  canBeEpsilon: true
+  transitiveSubRuleNames: "Atomic"
+  transitiveSubRuleNames: "Const"
+  transitiveSubRuleNames: "Constant"
+  transitiveSubRuleNames: "Identifier"
+  transitiveSubRuleNames: "Nonnull"
+  transitiveSubRuleNames: "Nullable"
+  transitiveSubRuleNames: "Restrict"
+  transitiveSubRuleNames: "Restrict_gcc"
+  transitiveSubRuleNames: "Restrict_gcc2"
+  transitiveSubRuleNames: "StringLiteral"
+  transitiveSubRuleNames: "Volatile"
+  transitiveSubRuleNames: "additiveExpression"
+  transitiveSubRuleNames: "andExpression"
+  transitiveSubRuleNames: "assignmentExpression"
+  transitiveSubRuleNames: "aux_rule__assignmentExpression_1"
+  transitiveSubRuleNames: "aux_rule__castExpression_2"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_13"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_14"
+  transitiveSubRuleNames: "aux_rule__postfixExpression_4"
+  transitiveSubRuleNames: "aux_rule__typeQualifierList_1"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_5"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_6"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_7"
+  transitiveSubRuleNames: "aux_rule__unaryExpression_8"
+  transitiveSubRuleNames: "castExpression"
+  transitiveSubRuleNames: "conditionalExpression"
+  transitiveSubRuleNames: "equalityExpression"
+  transitiveSubRuleNames: "exclusiveOrExpression"
+  transitiveSubRuleNames: "gccAttributeSpecifier"
+  transitiveSubRuleNames: "genericSelection"
+  transitiveSubRuleNames: "inclusiveOrExpression"
+  transitiveSubRuleNames: "kleene_plus__primaryExpression_1"
+  transitiveSubRuleNames: "logicalAndExpression"
+  transitiveSubRuleNames: "logicalOrExpression"
+  transitiveSubRuleNames: "multiplicativeExpression"
+  transitiveSubRuleNames: "optional__directDeclarator_3"
+  transitiveSubRuleNames: "optional__pointer_1"
+  transitiveSubRuleNames: "postfixExpression"
+  transitiveSubRuleNames: "relationalExpression"
+  transitiveSubRuleNames: "shiftExpression"
+  transitiveSubRuleNames: "typeQualifier"
+  transitiveSubRuleNames: "typeQualifierList"
+  transitiveSubRuleNames: "unaryExpression"
+  transitiveStringLiterals: "_Atomic"
+  transitiveStringLiterals: "_Nonnull"
+  transitiveStringLiterals: "_Nullable"
+  transitiveStringLiterals: "__restrict"
+  transitiveStringLiterals: "__restrict__"
+  transitiveStringLiterals: "const"
+  transitiveStringLiterals: "restrict"
+  transitiveStringLiterals: "volatile"
+}
+entries {
+  ruleName: "aux_rule__directAbstractDeclarator_26"
+}
+entries {
+  ruleName: "aux_rule__labeledStatement_2"
+}
+entries {
+  ruleName: "aux_rule__jumpStatement_4"
+  immediateSubRuleNames: "Return"
+  transitiveSubRuleNames: "Return"
+  transitiveStringLiterals: "return"
+}
+entries {
+  ruleName: "aux_rule__jumpStatement_5"
+}
+entries {
+  ruleName: "aux_rule__directDeclarator_19"
+  immediateSubRuleNames: "Static"
+  transitiveSubRuleNames: "Static"
+  transitiveStringLiterals: "static"
+}
+entries {
+  ruleName: "aux_rule__directDeclarator_20"
+}
+entries {
+  ruleName: "aux_rule__postfixExpression_13"
+}
+entries {
+  ruleName: "aux_rule__postfixExpression_14"
+}
+entries {
+  ruleName: "aux_rule__declarationSpecifier_1"
+}
+entries {
+  ruleName: "aux_rule__structDeclarationList_4"
+}
+entries {
+  ruleName: "aux_rule__designatorList_4"
+}
+entries {
+  ruleName: "aux_rule__designatorList_5"
+}
+entries {
+  ruleName: "aux_rule__statement_3"
+}
+entries {
+  ruleName: "aux_rule__statement_4"
+}
+entries {
+  ruleName: "aux_rule__statement_5"
+}
+entries {
+  ruleName: "aux_rule__iterationStatement_9"
+  immediateSubRuleNames: "Semi"
+  transitiveSubRuleNames: "Semi"
+  transitiveStringLiterals: ";"
+}
+entries {
+  ruleName: "aux_rule__statement_6"
+}
+entries {
+  ruleName: "aux_rule__statement_7"
+}

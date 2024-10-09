@@ -1,0 +1,14 @@
+CREATE TABLE b (
+      folders VARCHAR(80),
+      folderid VARCHAR(80),
+      parentid VARCHAR(80),
+      rootid VARCHAR(80),
+      c INTEGER,
+      path VARCHAR(80),
+      id VARCHAR(80),
+      i VARCHAR(80),
+      d VARCHAR(80),
+      e VARCHAR(80),
+      f VARCHAR(80)
+    );
+SELECT case b.d when coalesce((select max(17+coalesce((select max(coalesce((select (select count(distinct case f when 19 then coalesce((select coalesce((select max(11-(abs(d)/abs(11))) from b where not  -c in (19,b.d,17)),17) from b where (f in (d,f,b.c))),d) else d end) from b) from b where 17 between e and b.f),b.c)) from b where 13>=e),d)) from b where b.f>b.f),b.d) then 17 else b.f end FROM b WHERE not exists(select 1 from b where 13 between c+17 and (b.id));
