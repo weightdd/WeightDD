@@ -90,12 +90,15 @@ To run the evaluation, we need perses (including Perses, HDD, and all related al
 
 ```shell
 cd /tmp/WeightDD
-# For XML benchmarks:
-./run_stat_parallel_xml.py -s xml_benchmarks/xml-* -r perses_ddmin_stat hdd_ddmin_stat -o stat_result_xml -j 20
 # For C Benchmarks:
 ./run_stat_parallel_c.py -s c_benchmarks/* -r perses_ddmin_stat hdd_ddmin_stat -o stat_result_c -j 20
-# Export data to csv files:
-
+# For XML benchmarks:
+./run_stat_parallel_xml.py -s xml_benchmarks/xml-* -r perses_ddmin_stat hdd_ddmin_stat -o stat_result_xml -j 20
+# Calculate and export the correlation data to csv files:
+python3 stat.py -d ./stat_result_c/perses_ddmin_stat_0/ -o rq1_csv/perses_ddmin_c.csv -t correlation
+python3 stat.py -d ./stat_result_c/hdd_ddmin_stat_0/ -o rq1_csv/hdd_ddmin_c.csv -t correlation
+python3 stat.py -d ./stat_result_xml/perses_ddmin_stat_0/ -o rq1_csv/perses_ddmin_xml.csv -t correlation
+python3 stat.py -d ./stat_result_xml/hdd_ddmin_stat_0/ -o rq1_csv/hdd_ddmin_xml.csv -t correlation
 ```
 
 ## RQ2: $W_{ddmin}$ v.s. $ddmin$
@@ -164,4 +167,4 @@ RQ3: $W_{ProbDD}$ v.s. ProbDD
 | **XML Files**  | 3,004      | 89   | 2,574       | 80          | 1,838         | 37.4 | 1,813          | 37.5       |
 |                |            |      | **-14.31%** | **-9.74%**  |               |      | **-1.35%**     | **+0.42%** |
 
-
+Our evaluation results demonstrate that $W_{ddmin}$ and $W_{ProbDD}$ outperform ddmin and ProbDD in both efficiency and effectiveness, respectively.  These results highlight the significance of WDD in improving test input minimization techniques.
