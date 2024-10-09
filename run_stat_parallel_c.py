@@ -288,34 +288,22 @@ def main():
             time = datetime.now().strftime("%Y%m%d-%H%M%S-%f")
             reducer_flags = get_extra_flags(reducer)
 
-            # only one iteration if reducer is 'perses_wprobdd' or 'hdd_wprobdd'
-            if reducer == 'perses_wprobdd' or reducer == 'hdd_wprobdd':
+            # iteration
+            for iteration in range(parameter.iterations):
                 futures.append(executor.submit(
                     run_process,
                     subject,
                     reducer,
-                    0,
+                    iteration,
                     time,
                     parameter.memory_profiler,
                     parameter.show_subprocess,
                     reducer_flags,
                     parameter.output_dir))
-            else:
-                # iteration
-                for iteration in range(parameter.iterations):
-                    futures.append(executor.submit(
-                        run_process,
-                        subject,
-                        reducer,
-                        iteration,
-                        time,
-                        parameter.memory_profiler,
-                        parameter.show_subprocess,
-                        reducer_flags,
-                        parameter.output_dir))
 
     for future in futures:
         future.result()
 
 if __name__ == "__main__":
     main()
+
