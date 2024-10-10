@@ -9,7 +9,7 @@ To evaluate this artifact, a Linux machine with [docker](https://docs.docker.com
 ## List of Claims Supported by the Artifact
 
 - WDD introduce the concept of weight to the classical delta debugging algorithms, supporting more rational partitioning strategy during delta debugging.
-- $W_{ddmin}$ and $W_{ProbDD}$, the implementations of WDD in ddmin and ProbDD, outperform ddmin and ProbDD, respectively, in both efficiecny and effectiveness in tree-based test input minimization techniques, HDD and Perses.
+- $W_{ddmin}$ and $W_{ProbDD}$, the implementations of WDD onå ddmin and ProbDD, outperform ddmin and ProbDD, respectively, in both efficiecny and effectiveness in tree-based test input minimization techniques, HDD and Perses.
 
 ## Notes
 
