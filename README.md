@@ -9,7 +9,7 @@ To evaluate this artifact, a Linux machine with [docker](https://docs.docker.com
 ## List of Claims Supported by the Artifact
 
 - WDD introduce the concept of weight to the classical delta debugging algorithms, supporting more rational partitioning strategy during delta debugging.
-- $W_{ddmin}$ and $W_{ProbDD}$, the implementations of WDD in ddmin and ProbDD, outperform ddmin and ProbDD, respectively, in both efficiecny and effectiveness in tree-based test input minimization techniques, HDD and Perses.
+- $W_{ddmin}$ and $W_{ProbDD}$, the implementations of WDD onå ddmin and ProbDD, outperform ddmin and ProbDD, respectively, in both efficiecny and effectiveness in tree-based test input minimization techniques, HDD and Perses.
 
 ## Notes
 
@@ -23,13 +23,14 @@ To evaluate this artifact, a Linux machine with [docker](https://docs.docker.com
 2. Install the docker image.
 
    ```shell
-   docker pull [xxx]
+   docker pull wddartifact/wdd:latest
    ```
 
 3. Start a container
 
    ```shell
-   docker container run --cap-add SYS_PTRACE --interactive --tty [xxx] /bin/bash
+   docker container run --cap-add SYS_PTRACE --interactive --tty wddartifact/wdd:latest /bin/bash
+   # for all operations in docker, use 'sudo' when meeting permission denied issues, password is 123
    cd /tmp/WeightDD/
    ```
 
@@ -94,7 +95,8 @@ cd /tmp/WeightDD
 ./run_stat_parallel_c.py -s c_benchmarks/* -r perses_ddmin_stat hdd_ddmin_stat -o stat_result_c -j 20
 # For XML benchmarks:
 ./run_stat_parallel_xml.py -s xml_benchmarks/xml-* -r perses_ddmin_stat hdd_ddmin_stat -o stat_result_xml -j 20
-# Calculate and export the correlation data to csv files:
+
+# To calculate the correlations and export the results into csv files, got to the directry of the results, and run stat.py, use '-h' to see usage notes
 python3 stat.py -d ./stat_result_c/perses_ddmin_stat_0/ -o rq1_csv/perses_ddmin_c.csv -t correlation
 python3 stat.py -d ./stat_result_c/hdd_ddmin_stat_0/ -o rq1_csv/hdd_ddmin_c.csv -t correlation
 python3 stat.py -d ./stat_result_xml/perses_ddmin_stat_0/ -o rq1_csv/perses_ddmin_xml.csv -t correlation
@@ -108,7 +110,7 @@ python3 stat.py -d ./stat_result_xml/hdd_ddmin_stat_0/ -o rq1_csv/hdd_ddmin_xml.
 ./run_exp_parallel_c.py -s c_benchmarks/* -r perses_ddmin perses_wdd hdd_ddmin hdd_wdd -o result_wdd_c -j 20
 # For XML Benchmarks:
 ./run_exp_parallel_xml.py -s xml_benchmarks/xml-* -r perses_ddmin perses_wdd hdd_ddmin hdd_wdd -o result_wdd_xml -j 20
-# Export the results in csv format:
+# Run convert_result_to_csv.py to export the results into csv files, use '-h' to see usage notes
 ./convert_result_to_csv.py -d result_wdd_c/hdd_ddmin_0/*  -o hdd_ddmin_c.csv
 ./convert_result_to_csv.py -d result_wdd_c/hdd_wdd_0/*  -o hdd_wdd_c.csv
 ./convert_result_to_csv.py -d result_wdd_c/perses_ddmin_0/*  -o perses_ddmin_c.csv
@@ -126,7 +128,7 @@ python3 stat.py -d ./stat_result_xml/hdd_ddmin_stat_0/ -o rq1_csv/hdd_ddmin_xml.
 ./run_exp_parallel_c.py -s c_benchmarks/* -r perses_probdd perses_wprobdd hdd_probdd hdd_wprobdd -o result_wprobdd_c -j 20
 # For XML Benchmarks:
 ./run_exp_parallel_xml.py -s xml_benchmarks/xml-* -r perses_probdd perses_wprobdd hdd_probdd hdd_wprobdd -o result_wprobdd_xml -j 20
-# Export the results in csv format:
+# Run convert_result_to_csv.py to export the results into csv files, use '-h' to see usage notes
 ./convert_result_to_csv.py -d result_wprobdd_c/hdd_probdd_0/*  -o hdd_probdd_c.csv
 ./convert_result_to_csv.py -d result_wprobdd_c/hdd_wprobdd_0/*  -o hdd_wprobdd_c.csv
 ./convert_result_to_csv.py -d result_wprobdd_c/perses_probdd_0/* -o perses_probdd_c.csv
@@ -145,7 +147,7 @@ python3 stat.py -d ./stat_result_xml/hdd_ddmin_stat_0/ -o rq1_csv/hdd_ddmin_xml.
 
 From this figure, the probability of elements being deleted is negatively correlated with their weights in ddmin executions in both HDD and Perses, to varying degrees. This validation provides a solid foundation for the design of $W_{ddmin}$.
 
-**RQ2 &RQ3**:  The raw data of the evaluation results used in RQ2 & 3 are posted in `results_c` and `results_xml` directories, and the exported csv files using `convert_result_to_csv.py`  are put under `results_csv`. The following tables provides a brief illustration of the overall (average) results of each algorithm.
+**RQ2 & RQ3**:  The raw data of the evaluation results used in RQ2 & 3 are saved in `results_c` and `results_xml` directories, and the exported csv files using `convert_result_to_csv.py`  are put under `results_csv`. The following tables provides a brief illustration of the overall (average) results of each algorithm.
 
 RQ2: $W_{ddmin}$ v.s. ddmin
 
