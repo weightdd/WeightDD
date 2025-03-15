@@ -1,5 +1,7 @@
 # Artifact for "WDD: Weighted Delta Debugging"
 
+> Update: WDD ([Wddmin](https://github.com/uw-pluverse/perses/blob/master/src/org/perses/listminimizer/WeightedDeltaDebugger.kt) and [WProbDD](https://github.com/uw-pluverse/perses/blob/master/src/org/perses/listminimizer/WeightedProbabilisticDeltaDebugger.kt)) have been integrated into [Perses](https://github.com/uw-pluverse/perses/tree/master). Check the Perses repo for more details.
+
 ## Introduction
 
 Thank you for evaluating this artifact.
